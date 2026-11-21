@@ -212,7 +212,7 @@ function placeFighters(ids) {
     // teléfono en la mano para los ataques de mensajes
     // lo que saca en la mano para su ataque (teléfono, martillo, lo que va a lanzar)
     const sp = f.data.special, first = Array.isArray(sp.prop) ? sp.prop[0] : sp.prop;
-    const hand = sp.hand ?? (sp.kind === 'phone' ? 'phone' : ['swing', 'throw', 'lob', 'volley', 'slip'].includes(sp.kind) ? first : null);
+    const hand = sp.hand ?? (sp.kind === 'phone' ? 'phone' : ['swing', 'throw', 'lob', 'volley', 'slip', 'control', 'mines'].includes(sp.kind) ? first : null);
     if (hand && !f.char.hand) { const ph = makeProp(hand, hand === 'bubble' ? { text: '...' } : sp.po || {}); ph.position.set(0, -0.08, 0.03); ph.scale.setScalar(sp.kind === 'swing' ? 2.2 : 1.1); if (sp.kind === 'swing') { ph.rotation.set(Math.PI, 0, 0); ph.position.set(0, -0.3, 0.02); } f.char.bones[sp.kind === 'swing' ? 'handR' : 'handL'].add(ph); f.char.hand = ph; }
     if (f.char.hand) f.char.hand.visible = false;
     f.char.material.color.set('#fff');
@@ -283,10 +283,12 @@ function fightStep() {
   // estados que dejan los ataques: confundido (controles al revés), congelado, lento, quemado
   const eff = (f, ctl) => {
     const x = f.fx;
+    for (const k in x) if (x[k] > 0 && k !== 'master') (f.fxSeen ||= {})[k] = true;
     if (f.hidden > 0) f.hidden--;
     if (x.burn > 0) { x.burn--; if (x.burn % 30 === 0 && f.hp > 1) { f.hp = Math.max(1, f.hp - 14); fx.spark(f.x, f.floorY + 0.9, f.z, false, false); } }
-    if (x.confuse > 0) { x.confuse--; ctl = { ...ctl, left: ctl.right, right: ctl.left, up: ctl.down, down: ctl.up, dashTap: -(ctl.dashTap || 0), pressed: { ...ctl.pressed, p1: ctl.pressed.k1, k1: ctl.pressed.p1, p2: ctl.pressed.k2, k2: ctl.pressed.p2 } }; }
-    const tint = x.freeze > 0 || x.shock > 0 ? (x.shock > 0 ? '#fff27a' : '#7fc8ff') : x.confuse > 0 ? '#d49aff' : x.slow > 0 ? '#9aa0a8' : x.burn > 0 ? '#ff9a6a' : '#ffffff';
+    if (x.puppet > 0) { x.puppet--; const m = x.master, to = m && m.x >= f.x ? 'right' : 'left'; ctl = { pressed: {}, [to]: !m || Math.abs(m.x - f.x) > 0.75 }; }
+    else if (x.confuse > 0) { x.confuse--; ctl = { ...ctl, left: ctl.right, right: ctl.left, up: ctl.down, down: ctl.up, dashTap: -(ctl.dashTap || 0), pressed: { ...ctl.pressed, p1: ctl.pressed.k1, k1: ctl.pressed.p1, p2: ctl.pressed.k2, k2: ctl.pressed.p2 } }; }
+    const tint = x.freeze > 0 || x.shock > 0 ? (x.shock > 0 ? '#fff27a' : '#7fc8ff') : x.puppet > 0 ? '#8dff9a' : x.confuse > 0 ? '#d49aff' : x.slow > 0 ? '#9aa0a8' : x.burn > 0 ? '#ff9a6a' : '#ffffff';
     f.char.material.color.set(tint);
     if (x.shock > 0) { x.shock--; if (!f.lying && f.state !== 'fall') return null; }
     if (x.freeze > 0) { x.freeze--; if (!f.lying && f.state !== 'fall') return null; }
@@ -529,7 +531,7 @@ function drawHud() {
       lifeBar(hud, side, k, S.trail[i], flash);
       chrome(hud, f.data.short, i ? HW - 36 : 36, 54, 19, { align: i ? 'right' : 'left', pal: i ? 'blue' : 'chrome' });
       winMarks(hud, side, f.wins);
-      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? 'QUEMÁNDOSE' : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
+      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.puppet > 0 ? 'CONTROLADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? (S.f[1 - i].data.special.burnLabel || 'QUEMÁNDOSE') : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
       if (S.banner[i] > 0) { glyph(hud, '3', i ? HW - 44 : 44, 84, 8); chrome(hud, f.data.special.name, i ? HW - 58 : 58, 85, 15, { align: i ? 'right' : 'left', pal: 'gold', alpha: Math.min(1, S.banner[i] / 12), spacing: 0.04 }); }
       if (f.combo >= 2 && f.comboT > 0) chrome(hud, `${f.combo} GOLPES`, i ? HW - 40 : 40, 150, 22, { align: i ? 'right' : 'left', pal: 'red' });
     });

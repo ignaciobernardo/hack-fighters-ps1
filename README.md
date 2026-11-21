@@ -29,12 +29,27 @@ Doble toque adelante/atrás también es dash. Un golpe que conecta se cancela en
 
 ## Ataques de empresa
 
-Todos los de una misma empresa comparten ataque (`src/ps1game/firmas.js`, 133 ataques). Tipos: `phone` (saca el teléfono y le caen mensajes al rival), `rain` (cae del cielo), `volley` (ráfaga), `lob` (parábola), `slip` (trampa en el suelo → resbala → lluvia) y `drive` (algo cruza el suelo). Ejemplos:
+Todos los de una misma empresa comparten ataque (`src/ps1game/firmas.js`, 132 ataques), y cada uno tiene una mecánica además del daño:
 
-- **Vita** — «Tu clase es a las 7»: mensajes del gimnasio cayéndole en la cabeza.
-- **Platanus** — «Ronda semilla»: cáscara de plátano, resbalón y lluvia de billetes.
-- **Finapsys** — «Cuenta clínica»: píldoras, jeringas y bonos.
-- **Buk** liquidaciones de sueldo · **CChC** ladrillos y cascos · **Fintoc** ráfaga de monedas · **BipBop** pingüino · **Shinkansen** tren bala · **Copec** mancha de aceite.
+| Tipo | Qué hace |
+|---|---|
+| `phone` | saca el teléfono y le caen mensajes al rival; puede terminar con un objeto gigante (Vita: una pesa) |
+| `storm` | cae por todo el escenario |
+| `crush` | un objeto gigante cae donde está el rival (se ve la sombra; la onda en el suelo se salta) |
+| `teleport` | desaparece y aparece detrás con un golpe |
+| `control` | un control remoto: el rival camina solo hacia ti mientras le llueve encima |
+| `orbit` | objetos girando alrededor como escudo |
+| `mines` | quedan en el suelo esperando |
+| `slip` | trampa → resbalón → lluvia (Platanus: cáscara y billetes por todos lados) |
+| `drive` | algo grande cruza el suelo y atropella |
+| `lob` | bomba en parábola con onda al caer |
+| `swing` | saca un arma y embiste |
+| `heal` | se cura |
+| `rain` / `volley` / `throw` | siempre con un estado |
+
+Estados que quedan en el rival (teñido y con cartel): `confuse` controles al revés ("te leo la mente"), `freeze`, `slow`, `shock`, `burn`, `puppet` (controlado), y `drain` cura al que ataca.
+
+`node tools/check_all.mjs` arma a los 237 y prueba cada ataque contra un rival: tiene que hacer daño y cumplir su mecánica.
 
 Los objetos son modelos low-poly armados con piezas simples en `src/ps1game/props.js`.
 
