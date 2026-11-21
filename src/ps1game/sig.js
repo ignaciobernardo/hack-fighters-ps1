@@ -50,6 +50,7 @@ export class Sigs {
 
   // lanzar el ataque de f contra opp
   cast(f, opp) {
+    if (['storm', 'crush', 'control', 'teleport', 'phone'].includes(f.data.special.kind)) this.game.dim(f.data.special.kind === 'storm' ? 150 : 70);
     const sig = f.data.special, po = sig.po || {}, dir = f.facing;
     const hx = f.x + dir * 0.5 * f.k, hy = f.floorY + f.y + 0.68 * f.H;
     switch (sig.kind) {
@@ -206,7 +207,7 @@ export class Sigs {
           it.shadow.visible = true; it.vy -= 60 * DT; it.y += it.vy * DT;
           if (it.y <= ground + 0.25 * it.scale * 0.3 + 0.2) {
             it.landed = it.t; it.y = ground + 0.2; this.game.shake(0.16); this.game.sfx('thud'); this.game.sparkAt(it.x, ground + 0.5, d.z, false, true);
-            if (!d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r) this.strike(it, d, { dmg: it.dmg, heavy: true, knock: true, height: 'over', push: 2.4 });
+            if (!d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r) { if (this.strike(it, d, { dmg: it.dmg, heavy: true, knock: true, height: 'over', push: 0.4 }) === 'hit') { d.fx.squash = 150; d.vy = 0; d.vx = 0; } }
             else if (!d.lying && !d.airborne && d.invuln <= 0 && Math.abs(it.x - d.x) < 2.3) this.strike(it, d, { dmg: Math.round(it.dmg * 0.3), knock: true, height: 'low', push: 2 });   // onda en el suelo: se salta
           }
         } else { const k = (it.t - it.landed) / 40; m.scale.setScalar(it.scale * Math.max(0.05, 1 - k * k)); if (k >= 1) { it.alive = false; this.scene.remove(it.shadow); } }

@@ -114,6 +114,7 @@ const game = {
   },
   sparkAt(x, y, z, blocked, heavy) { fx.spark(x, y, z, blocked, heavy); },
   canCast(f) { return !sigs.busy(f); },
+  dim(n) { S.dim = Math.max(S.dim || 0, n); },
   cast(f) { const o = S.f[0] === f ? S.f[1] : S.f[0]; sigs.cast(f, o); S.banner[S.f.indexOf(f)] = 80; sfx('shot'); },
   // amenazas en vuelo contra `me` (para la CPU)
   threat(me) { return sigs.items.find((i) => i.owner !== me && (i.kind === 'shot' || i.kind === 'drive' || i.kind === 'trap') && Math.sign(me.x - i.x) === Math.sign(i.vx) && Math.abs(i.x - me.x) < 2.8) || sigs.items.find((i) => i.owner !== me && (i.kind === 'fall' || i.kind === 'lob') && !i.hit && Math.abs(i.x - me.x) < 0.9 && i.y < 3); },
@@ -230,7 +231,7 @@ function startMatch() {
 }
 function startRound() {
   S.f[0].reset(-1.35); S.f[1].reset(1.35);
-  sigs.clear(); fx.clear(); S.banner = [0, 0];
+  sigs.clear(); fx.clear(); S.banner = [0, 0]; S.dim = 0;
   S.phase = 'intro'; S.pt = 0; S.timer = 60; S.slow = 0; S.trail = [1, 1]; S.msg = null;
   sfx('round');
 }
@@ -290,6 +291,7 @@ function fightStep() {
     else if (x.confuse > 0) { x.confuse--; ctl = { ...ctl, left: ctl.right, right: ctl.left, up: ctl.down, down: ctl.up, dashTap: -(ctl.dashTap || 0), pressed: { ...ctl.pressed, p1: ctl.pressed.k1, k1: ctl.pressed.p1, p2: ctl.pressed.k2, k2: ctl.pressed.p2 } }; }
     const tint = x.freeze > 0 || x.shock > 0 ? (x.shock > 0 ? '#fff27a' : '#7fc8ff') : x.puppet > 0 ? '#8dff9a' : x.confuse > 0 ? '#d49aff' : x.slow > 0 ? '#9aa0a8' : x.burn > 0 ? '#ff9a6a' : '#ffffff';
     f.char.material.color.set(tint);
+    if (x.squash > 0) { x.squash--; if (S.frame % 2) return null; }
     if (x.shock > 0) { x.shock--; if (!f.lying && f.state !== 'fall') return null; }
     if (x.freeze > 0) { x.freeze--; if (!f.lying && f.state !== 'fall') return null; }
     if (x.slow > 0) { x.slow--; if (S.frame % 2) return null; }
@@ -299,7 +301,7 @@ function fightStep() {
   if (ea) a.update(ea, b, game);
   if (eb) b.update(eb, a, game);
   for (const f of S.f) if (f.comboT > 0) f.comboT--;
-  sigs.update(S.f);
+  sigs.update(S.f); if (S.dim > 0) S.dim--;
   for (const i of [0, 1]) { if (S.banner[i] > 0) S.banner[i]--; const f = S.f[i]; if (f.char.hand) { const k = f.data.special.kind; f.char.hand.visible = f.state === 'attack' && f.move?.name === 'sig' && (k === 'phone' || k === 'swing' || f.t < f.move.startup); } }
   if (S.phase === 'fight') { checkHit(a, b); checkHit(b, a); }
   limits();
@@ -531,7 +533,7 @@ function drawHud() {
       lifeBar(hud, side, k, S.trail[i], flash);
       chrome(hud, f.data.short, i ? HW - 36 : 36, 54, 19, { align: i ? 'right' : 'left', pal: i ? 'blue' : 'chrome' });
       winMarks(hud, side, f.wins);
-      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.puppet > 0 ? 'CONTROLADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? (S.f[1 - i].data.special.burnLabel || 'QUEMÁNDOSE') : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
+      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.squash > 0 ? 'APLASTADO' : x.puppet > 0 ? 'CONTROLADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? (S.f[1 - i].data.special.burnLabel || 'QUEMÁNDOSE') : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
       if (S.banner[i] > 0) { glyph(hud, '3', i ? HW - 44 : 44, 84, 8); chrome(hud, f.data.special.name, i ? HW - 58 : 58, 85, 15, { align: i ? 'right' : 'left', pal: 'gold', alpha: Math.min(1, S.banner[i] / 12), spacing: 0.04 }); }
       if (f.combo >= 2 && f.comboT > 0) chrome(hud, `${f.combo} GOLPES`, i ? HW - 40 : 40, 150, 22, { align: i ? 'right' : 'left', pal: 'red' });
     });
@@ -582,7 +584,8 @@ function loop(now) {
 function frame() {
   if (S.screen === 'fight' || S.screen === 'stage') for (const f of S.f) if (f) f.sync(S.frame);
   if (S.stage) updateCamera();
-  pass.uniforms.uFade.value = S.fade ? Math.abs(S.fade.t - 14) / 14 : 1;
+  if (S.dim > 0 && S.screen === 'fight' && !S.paused) S.dimK = Math.min(1, (S.dimK || 0) + 0.12); else S.dimK = Math.max(0, (S.dimK || 0) - 0.08);
+  pass.uniforms.uFade.value = (S.fade ? Math.abs(S.fade.t - 14) / 14 : 1) * (1 - 0.3 * (S.dimK || 0));
   ps1Globals.uSnap.value.set(S.wobble ? RES.w : 0, S.wobble ? RES.h : 0);
   ps1Globals.uWire.value = 0;
   renderer.setRenderTarget(rt); renderer.setClearColor(0x000000, 1); renderer.clear();

@@ -48,7 +48,7 @@ export class Fighter {
       hp: this.data.hp, maxHp: this.data.hp, move: null, hasHit: false, blocked: false, stun: 0,
       crouching: false, guarding: false, walking: false, walkPhase: 0, invuln: 0, combo: 0, comboT: 0, lastPose: -99, dirty: true,
       buf: null, bufT: 0, dbuf: 0, dbufT: 0, airAttacks: 0, airDashUsed: false, dashDir: 1, chain: 0, juggle: 0, landLag: 3,
-      yawOverride: null, fx: { confuse: 0, freeze: 0, slow: 0, burn: 0, shock: 0, puppet: 0 }, hidden: 0,
+      yawOverride: null, fx: { confuse: 0, freeze: 0, slow: 0, burn: 0, shock: 0, puppet: 0, squash: 0 }, hidden: 0,
     });
     this.walkDir = [Math.cos(YAW), Math.sin(YAW)];
   }
@@ -265,7 +265,8 @@ export class Fighter {
     g.position.set(this.x, this.floorY + this.y, this.z);
     g.visible = !(this.hidden > 0);
     this.shadow.visible = g.visible;
-    g.scale.x = this.facing > 0 ? 1 : -1;
+    const sq = this.fx.squash > 0 ? Math.min(1, this.fx.squash / 12) : 0;
+    g.scale.set((this.facing > 0 ? 1 : -1) * (1 + 0.45 * sq), 1 - 0.58 * sq, 1 + 0.45 * sq);
     const yaw = this.yawOverride ?? YAW;
     g.rotation.y = this.facing > 0 ? yaw : -yaw;
     if (force || this.dirty || frame !== this.lastPose) {
