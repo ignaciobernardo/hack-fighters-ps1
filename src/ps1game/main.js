@@ -327,7 +327,8 @@ function fightStep() {
       say(w ? (w.hp === w.maxHp ? 'PERFECTO' : `GANA ${w.data.short}`) : 'EMPATE', { size: 40, pal: 'gold' });
     }
     if (S.pt === 190) {
-      const champ = S.f.find((f) => f.wins >= 2);
+      // tras 5 rondas (empates seguidos) gana el que lleve más rondas, o más vida
+      const champ = S.f.find((f) => f.wins >= 2) || (S.round >= 5 ? [...S.f].sort((x, y) => y.wins - x.wins || y.hp - x.hp)[0] : null);
       if (champ) { S.phase = 'over'; S.pt = 0; say(`${champ.data.short} GANA LA PELEA`, { size: 34, pal: 'gold', stay: true }); }
       else { S.round++; startRound(); }
     }

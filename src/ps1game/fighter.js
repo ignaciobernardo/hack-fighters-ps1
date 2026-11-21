@@ -87,11 +87,11 @@ export class Fighter {
       this.startMove('sig', game);
       this.move.pose = { phone: 'phone', rain: 'toss', lob: 'toss', slip: 'cjab', drive: 'point', volley: 'shot', throw: 'shot' }[this.data.special.kind] || 'shot';
       const sp = this.data.special;
-      if (sp.kind === 'phone') { this.move.startup = 16; this.move.recover = 34; }
+      if (sp.kind === 'phone') { this.move.startup = 14; this.move.recover = 22; }
       if (sp.kind === 'swing') Object.assign(this.move, { pose: 'straight', startup: 10, active: 7, recover: 14, dmg: 185, reach: 2.0, chip: 0.4, height: 'mid', hitstun: 0, blockstun: 16, push: 3, knock: true, heavy: true, spawn: true, move: 4.2 });
       if (sp.kind === 'heal') { this.move.pose = 'toss'; this.move.recover = 46; }
       if (sp.kind === 'teleport') { this.move.pose = 'cjab'; this.move.startup = 6; this.move.recover = 20; }
-      if (sp.kind === 'drive' || sp.kind === 'slip') { this.move.startup = 8; this.move.recover = 18; }
+      if (sp.kind === 'drive' || sp.kind === 'slip' || sp.kind === 'throw') { this.move.startup = 7; this.move.recover = 14; }
       if (sp.kind === 'storm' || sp.kind === 'crush' || sp.kind === 'orbit') { this.move.pose = 'toss'; this.move.recover = sp.kind === 'orbit' ? 16 : 34; }
       if (sp.kind === 'mines') this.move.pose = 'cjab';
       if (sp.kind === 'control') { this.move.pose = 'point'; this.move.recover = 30; }
