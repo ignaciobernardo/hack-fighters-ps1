@@ -210,8 +210,12 @@ function placeFighters(ids) {
   for (const f of S.f) {
     f.z = S.stage.lineZ; f.floorY = S.stage.floorY; f.char.group.visible = true; f.addTo(scene);
     // teléfono en la mano para los ataques de mensajes
-    if (f.data.special.kind === 'phone' && !f.char.phone) { const ph = makeProp('phone'); ph.position.set(0, -0.07, 0.03); ph.scale.setScalar(1.1); f.char.bones.handL.add(ph); f.char.phone = ph; }
-    if (f.char.phone) f.char.phone.visible = false;
+    // lo que saca en la mano para su ataque (teléfono, martillo, lo que va a lanzar)
+    const sp = f.data.special, first = Array.isArray(sp.prop) ? sp.prop[0] : sp.prop;
+    const hand = sp.hand ?? (sp.kind === 'phone' ? 'phone' : ['swing', 'throw', 'lob', 'volley', 'slip'].includes(sp.kind) ? first : null);
+    if (hand && !f.char.hand) { const ph = makeProp(hand, hand === 'bubble' ? { text: '...' } : sp.po || {}); ph.position.set(0, -0.08, 0.03); ph.scale.setScalar(sp.kind === 'swing' ? 2.2 : 1.1); if (sp.kind === 'swing') { ph.rotation.set(Math.PI, 0, 0); ph.position.set(0, -0.3, 0.02); } f.char.bones[sp.kind === 'swing' ? 'handR' : 'handL'].add(ph); f.char.hand = ph; }
+    if (f.char.hand) f.char.hand.visible = false;
+    f.char.material.color.set('#fff');
   }
 }
 function startMatch() {
@@ -243,7 +247,7 @@ function checkHit(a, d) {
   if (d.y > maxY + a.y) return;
   if (m.air && a.y > d.top - 0.1) return;
   const r = d.takeHit(m, a, game);
-  if (r === 'block') a.blocked = true; else a.hasHit = true;
+  if (r === 'block') a.blocked = true; else { a.hasHit = true; const st = m.name === 'sig' && a.data.special.status; if (st) for (const [k, v] of Object.entries(st)) d.fx[k] = Math.max(d.fx[k] || 0, v); }
   if (m.dive) { a.vy = 4.6; a.vx = -a.facing * 1.8; }
   a.comboT = 70;
 }
@@ -276,11 +280,25 @@ function fightStep() {
   if ((ca.pressed.start || (S.mode === '2p' && cb.pressed.start)) && S.phase !== 'over' && !cpu1) { S.paused = true; S.pt0 = S.frame; return; }
   if (S.stop > 0) { S.stop--; return; }
   const none = { pressed: {} };
-  a.update(S.phase === 'fight' ? ca : none, b, game);
-  b.update(S.phase === 'fight' ? cb : none, a, game);
+  // estados que dejan los ataques: confundido (controles al revés), congelado, lento, quemado
+  const eff = (f, ctl) => {
+    const x = f.fx;
+    if (f.hidden > 0) f.hidden--;
+    if (x.burn > 0) { x.burn--; if (x.burn % 30 === 0 && f.hp > 1) { f.hp = Math.max(1, f.hp - 14); fx.spark(f.x, f.floorY + 0.9, f.z, false, false); } }
+    if (x.confuse > 0) { x.confuse--; ctl = { ...ctl, left: ctl.right, right: ctl.left, up: ctl.down, down: ctl.up, dashTap: -(ctl.dashTap || 0), pressed: { ...ctl.pressed, p1: ctl.pressed.k1, k1: ctl.pressed.p1, p2: ctl.pressed.k2, k2: ctl.pressed.p2 } }; }
+    const tint = x.freeze > 0 || x.shock > 0 ? (x.shock > 0 ? '#fff27a' : '#7fc8ff') : x.confuse > 0 ? '#d49aff' : x.slow > 0 ? '#9aa0a8' : x.burn > 0 ? '#ff9a6a' : '#ffffff';
+    f.char.material.color.set(tint);
+    if (x.shock > 0) { x.shock--; if (!f.lying && f.state !== 'fall') return null; }
+    if (x.freeze > 0) { x.freeze--; if (!f.lying && f.state !== 'fall') return null; }
+    if (x.slow > 0) { x.slow--; if (S.frame % 2) return null; }
+    return ctl;
+  };
+  const ea = eff(a, S.phase === 'fight' ? ca : none), eb = eff(b, S.phase === 'fight' ? cb : none);
+  if (ea) a.update(ea, b, game);
+  if (eb) b.update(eb, a, game);
   for (const f of S.f) if (f.comboT > 0) f.comboT--;
   sigs.update(S.f);
-  for (const i of [0, 1]) { if (S.banner[i] > 0) S.banner[i]--; const f = S.f[i]; if (f.char.phone) f.char.phone.visible = f.state === 'attack' && f.move?.name === 'sig'; }
+  for (const i of [0, 1]) { if (S.banner[i] > 0) S.banner[i]--; const f = S.f[i]; if (f.char.hand) { const k = f.data.special.kind; f.char.hand.visible = f.state === 'attack' && f.move?.name === 'sig' && (k === 'phone' || k === 'swing' || f.t < f.move.startup); } }
   if (S.phase === 'fight') { checkHit(a, b); checkHit(b, a); }
   limits();
   fx.update();
@@ -511,6 +529,7 @@ function drawHud() {
       lifeBar(hud, side, k, S.trail[i], flash);
       chrome(hud, f.data.short, i ? HW - 36 : 36, 54, 19, { align: i ? 'right' : 'left', pal: i ? 'blue' : 'chrome' });
       winMarks(hud, side, f.wins);
+      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? 'QUEMÁNDOSE' : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
       if (S.banner[i] > 0) { glyph(hud, '3', i ? HW - 44 : 44, 84, 8); chrome(hud, f.data.special.name, i ? HW - 58 : 58, 85, 15, { align: i ? 'right' : 'left', pal: 'gold', alpha: Math.min(1, S.banner[i] / 12), spacing: 0.04 }); }
       if (f.combo >= 2 && f.comboT > 0) chrome(hud, `${f.combo} GOLPES`, i ? HW - 40 : 40, 150, 22, { align: i ? 'right' : 'left', pal: 'red' });
     });

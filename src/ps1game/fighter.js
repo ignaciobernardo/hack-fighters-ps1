@@ -48,7 +48,7 @@ export class Fighter {
       hp: this.data.hp, maxHp: this.data.hp, move: null, hasHit: false, blocked: false, stun: 0,
       crouching: false, guarding: false, walking: false, walkPhase: 0, invuln: 0, combo: 0, comboT: 0, lastPose: -99, dirty: true,
       buf: null, bufT: 0, dbuf: 0, dbufT: 0, airAttacks: 0, airDashUsed: false, dashDir: 1, chain: 0, juggle: 0, landLag: 3,
-      yawOverride: null,
+      yawOverride: null, fx: { confuse: 0, freeze: 0, slow: 0, burn: 0, shock: 0 }, hidden: 0,
     });
     this.walkDir = [Math.cos(YAW), Math.sin(YAW)];
   }
@@ -86,7 +86,12 @@ export class Fighter {
       if (!game.canCast(this)) return false;
       this.startMove('sig', game);
       this.move.pose = { phone: 'phone', rain: 'toss', lob: 'toss', slip: 'cjab', drive: 'point', volley: 'shot', throw: 'shot' }[this.data.special.kind] || 'shot';
-      if (this.data.special.kind === 'phone') { this.move.startup = 16; this.move.recover = 34; }
+      const sp = this.data.special;
+      if (sp.kind === 'phone') { this.move.startup = 16; this.move.recover = 34; }
+      if (sp.kind === 'swing') Object.assign(this.move, { pose: 'straight', startup: 13, active: 6, recover: 22, dmg: 118, reach: 1.8, height: 'mid', hitstun: 0, blockstun: 16, push: 3, knock: true, heavy: true, spawn: true, move: 4.2 });
+      if (sp.kind === 'heal') { this.move.pose = 'toss'; this.move.recover = 46; }
+      if (sp.kind === 'teleport') { this.move.pose = 'cjab'; this.move.startup = 8; this.move.recover = 30; }
+      if (sp.kind === 'storm') { this.move.pose = 'toss'; this.move.recover = 34; }
       return true;
     }
     const name = moveFor(btn, this, down);
@@ -256,6 +261,8 @@ export class Fighter {
   sync(frame, force = false, pose = null) {
     const g = this.char.group;
     g.position.set(this.x, this.floorY + this.y, this.z);
+    g.visible = !(this.hidden > 0);
+    this.shadow.visible = g.visible;
     g.scale.x = this.facing > 0 ? 1 : -1;
     const yaw = this.yawOverride ?? YAW;
     g.rotation.y = this.facing > 0 ? yaw : -yaw;

@@ -25,7 +25,7 @@ for (const s of sigs) {
     P.sigs.clear(); a.reset(-1.6); b.reset(1.6); P.S.phase = 'fight'; P.S.timer = 60;
     a.data = { ...a.data, special: s }; P.ctl = () => ({ pressed: {} });
     a.tryAttack('s', false, P.game); const hp = b.hp;
-    P.sim(s.kind === 'slip' ? 95 : s.kind === 'lob' ? 50 : s.kind === 'drive' ? 40 : s.kind === 'volley' ? 34 : 62);
+    P.sim(s.kind === 'slip' ? 95 : s.kind === 'storm' ? 80 : s.kind === 'teleport' ? 30 : s.kind === 'lob' ? 50 : s.kind === 'drive' ? 40 : s.kind === 'volley' ? 34 : 62);
     return hp - b.hp;
   }, s);
   if (shots) { await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)))); await page.screenshot({ path: `${shots}/sig-${String(i).padStart(3, '0')}.png` }); }
