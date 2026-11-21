@@ -313,20 +313,21 @@ function fightStep() {
   if (S.phase === 'fight') {
     const ko = S.f.filter((f) => f.hp <= 0);
     if (ko.length || S.timer <= 0) {
-      S.phase = 'ko'; S.pt = 0;
+      S.phase = 'ko'; S.pt = 0; S.koShown = false;
       if (ko.length) { say('K.O.', { size: 72, pal: 'red' }); sfx('ko'); S.slow = 70; }
       else say('TIEMPO', { size: 48 });
       S.winner = ko.length === 2 ? null : ko.length ? S.f.find((f) => f.hp > 0) : a.hp === b.hp ? null : a.hp > b.hp ? a : b;
     }
   } else if (S.phase === 'ko') {
-    if (S.pt === 80) {
+    if (S.pt >= 80 && !S.koShown) {
+      S.koShown = true;
       const w = S.winner;
       if (w) { w.wins++; w.set('win'); w.vx = 0; }
       const l = w ? (w === a ? b : a) : null;
       if (l && l.hp > 0) l.set('lose');
       say(w ? (w.hp === w.maxHp ? 'PERFECTO' : `GANA ${w.data.short}`) : 'EMPATE', { size: 40, pal: 'gold' });
     }
-    if (S.pt === 190) {
+    if (S.pt >= 190) {
       // tras 5 rondas (empates seguidos) gana el que lleve más rondas, o más vida
       const champ = S.f.find((f) => f.wins >= 2) || (S.round >= 5 ? [...S.f].sort((x, y) => y.wins - x.wins || y.hp - x.hp)[0] : null);
       if (champ) { S.phase = 'over'; S.pt = 0; say(`${champ.data.short} GANA LA PELEA`, { size: 34, pal: 'gold', stay: true }); }
