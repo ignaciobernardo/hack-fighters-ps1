@@ -20,10 +20,10 @@ const r = await page.evaluate(async () => {
 console.log('modelos:', r.bad.length ? r.bad : `los ${r.n} ok`, `(${r.ms} ms c/u)`);
 const sigs = await page.evaluate(() => { const m = {}; for (const id of __pelea.IDS) { const s = __pelea.FIGHTERS[id].special; (m[s.name + '|' + s.kind] ||= { ...s, people: 0 }).people++; } return Object.values(m); });
 const shots = process.argv[2];
-const fails = []; const kinds = {};
+const fails = []; const kinds = {}; const names = [];
 for (const [i, s] of sigs.entries()) {
   kinds[s.kind] = (kinds[s.kind] || 0) + s.people;
-  const at = { slip: 70, lob: 46, drive: 34, volley: 30, throw: 30, storm: 70, teleport: 26, crush: 62, orbit: 40, mines: 60, control: 60, heal: 50, swing: 18 }[s.kind] ?? 60;
+  const at = { slip: 70, lob: 46, drive: 34, volley: 30, throw: 30, storm: 60, teleport: 26, crush: 52, orbit: 40, mines: 60, control: 60, heal: 50, swing: 18 }[s.kind] ?? 60;
   const out = await page.evaluate(([s, at]) => {
     const P = __pelea, [a, b] = P.S.f;
     P.sigs.clear(); a.reset(-1.1); b.reset(1.1); P.S.phase = 'fight'; P.S.timer = 60; P.S.stop = 0; b.fxSeen = {};
@@ -34,7 +34,7 @@ for (const [i, s] of sigs.entries()) {
     a.tryAttack('s', false, P.game); P.sim(at);
     return { mid: true, hpA, hpB, x0 };
   }, [s, at]);
-  if (shots) { await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)))); await page.screenshot({ path: `${shots}/sig-${String(i).padStart(3, '0')}.png` }); }
+  if (shots) { await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)))); await page.screenshot({ path: `${shots}/sig-${String(i).padStart(3, '0')}.png` }); names.push(s.name + ' · ' + s.kind + ' · ' + s.people); }
   const res = await page.evaluate(([o, s]) => {
     const P = __pelea, [a, b] = P.S.f;
     if (s.kind === 'mines') b.x = a.x + 1.7;
@@ -53,4 +53,5 @@ for (const [i, s] of sigs.entries()) {
 console.log(`${sigs.length} ataques ·`, Object.entries(kinds).map(([k, v]) => `${k} ${v}`).join(' · '));
 console.log(fails.length ? 'FALLAN:\n' + fails.join('\n') : 'todos hacen daño y cumplen su mecánica');
 console.log(errs.length ? errs.slice(0, 8) : 'sin errores de consola');
+if (shots) (await import('fs')).writeFileSync(shots + '/names.json', JSON.stringify(names));
 await browser.close();

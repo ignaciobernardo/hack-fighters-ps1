@@ -27,7 +27,7 @@ export class Sigs {
 
   // un objeto gigante que cae donde está el rival (se ve la sombra antes)
   crush(f, opp, prop, po, size, dmg) {
-    const it = this.spawn(f, prop, po, { kind: 'crush', x: opp.x, y: f.floorY + 6.5, vx: 0, vy: 0, dmg, r: 0.95, scale: size, spin: [0, 0.6, 0], aim: opp });
+    const it = this.spawn(f, prop, po, { kind: 'crush', x: opp.x, y: f.floorY + 2.3, vx: 0, vy: 0, dmg, r: 0.95, scale: Math.min(size, 5) * 0.62, spin: [0, 0.6, 0], aim: opp });
     it.shadow = new THREE.Mesh(shadowGeo, shadowMat); it.shadow.rotation.x = -Math.PI / 2; it.shadow.position.set(it.x, f.floorY + 0.02, f.z); this.scene.add(it.shadow);
   }
 
@@ -80,6 +80,8 @@ export class Sigs {
           this.spawn(f, p, po, { kind: 'fall', x: opp.x + (i % 3 === 0 ? (Math.random() - 0.5) * 0.9 + opp.vx * 0.3 : (Math.random() - 0.5) * 7.5), y: f.floorY + 4.6 + Math.random() * 1.2, vx: 0, vy: -6 - Math.random() * 2.5, dmg: 20,
             spin: p === 'doc' || p === 'bill' ? [0, 0, (Math.random() - 0.5) * 2] : [Math.random() * 5, Math.random() * 3, Math.random() * 5], scale: 1.35, r: 0.32, flutter: p === 'bill' || p === 'doc' ? 1 : 0 });
         });
+        // remate: uno gigante al final
+        this.later(f, n * 4 + 8, () => this.crush(f, opp, pick(sig.prop, 0), po, 3.4, 90));
         break;
       }
       case 'teleport': {  // desaparece y aparece detrás del rival con un golpe
@@ -199,7 +201,7 @@ export class Sigs {
         }
         if (it.t > it.life || Math.abs(it.x) > 13) it.alive = false;
       } else if (it.kind === 'crush') {
-        if (it.t < 34) { it.x += (it.aim.x - it.x) * 0.12; it.shadow.scale.setScalar(0.3 + it.t * 0.025); it.shadow.visible = it.t % 6 < 4; }
+        if (it.t < 34) { it.x += (it.aim.x - it.x) * 0.12; it.y += Math.sin(it.t * 0.5) * 0.01; it.shadow.scale.setScalar(0.3 + it.t * 0.025); it.shadow.visible = it.t % 6 < 4; }
         else if (!it.landed) {
           it.shadow.visible = true; it.vy -= 60 * DT; it.y += it.vy * DT;
           if (it.y <= ground + 0.25 * it.scale * 0.3 + 0.2) {
