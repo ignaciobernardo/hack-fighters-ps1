@@ -1,0 +1,67 @@
+{
+  "id": "rafa",
+  "name": "Rafa Fernández",
+  "handle": "rafafdz",
+  "title": "staff · platanus",
+  "photo": "rafael-fernandez.png",
+  "seed": 37,
+  "body": {
+    "height": 1.8,
+    "build": 0.36,
+    "shoulders": 0.5,
+    "legs": 0.52,
+    "head": 1.0
+  },
+  "skin": "#e2ab8c",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#2b1d14",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.6,
+      "angle": 0.12,
+      "color": "#241913"
+    },
+    "beard": "none",
+    "mouth": "grin",
+    "mouthW": 1.15
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#2a1f19",
+    "volume": 1.2,
+    "length": 1.05
+  },
+  "top": {
+    "type": "shirt",
+    "color": "#f3f2ee",
+    "fit": 0.55,
+    "length": 0.55,
+    "sleeves": "rolled",
+    "trim": "#dedcd4"
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#6d87ab",
+    "fabric": "denim",
+    "trim": "#4d6386"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f2f1ec",
+    "accent": "#f2c230",
+    "sole": "#f6f4ee",
+    "lace": "#ffffff",
+    "size": 1.16
+  },
+  "hands": {
+    "type": "bare"
+  },
+  "acc": {},
+  "prints": []
+}

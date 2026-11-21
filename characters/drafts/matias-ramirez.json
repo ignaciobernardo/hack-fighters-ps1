@@ -1,0 +1,77 @@
+{
+  "id": "matias-ramirez",
+  "draft": true,
+  "name": "Matias Ramirez",
+  "handle": "maramir6",
+  "title": "hacker",
+  "photo": "matias-ramirez.png",
+  "seed": 11,
+  "body": {
+    "height": 1.82,
+    "build": 0.44,
+    "shoulders": 0.45,
+    "legs": 0.43,
+    "head": 1.05
+  },
+  "skin": "#e98e58",
+  "face": {
+    "jaw": 0.74,
+    "eyes": {
+      "color": "#1b1311",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.56,
+      "angle": 0.06
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#1b1310",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a2928f",
+    "fit": 0.43,
+    "length": 0.48
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#3b3550",
+    "collar": "high",
+    "length": 0.36,
+    "fit": 0.44,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "maramir6",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "diego-eugenio-villanueva-araya",
+  "draft": true,
+  "name": "Diego Eugenio Villanueva Araya",
+  "handle": "dVillanuevaAraya",
+  "title": "hacker",
+  "photo": "diego-eugenio-villanueva-araya.png",
+  "seed": 98,
+  "body": {
+    "height": 1.82,
+    "build": 0.42,
+    "shoulders": 0.56,
+    "legs": 0.53,
+    "head": 1.02
+  },
+  "skin": "#cb8770",
+  "face": {
+    "jaw": 0.43,
+    "eyes": {
+      "color": "#1b1814",
+      "size": 1.05
+    },
+    "brows": {
+      "thick": 0.56,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#1a1714",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#6e7c73",
+    "fit": 0.44,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2a2f3d",
+    "trim": "#e5484d",
+    "cord": "#e5484d",
+    "collar": "hood",
+    "length": 0.5,
+    "fit": 0.63,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "dVillanuev",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

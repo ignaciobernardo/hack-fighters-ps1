@@ -1,0 +1,83 @@
+{
+  "id": "alonso-utreras-miranda",
+  "draft": true,
+  "name": "Alonso Utreras Miranda",
+  "handle": "AlasAltum",
+  "title": "hacker",
+  "photo": "alonso-utreras-miranda.png",
+  "seed": 36,
+  "body": {
+    "height": 1.86,
+    "build": 0.57,
+    "shoulders": 0.7,
+    "legs": 0.6,
+    "head": 1.03
+  },
+  "skin": "#db8a5b",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#100a08",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#0f0a07",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#070708",
+    "fit": 0.43,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2a2f3d",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.5,
+    "fit": 0.52,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.11,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "AlasAltum",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

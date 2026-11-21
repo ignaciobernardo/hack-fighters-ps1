@@ -1,0 +1,79 @@
+{
+  "id": "vicente-acevedo",
+  "draft": true,
+  "name": "Vicente Acevedo",
+  "handle": "VicenteAcevedoLav02",
+  "title": "hacker",
+  "photo": "vicente-acevedo.png",
+  "seed": 45,
+  "body": {
+    "height": 1.64,
+    "build": 0.68,
+    "shoulders": 0.54,
+    "legs": 0.47,
+    "head": 1.01
+  },
+  "skin": "#c4856f",
+  "face": {
+    "jaw": 0.71,
+    "eyes": {
+      "color": "#24221f",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.61,
+      "angle": 0.17
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#24211e",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#641a27",
+    "fit": 0.37,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2a2f3d",
+    "trim": "#f2762e",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "VicenteAce",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

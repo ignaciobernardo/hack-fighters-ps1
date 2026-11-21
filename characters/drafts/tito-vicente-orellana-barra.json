@@ -1,0 +1,74 @@
+{
+  "id": "tito-vicente-orellana-barra",
+  "draft": true,
+  "name": "Tito Vicente Orellana Barra",
+  "handle": "titin90",
+  "title": "hacker",
+  "photo": "tito-vicente-orellana-barra.png",
+  "seed": 10,
+  "body": {
+    "height": 1.69,
+    "build": 0.66,
+    "shoulders": 0.52,
+    "legs": 0.48,
+    "head": 1.07
+  },
+  "skin": "#f3aa83",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#1a1612",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.71,
+      "angle": 0.04
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#191612",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#252429",
+    "fit": 0.42,
+    "length": 0.59
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.07,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "titin90",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

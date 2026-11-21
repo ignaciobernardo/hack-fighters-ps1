@@ -1,0 +1,80 @@
+{
+  "id": "tomas-werth",
+  "draft": true,
+  "name": "Tomás Werth",
+  "handle": "Tomas-Werth",
+  "title": "hacker",
+  "photo": "tomas-werth.png",
+  "seed": 52,
+  "body": {
+    "height": 1.81,
+    "build": 0.3,
+    "shoulders": 0.48,
+    "legs": 0.59,
+    "head": 1.05
+  },
+  "skin": "#de9775",
+  "face": {
+    "jaw": 0.74,
+    "eyes": {
+      "color": "#201b18",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.63,
+      "angle": 0.12
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1f1a17",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e5e4e8",
+    "fit": 0.61,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#f2c230",
+    "cord": "#f2c230",
+    "collar": "hood",
+    "length": 0.53,
+    "fit": 0.59,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.15
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Tomas-Wert",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

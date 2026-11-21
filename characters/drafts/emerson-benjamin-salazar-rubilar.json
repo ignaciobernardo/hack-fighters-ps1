@@ -1,0 +1,80 @@
+{
+  "id": "emerson-benjamin-salazar-rubilar",
+  "draft": true,
+  "name": "Emerson Benjamin Salazar Rubilar",
+  "handle": "emersoftware",
+  "title": "hacker",
+  "photo": "emerson-benjamin-salazar-rubilar.png",
+  "seed": 40,
+  "body": {
+    "height": 1.67,
+    "build": 0.52,
+    "shoulders": 0.51,
+    "legs": 0.43,
+    "head": 1.03
+  },
+  "skin": "#d69074",
+  "face": {
+    "jaw": 0.4,
+    "eyes": {
+      "color": "#2c231e",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.36,
+      "angle": 0.11
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#2b221d",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#613e32",
+    "fit": 0.42,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#22222a",
+    "collar": "high",
+    "length": 0.4,
+    "fit": 0.43,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2c2f3a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.09,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "emersoftwa",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

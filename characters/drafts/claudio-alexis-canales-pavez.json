@@ -1,0 +1,80 @@
+{
+  "id": "claudio-alexis-canales-pavez",
+  "draft": true,
+  "name": "Claudio Alexis Canales Pavez",
+  "handle": "claudiocanalespavez",
+  "title": "hacker",
+  "photo": "claudio-alexis-canales-pavez.png",
+  "seed": 47,
+  "body": {
+    "height": 1.67,
+    "build": 0.7,
+    "shoulders": 0.56,
+    "legs": 0.58,
+    "head": 1.03
+  },
+  "skin": "#c8876e",
+  "face": {
+    "jaw": 0.41,
+    "eyes": {
+      "color": "#27201b",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.65,
+      "angle": 0.13
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#261f1b",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#151515",
+    "fit": 0.46,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#33302c",
+    "trim": "#ff7ab8",
+    "cord": "#ff7ab8",
+    "collar": "hood",
+    "length": 0.56,
+    "fit": 0.59,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "claudiocan",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

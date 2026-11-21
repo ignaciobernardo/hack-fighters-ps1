@@ -1,0 +1,77 @@
+{
+  "id": "benito-palacios-medeiros",
+  "draft": true,
+  "name": "Benito Palacios Medeiros",
+  "handle": "benitopalaciosm",
+  "title": "hacker",
+  "photo": "benito-palacios-medeiros.png",
+  "seed": 63,
+  "body": {
+    "height": 1.82,
+    "build": 0.39,
+    "shoulders": 0.62,
+    "legs": 0.41,
+    "head": 1.03
+  },
+  "skin": "#bb806d",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#1b1a1c",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.5,
+      "angle": 0.03
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1b191c",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#7085af",
+    "fit": 0.37,
+    "length": 0.62
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2a2f3d",
+    "collar": "high",
+    "length": 0.49,
+    "fit": 0.44,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "benitopala",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

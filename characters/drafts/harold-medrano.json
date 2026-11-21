@@ -1,0 +1,71 @@
+{
+  "id": "harold-medrano",
+  "draft": true,
+  "name": "Harold Medrano",
+  "handle": "harold18m",
+  "title": "hacker",
+  "photo": "harold-medrano.png",
+  "seed": 13,
+  "body": {
+    "height": 1.65,
+    "build": 0.41,
+    "shoulders": 0.6,
+    "legs": 0.55,
+    "head": 1.0
+  },
+  "skin": "#ce866f",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#1b1a1b",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.67,
+      "angle": 0.11
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#1a191b",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#17171a",
+    "fit": 0.38,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "harold18m",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

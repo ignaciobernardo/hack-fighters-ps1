@@ -1,0 +1,71 @@
+{
+  "id": "juan-david-chaparro",
+  "draft": true,
+  "name": "Juan David Chaparro",
+  "handle": "dav1dchaparro",
+  "title": "hacker",
+  "photo": "juan-david-chaparro.png",
+  "seed": 39,
+  "body": {
+    "height": 1.83,
+    "build": 0.4,
+    "shoulders": 0.64,
+    "legs": 0.43,
+    "head": 1.01
+  },
+  "skin": "#d48561",
+  "face": {
+    "jaw": 0.52,
+    "eyes": {
+      "color": "#282320",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.63,
+      "angle": 0.08
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#27221f",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#131419",
+    "fit": 0.56,
+    "length": 0.62
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "dav1dchapa",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

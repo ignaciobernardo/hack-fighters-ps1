@@ -1,0 +1,79 @@
+{
+  "id": "sergio-andres-urzua-donoso",
+  "draft": true,
+  "name": "Sergio Andrés Urzúa Donoso",
+  "handle": "chechoud",
+  "title": "hacker",
+  "photo": "sergio-andres-urzua-donoso.png",
+  "seed": 14,
+  "body": {
+    "height": 1.79,
+    "build": 0.59,
+    "shoulders": 0.63,
+    "legs": 0.44,
+    "head": 1.08
+  },
+  "skin": "#8c5c47",
+  "face": {
+    "jaw": 0.72,
+    "eyes": {
+      "color": "#110f0c",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.36,
+      "angle": 0.16
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#100e0c",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e1cbd8",
+    "fit": 0.39,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#33302c",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "chechoud",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

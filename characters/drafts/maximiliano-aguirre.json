@@ -1,0 +1,73 @@
+{
+  "id": "maximiliano-aguirre",
+  "draft": true,
+  "name": "Maximiliano Aguirre",
+  "handle": "Cadutodalcielo",
+  "title": "hacker",
+  "photo": "maximiliano-aguirre.png",
+  "seed": 21,
+  "body": {
+    "height": 1.66,
+    "build": 0.53,
+    "shoulders": 0.65,
+    "legs": 0.52,
+    "head": 1.08
+  },
+  "skin": "#bc7d62",
+  "face": {
+    "jaw": 0.75,
+    "eyes": {
+      "color": "#403e38",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.73,
+      "angle": 0.09
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#3f3c37",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.39,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Cadutodalc",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

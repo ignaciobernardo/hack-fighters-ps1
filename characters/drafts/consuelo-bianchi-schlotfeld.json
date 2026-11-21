@@ -1,0 +1,79 @@
+{
+  "id": "consuelo-bianchi-schlotfeld",
+  "draft": true,
+  "name": "Consuelo Bianchi Schlotfeld",
+  "handle": "consuelo",
+  "title": "sponsor · CChC",
+  "photo": "consuelo-bianchi-schlotfeld.png",
+  "seed": 49,
+  "body": {
+    "height": 1.72,
+    "build": 0.42,
+    "shoulders": 0.55,
+    "legs": 0.43,
+    "head": 1.02
+  },
+  "skin": "#b77d6b",
+  "face": {
+    "jaw": 0.5,
+    "eyes": {
+      "color": "#393532",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.08
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#383331",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#161923",
+    "fit": 0.41,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#22222a",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "consuelo",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

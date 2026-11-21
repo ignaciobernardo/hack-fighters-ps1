@@ -1,0 +1,80 @@
+{
+  "id": "cristofer-oyarzo",
+  "draft": true,
+  "name": "Cristofer Oyarzo",
+  "handle": "Crystof-create",
+  "title": "hacker",
+  "photo": "cristofer-oyarzo.png",
+  "seed": 51,
+  "body": {
+    "height": 1.64,
+    "build": 0.65,
+    "shoulders": 0.41,
+    "legs": 0.44,
+    "head": 1.0
+  },
+  "skin": "#bd7f64",
+  "face": {
+    "jaw": 0.69,
+    "eyes": {
+      "color": "#201d19",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.53,
+      "angle": 0.11
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1f1d18",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#111213",
+    "fit": 0.63,
+    "length": 0.46
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#22222a",
+    "trim": "#ff7ab8",
+    "cord": "#ff7ab8",
+    "collar": "hood",
+    "length": 0.46,
+    "fit": 0.58,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Crystof-cr",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "alessandro-queirolo",
+  "draft": true,
+  "name": "Alessandro Queirolo",
+  "handle": "aqm007",
+  "title": "hacker",
+  "photo": "alessandro-queirolo.png",
+  "seed": 15,
+  "body": {
+    "height": 1.76,
+    "build": 0.38,
+    "shoulders": 0.5,
+    "legs": 0.51,
+    "head": 1.07
+  },
+  "skin": "#f7be9d",
+  "face": {
+    "jaw": 0.68,
+    "eyes": {
+      "color": "#17120c",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.36,
+      "angle": 0.17
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#16120c",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#516993",
+    "fit": 0.42,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.44,
+    "fit": 0.43,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.05
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "aqm007",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

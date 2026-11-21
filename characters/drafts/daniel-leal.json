@@ -1,0 +1,81 @@
+{
+  "id": "daniel-leal",
+  "draft": true,
+  "name": "Daniel Leal",
+  "handle": "daniel",
+  "title": "mentor · Fintoc",
+  "photo": "daniel-leal.png",
+  "seed": 42,
+  "body": {
+    "height": 1.67,
+    "build": 0.51,
+    "shoulders": 0.54,
+    "legs": 0.52,
+    "head": 1.07
+  },
+  "skin": "#81635a",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.35,
+      "angle": 0.11
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "buzz",
+    "color": "#2a1f22",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2e3145",
+    "fit": 0.38,
+    "length": 0.46
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#33302c",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "daniel",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

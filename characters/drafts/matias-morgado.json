@@ -1,0 +1,80 @@
+{
+  "id": "matias-morgado",
+  "draft": true,
+  "name": "Matías Morgado",
+  "handle": "matix3000",
+  "title": "hacker",
+  "photo": "matias-morgado.png",
+  "seed": 53,
+  "body": {
+    "height": 1.63,
+    "build": 0.68,
+    "shoulders": 0.39,
+    "legs": 0.59,
+    "head": 1.04
+  },
+  "skin": "#f79c6d",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#1c150f",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.62,
+      "angle": 0.16
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1c150e",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#cccbe8",
+    "fit": 0.63,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2a2f3d",
+    "collar": "high",
+    "length": 0.44,
+    "fit": 0.58,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#23232b",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "matix3000",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

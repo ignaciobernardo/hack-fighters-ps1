@@ -1,0 +1,73 @@
+{
+  "id": "syndel-debby-callisaya-cachi",
+  "draft": true,
+  "name": "Syndel Debby Callisaya Cachi",
+  "handle": "syndeldebby",
+  "title": "hacker",
+  "photo": "syndel-debby-callisaya-cachi.png",
+  "seed": 35,
+  "body": {
+    "height": 1.8,
+    "build": 0.43,
+    "shoulders": 0.66,
+    "legs": 0.42,
+    "head": 1.06
+  },
+  "skin": "#e3a37f",
+  "face": {
+    "jaw": 0.69,
+    "eyes": {
+      "color": "#171717",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.64,
+      "angle": 0.2
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#161616",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#171718",
+    "fit": 0.44,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#1d1d22",
+    "stripe": true,
+    "trim": "#b06cff"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "syndeldebb",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

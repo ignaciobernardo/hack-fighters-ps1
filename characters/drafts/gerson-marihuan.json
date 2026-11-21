@@ -1,0 +1,74 @@
+{
+  "id": "gerson-marihuan",
+  "draft": true,
+  "name": "Gerson Marihuan",
+  "handle": "GersonHMG",
+  "title": "hacker",
+  "photo": "gerson-marihuan.png",
+  "seed": 88,
+  "body": {
+    "height": 1.67,
+    "build": 0.59,
+    "shoulders": 0.61,
+    "legs": 0.6,
+    "head": 1.01
+  },
+  "skin": "#e49d82",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#2d2420",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.37,
+      "angle": 0.07
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#2c231f",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#beb1ac",
+    "fit": 0.5,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2a2f3d",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.09,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "GersonHMG",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "clemente-vial-banduc",
+  "draft": true,
+  "name": "Clemente Vial Banduc",
+  "handle": "clemevial",
+  "title": "hacker",
+  "photo": "clemente-vial-banduc.png",
+  "seed": 38,
+  "body": {
+    "height": 1.74,
+    "build": 0.44,
+    "shoulders": 0.65,
+    "legs": 0.51,
+    "head": 1.0
+  },
+  "skin": "#d58d6c",
+  "face": {
+    "jaw": 0.43,
+    "eyes": {
+      "color": "#5a4a40",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.62,
+      "angle": 0.07
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#58493f",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#18181a",
+    "fit": 0.51,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#b06cff"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "clemevial",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

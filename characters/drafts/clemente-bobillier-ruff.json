@@ -1,0 +1,79 @@
+{
+  "id": "clemente-bobillier-ruff",
+  "draft": true,
+  "name": "Clemente Bobillier Ruff",
+  "handle": "clementebobillier07",
+  "title": "hacker",
+  "photo": "clemente-bobillier-ruff.png",
+  "seed": 8,
+  "body": {
+    "height": 1.68,
+    "build": 0.53,
+    "shoulders": 0.39,
+    "legs": 0.44,
+    "head": 1.02
+  },
+  "skin": "#df9c7c",
+  "face": {
+    "jaw": 0.54,
+    "eyes": {
+      "color": "#1f1a14",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.41,
+      "angle": 0.05
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1e1914",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2a303b",
+    "fit": 0.53,
+    "length": 0.45
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2a2f3d",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "clementebo",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

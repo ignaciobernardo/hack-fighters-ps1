@@ -1,0 +1,71 @@
+{
+  "id": "valeria-riera",
+  "draft": true,
+  "name": "Valeria Riera",
+  "handle": "ingvaleriariera",
+  "title": "hacker",
+  "photo": "valeria-riera.png",
+  "seed": 68,
+  "body": {
+    "height": 1.77,
+    "build": 0.42,
+    "shoulders": 0.41,
+    "legs": 0.56,
+    "head": 1.07
+  },
+  "skin": "#d28e6e",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#2d2a27",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.48,
+      "angle": 0.06
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2c2926",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e1af8e",
+    "fit": 0.43,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ingvaleria",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

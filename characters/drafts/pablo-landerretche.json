@@ -1,0 +1,71 @@
+{
+  "id": "pablo-landerretche",
+  "draft": true,
+  "name": "Pablo Landerretche",
+  "handle": "pabslande",
+  "title": "hacker",
+  "photo": "pablo-landerretche.png",
+  "seed": 31,
+  "body": {
+    "height": 1.87,
+    "build": 0.57,
+    "shoulders": 0.63,
+    "legs": 0.52,
+    "head": 1.04
+  },
+  "skin": "#a96d5a",
+  "face": {
+    "jaw": 0.68,
+    "eyes": {
+      "color": "#1f1b1b",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.43,
+      "angle": 0.15
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#1e1a1a",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#04599a",
+    "fit": 0.38,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "pabslande",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

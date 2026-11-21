@@ -1,0 +1,82 @@
+{
+  "id": "gonzalo-saavedra",
+  "draft": true,
+  "name": "Gonzalo Saavedra",
+  "handle": "gonzalo-saavedra-m",
+  "title": "hacker",
+  "photo": "gonzalo-saavedra.png",
+  "seed": 10,
+  "body": {
+    "height": 1.79,
+    "build": 0.41,
+    "shoulders": 0.41,
+    "legs": 0.5,
+    "head": 1.0
+  },
+  "skin": "#e0915e",
+  "face": {
+    "jaw": 0.63,
+    "eyes": {
+      "color": "#151a1b",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#15191b",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#824e50",
+    "fit": 0.5,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#e8e4da",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#3b3550",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.1,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "gonzalo-sa",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

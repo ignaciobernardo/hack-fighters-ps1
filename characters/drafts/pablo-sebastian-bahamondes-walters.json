@@ -1,0 +1,71 @@
+{
+  "id": "pablo-sebastian-bahamondes-walters",
+  "draft": true,
+  "name": "Pablo Sebastian Bahamondes Walters",
+  "handle": "pablosbw",
+  "title": "hacker",
+  "photo": "pablo-sebastian-bahamondes-walters.png",
+  "seed": 24,
+  "body": {
+    "height": 1.79,
+    "build": 0.4,
+    "shoulders": 0.47,
+    "legs": 0.44,
+    "head": 1.02
+  },
+  "skin": "#a97b6a",
+  "face": {
+    "jaw": 0.4,
+    "eyes": {
+      "color": "#1b1c29",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.41,
+      "angle": 0.03
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1b1c28",
+    "volume": 0.95,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#c1ced3",
+    "fit": 0.35,
+    "length": 0.55
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "pablosbw",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

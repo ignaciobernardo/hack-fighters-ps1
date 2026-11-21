@@ -1,0 +1,81 @@
+{
+  "id": "tomas-degese",
+  "draft": true,
+  "name": "Tomás Degese",
+  "handle": "tomileonel",
+  "title": "hacker",
+  "photo": "tomas-degese.png",
+  "seed": 51,
+  "body": {
+    "height": 1.63,
+    "build": 0.46,
+    "shoulders": 0.39,
+    "legs": 0.4,
+    "head": 1.07
+  },
+  "skin": "#ce7f65",
+  "face": {
+    "jaw": 0.56,
+    "eyes": {
+      "color": "#191814",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.08
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#181714",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#363840",
+    "fit": 0.61,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#23232b",
+    "trim": "#f2762e",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#f2762e"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "tomileonel",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

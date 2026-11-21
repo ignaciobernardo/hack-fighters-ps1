@@ -1,0 +1,71 @@
+{
+  "id": "vicente-cepeda-carrasco",
+  "draft": true,
+  "name": "Vicente Cepeda Carrasco",
+  "handle": "vicentepecera",
+  "title": "hacker",
+  "photo": "vicente-cepeda-carrasco.png",
+  "seed": 11,
+  "body": {
+    "height": 1.64,
+    "build": 0.67,
+    "shoulders": 0.42,
+    "legs": 0.48,
+    "head": 1.01
+  },
+  "skin": "#edac87",
+  "face": {
+    "jaw": 0.67,
+    "eyes": {
+      "color": "#2b2522",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.63,
+      "angle": 0.09
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2a2421",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e6d0ca",
+    "fit": 0.62,
+    "length": 0.65
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.15
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "vicentepec",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

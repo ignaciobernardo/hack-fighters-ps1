@@ -1,0 +1,79 @@
+{
+  "id": "nahum-mateo-diaz-lopez",
+  "draft": true,
+  "name": "Nahum Mateo Díaz López",
+  "handle": "nadilopoff",
+  "title": "hacker",
+  "photo": "nahum-mateo-diaz-lopez.png",
+  "seed": 27,
+  "body": {
+    "height": 1.81,
+    "build": 0.43,
+    "shoulders": 0.44,
+    "legs": 0.52,
+    "head": 1.07
+  },
+  "skin": "#b37460",
+  "face": {
+    "jaw": 0.43,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.68,
+      "angle": 0.19
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#66493a",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#798a85",
+    "fit": 0.37,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.05
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nadilopoff",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

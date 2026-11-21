@@ -1,0 +1,79 @@
+{
+  "id": "joaquin-jose-cuevas-munoz",
+  "draft": true,
+  "name": "Joaquin Jose Cuevas Muñoz",
+  "handle": "joaquincuevas",
+  "title": "hacker",
+  "photo": "joaquin-jose-cuevas-munoz.png",
+  "seed": 94,
+  "body": {
+    "height": 1.8,
+    "build": 0.31,
+    "shoulders": 0.55,
+    "legs": 0.4,
+    "head": 1.01
+  },
+  "skin": "#c57961",
+  "face": {
+    "jaw": 0.4,
+    "eyes": {
+      "color": "#1d1714",
+      "size": 1.05
+    },
+    "brows": {
+      "thick": 0.49,
+      "angle": 0.09
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1d1614",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#eae9ef",
+    "fit": 0.44,
+    "length": 0.67
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "joaquincue",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

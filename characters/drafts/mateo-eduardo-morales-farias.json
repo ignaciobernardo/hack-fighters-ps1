@@ -1,0 +1,71 @@
+{
+  "id": "mateo-eduardo-morales-farias",
+  "draft": true,
+  "name": "Mateo Eduardo Morales Farias",
+  "handle": "lilteo14",
+  "title": "hacker",
+  "photo": "mateo-eduardo-morales-farias.png",
+  "seed": 70,
+  "body": {
+    "height": 1.68,
+    "build": 0.36,
+    "shoulders": 0.41,
+    "legs": 0.54,
+    "head": 1.07
+  },
+  "skin": "#815345",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.75,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "buzz",
+    "color": "#2a1a19",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#6c7291",
+    "fit": 0.38,
+    "length": 0.7
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "lilteo14",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

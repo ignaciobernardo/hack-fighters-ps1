@@ -1,0 +1,79 @@
+{
+  "id": "samuel-belon",
+  "draft": true,
+  "name": "Samuel Belon",
+  "handle": "sbuel",
+  "title": "hacker",
+  "photo": "samuel-belon.png",
+  "seed": 86,
+  "body": {
+    "height": 1.67,
+    "build": 0.51,
+    "shoulders": 0.38,
+    "legs": 0.51,
+    "head": 1.02
+  },
+  "skin": "#af6849",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#3b312a",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#3a3029",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#d6d7d9",
+    "fit": 0.39,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2a2f3d",
+    "trim": "#35e08a",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "sbuel",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

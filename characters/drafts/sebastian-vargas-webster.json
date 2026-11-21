@@ -1,0 +1,79 @@
+{
+  "id": "sebastian-vargas-webster",
+  "draft": true,
+  "name": "Sebastian Vargas Webster",
+  "handle": "iswebster1401",
+  "title": "hacker",
+  "photo": "sebastian-vargas-webster.png",
+  "seed": 96,
+  "body": {
+    "height": 1.74,
+    "build": 0.66,
+    "shoulders": 0.64,
+    "legs": 0.5,
+    "head": 1.07
+  },
+  "skin": "#814e3d",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#1a1a1b",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.67,
+      "angle": 0.18
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#19191b",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1b1e23",
+    "fit": 0.5,
+    "length": 0.57
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2c2f3a",
+    "collar": "high",
+    "length": 0.32,
+    "fit": 0.58,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#1d1d22",
+    "stripe": true,
+    "trim": "#f2c230"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "iswebster1",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

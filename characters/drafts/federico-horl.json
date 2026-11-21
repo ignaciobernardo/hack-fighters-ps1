@@ -1,0 +1,73 @@
+{
+  "id": "federico-horl",
+  "draft": true,
+  "name": "Federico Hörl",
+  "handle": "fede-h",
+  "title": "hacker",
+  "photo": "federico-horl.png",
+  "seed": 16,
+  "body": {
+    "height": 1.66,
+    "build": 0.47,
+    "shoulders": 0.4,
+    "legs": 0.52,
+    "head": 1.07
+  },
+  "skin": "#e49573",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#241f1d",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.09
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#241e1d",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#706b65",
+    "fit": 0.36,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#f2c230"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "fede-h",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

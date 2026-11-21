@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hack fighters — PS1</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/src/ps1/viewer.css">
+</head>
+<body>
+<div id="app">
+  <aside id="left">
+    <div id="imgbar"><span id="imgname">Body full</span></div>
+    <div id="atlasWrap"><canvas id="atlas" width="1024" height="1024"></canvas></div>
+    <div id="roster"></div>
+  </aside>
+  <main id="stage">
+    <canvas id="view"></canvas>
+    <div id="stats"></div>
+    <div id="bar"></div>
+  </main>
+</div>
+<script type="module" src="/src/ps1/viewer.js"></script>
+</body>
+</html>

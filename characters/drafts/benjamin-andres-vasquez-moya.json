@@ -1,0 +1,73 @@
+{
+  "id": "benjamin-andres-vasquez-moya",
+  "draft": true,
+  "name": "Benjamín Andrés Vásquez Moya",
+  "handle": "bvasquezm",
+  "title": "hacker",
+  "photo": "benjamin-andres-vasquez-moya.png",
+  "seed": 20,
+  "body": {
+    "height": 1.77,
+    "build": 0.4,
+    "shoulders": 0.42,
+    "legs": 0.6,
+    "head": 1.05
+  },
+  "skin": "#c78369",
+  "face": {
+    "jaw": 0.69,
+    "eyes": {
+      "color": "#4c301d",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.1
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#4a2f1d",
+    "volume": 0.95,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#242427",
+    "fit": 0.63,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#22222a",
+    "stripe": true,
+    "trim": "#35e08a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "bvasquezm",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

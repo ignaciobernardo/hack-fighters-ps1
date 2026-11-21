@@ -1,0 +1,74 @@
+{
+  "id": "loreto-prieto",
+  "draft": true,
+  "name": "Loreto Prieto",
+  "handle": "loreto",
+  "title": "jueza · NeuralWorks",
+  "photo": "loreto-prieto.png",
+  "seed": 40,
+  "body": {
+    "height": 1.72,
+    "build": 0.44,
+    "shoulders": 0.69,
+    "legs": 0.53,
+    "head": 1.02
+  },
+  "skin": "#e29f87",
+  "face": {
+    "jaw": 0.72,
+    "eyes": {
+      "color": "#47362c",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.53,
+      "angle": 0.06
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#45352b",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e2c3ae",
+    "fit": 0.6,
+    "length": 0.47
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2a2f3d",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "loreto",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

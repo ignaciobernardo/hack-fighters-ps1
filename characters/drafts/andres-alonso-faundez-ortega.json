@@ -1,0 +1,71 @@
+{
+  "id": "andres-alonso-faundez-ortega",
+  "draft": true,
+  "name": "Andrés Alonso Faúndez Ortega",
+  "handle": "andresfaundez",
+  "title": "hacker",
+  "photo": "andres-alonso-faundez-ortega.png",
+  "seed": 29,
+  "body": {
+    "height": 1.85,
+    "build": 0.38,
+    "shoulders": 0.44,
+    "legs": 0.43,
+    "head": 1.02
+  },
+  "skin": "#f79e6b",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#2b1c14",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.19
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#2a1c14",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.63,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "andresfaun",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

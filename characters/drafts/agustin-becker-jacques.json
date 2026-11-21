@@ -1,0 +1,82 @@
+{
+  "id": "agustin-becker-jacques",
+  "draft": true,
+  "name": "Agustin Becker Jacques",
+  "handle": "chupetebecker",
+  "title": "hacker",
+  "photo": "agustin-becker-jacques.png",
+  "seed": 86,
+  "body": {
+    "height": 1.75,
+    "build": 0.65,
+    "shoulders": 0.41,
+    "legs": 0.48,
+    "head": 1.04
+  },
+  "skin": "#bd6d49",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#1d1b1e",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.55,
+      "angle": 0.04
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#1d1a1d",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1a1f32",
+    "fit": 0.37,
+    "length": 0.55
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2a2f3d",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.15,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "chupetebec",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "benjamin-taito",
+  "draft": true,
+  "name": "Benjamín Taito",
+  "handle": "benjamintaito",
+  "title": "hacker",
+  "photo": "benjamin-taito.png",
+  "seed": 16,
+  "body": {
+    "height": 1.87,
+    "build": 0.38,
+    "shoulders": 0.69,
+    "legs": 0.44,
+    "head": 1.02
+  },
+  "skin": "#c5836c",
+  "face": {
+    "jaw": 0.54,
+    "eyes": {
+      "color": "#3e352f",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.74,
+      "angle": 0.17
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#3c332e",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#242326",
+    "fit": 0.54,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.07,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "benjaminta",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

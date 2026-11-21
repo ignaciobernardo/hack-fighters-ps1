@@ -1,0 +1,74 @@
+{
+  "id": "manuel-alejandro-blanco-contreras",
+  "draft": true,
+  "name": "Manuel Alejandro Blanco Contreras",
+  "handle": "MBlancoC",
+  "title": "hacker",
+  "photo": "manuel-alejandro-blanco-contreras.png",
+  "seed": 29,
+  "body": {
+    "height": 1.74,
+    "build": 0.33,
+    "shoulders": 0.57,
+    "legs": 0.54,
+    "head": 1.05
+  },
+  "skin": "#be7e6a",
+  "face": {
+    "jaw": 0.49,
+    "eyes": {
+      "color": "#36343f",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.13
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#35333d",
+    "volume": 1.08,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#27354f",
+    "fit": 0.38,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2a2f3d",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.13,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "MBlancoC",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

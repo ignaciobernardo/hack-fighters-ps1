@@ -1,0 +1,77 @@
+{
+  "id": "jaime-aza",
+  "draft": true,
+  "name": "Jaime Aza",
+  "handle": "Jjat00",
+  "title": "hacker",
+  "photo": "jaime-aza.png",
+  "seed": 9,
+  "body": {
+    "height": 1.74,
+    "build": 0.34,
+    "shoulders": 0.68,
+    "legs": 0.52,
+    "head": 1.05
+  },
+  "skin": "#dc926c",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#121210",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.45,
+      "angle": 0.07
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#12110f",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#131313",
+    "fit": 0.52,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#33302c",
+    "collar": "high",
+    "length": 0.44,
+    "fit": 0.56,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Jjat00",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

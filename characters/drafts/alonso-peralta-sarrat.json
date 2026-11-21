@@ -1,0 +1,80 @@
+{
+  "id": "alonso-peralta-sarrat",
+  "draft": true,
+  "name": "Alonso Peralta Sarrat",
+  "handle": "APeraltaS16",
+  "title": "hacker",
+  "photo": "alonso-peralta-sarrat.png",
+  "seed": 23,
+  "body": {
+    "height": 1.83,
+    "build": 0.67,
+    "shoulders": 0.55,
+    "legs": 0.42,
+    "head": 1.05
+  },
+  "skin": "#db9984",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#2d2c32",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.4,
+      "angle": 0.12
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2c2b31",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#849473",
+    "fit": 0.65,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#ff7ab8",
+    "cord": "#ff7ab8",
+    "collar": "hood",
+    "length": 0.51,
+    "fit": 0.67,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "APeraltaS1",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

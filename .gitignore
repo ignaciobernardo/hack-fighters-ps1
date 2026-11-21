@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+# fotos de las personas: no van al repo (se regeneran con tools/ps1_faces.py + tools/people.py)
+public/ps1/*.png
+shots/

@@ -1,0 +1,80 @@
+{
+  "id": "jonathan-riquelme",
+  "draft": true,
+  "name": "Jonathan Riquelme",
+  "handle": "sh1njr",
+  "title": "hacker",
+  "photo": "jonathan-riquelme.png",
+  "seed": 97,
+  "body": {
+    "height": 1.79,
+    "build": 0.31,
+    "shoulders": 0.54,
+    "legs": 0.5,
+    "head": 1.01
+  },
+  "skin": "#c18876",
+  "face": {
+    "jaw": 0.54,
+    "eyes": {
+      "color": "#483f43",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.73,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#463d42",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#dad0cc",
+    "fit": 0.35,
+    "length": 0.46
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#23232b",
+    "trim": "#ff7ab8",
+    "cord": "#ff7ab8",
+    "collar": "hood",
+    "length": 0.63,
+    "fit": 0.67,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "sh1njr",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

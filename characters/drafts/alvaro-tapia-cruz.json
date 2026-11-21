@@ -1,0 +1,71 @@
+{
+  "id": "alvaro-tapia-cruz",
+  "draft": true,
+  "name": "Alvaro Tapia Cruz",
+  "handle": "alvarotapiacc",
+  "title": "hacker",
+  "photo": "alvaro-tapia-cruz.png",
+  "seed": 18,
+  "body": {
+    "height": 1.64,
+    "build": 0.6,
+    "shoulders": 0.61,
+    "legs": 0.53,
+    "head": 1.06
+  },
+  "skin": "#c88266",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#1d1712",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.44,
+      "angle": 0.02
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#1d1611",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#d8dce2",
+    "fit": 0.55,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "alvarotapi",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

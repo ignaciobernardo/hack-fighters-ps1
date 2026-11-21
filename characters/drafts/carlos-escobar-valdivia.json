@@ -1,0 +1,79 @@
+{
+  "id": "carlos-escobar-valdivia",
+  "draft": true,
+  "name": "Carlos Escobar Valdivia",
+  "handle": "tali-platoonic",
+  "title": "hacker",
+  "photo": "carlos-escobar-valdivia.png",
+  "seed": 44,
+  "body": {
+    "height": 1.67,
+    "build": 0.64,
+    "shoulders": 0.5,
+    "legs": 0.52,
+    "head": 1.04
+  },
+  "skin": "#cc8963",
+  "face": {
+    "jaw": 0.62,
+    "eyes": {
+      "color": "#211b1c",
+      "size": 1.05
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.2
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#201b1c",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1c1c1e",
+    "fit": 0.51,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2a2f3d",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "tali-plato",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

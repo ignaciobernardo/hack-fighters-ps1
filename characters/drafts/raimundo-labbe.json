@@ -1,0 +1,73 @@
+{
+  "id": "raimundo-labbe",
+  "draft": true,
+  "name": "Raimundo Labbé",
+  "handle": "rlabbev",
+  "title": "hacker",
+  "photo": "raimundo-labbe.png",
+  "seed": 59,
+  "body": {
+    "height": 1.81,
+    "build": 0.34,
+    "shoulders": 0.61,
+    "legs": 0.53,
+    "head": 1.03
+  },
+  "skin": "#b57b69",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#262122",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.37,
+      "angle": 0.03
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#252021",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#141318",
+    "fit": 0.57,
+    "length": 0.62
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#35e08a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "rlabbev",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

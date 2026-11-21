@@ -1,0 +1,80 @@
+{
+  "id": "cristobal-diaz-barra",
+  "draft": true,
+  "name": "Cristobal Diaz Barra",
+  "handle": "cristobaldb",
+  "title": "hacker",
+  "photo": "cristobal-diaz-barra.png",
+  "seed": 91,
+  "body": {
+    "height": 1.72,
+    "build": 0.55,
+    "shoulders": 0.68,
+    "legs": 0.59,
+    "head": 1.01
+  },
+  "skin": "#d08b6c",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.49,
+      "angle": 0.17
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#6e503a",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#8c4d42",
+    "fit": 0.4,
+    "length": 0.7
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2c2f3a",
+    "collar": "high",
+    "length": 0.38,
+    "fit": 0.47,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.13,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "cristobald",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

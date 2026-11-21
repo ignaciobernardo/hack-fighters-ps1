@@ -1,0 +1,71 @@
+{
+  "id": "augusto-tagle-montes",
+  "draft": true,
+  "name": "Augusto Tagle Montes",
+  "handle": "atagle123",
+  "title": "hacker",
+  "photo": "augusto-tagle-montes.png",
+  "seed": 29,
+  "body": {
+    "height": 1.73,
+    "build": 0.53,
+    "shoulders": 0.51,
+    "legs": 0.41,
+    "head": 1.08
+  },
+  "skin": "#c37756",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#18120e",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.48,
+      "angle": 0.09
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#17120e",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#90a2c6",
+    "fit": 0.49,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "atagle123",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

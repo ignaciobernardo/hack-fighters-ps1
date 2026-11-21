@@ -1,0 +1,80 @@
+{
+  "id": "tomas-nusser-hernandez",
+  "draft": true,
+  "name": "Tomás Nusser Hernández",
+  "handle": "tomasnusser",
+  "title": "hacker",
+  "photo": "tomas-nusser-hernandez.png",
+  "seed": 86,
+  "body": {
+    "height": 1.88,
+    "build": 0.57,
+    "shoulders": 0.67,
+    "legs": 0.51,
+    "head": 1.02
+  },
+  "skin": "#bb6a50",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#1e1916",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.03
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1d1816",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#9faab8",
+    "fit": 0.38,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#22222a",
+    "trim": "#f2c230",
+    "cord": "#f2c230",
+    "collar": "hood",
+    "length": 0.48,
+    "fit": 0.64,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "tomasnusse",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

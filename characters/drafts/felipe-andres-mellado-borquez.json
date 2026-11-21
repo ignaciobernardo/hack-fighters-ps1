@@ -1,0 +1,71 @@
+{
+  "id": "felipe-andres-mellado-borquez",
+  "draft": true,
+  "name": "Felipe Andrés Mellado Bórquez",
+  "handle": "Phiripp",
+  "title": "hacker",
+  "photo": "felipe-andres-mellado-borquez.png",
+  "seed": 33,
+  "body": {
+    "height": 1.87,
+    "build": 0.66,
+    "shoulders": 0.55,
+    "legs": 0.42,
+    "head": 1.01
+  },
+  "skin": "#b57d67",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#241c1a",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.19
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#231c19",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e7dfd3",
+    "fit": 0.58,
+    "length": 0.7
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Phiripp",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

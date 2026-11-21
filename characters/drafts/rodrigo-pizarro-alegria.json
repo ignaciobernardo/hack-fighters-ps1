@@ -1,0 +1,71 @@
+{
+  "id": "rodrigo-pizarro-alegria",
+  "draft": true,
+  "name": "Rodrigo Pizarro Alegría",
+  "handle": "silent-math",
+  "title": "hacker",
+  "photo": "rodrigo-pizarro-alegria.png",
+  "seed": 39,
+  "body": {
+    "height": 1.66,
+    "build": 0.33,
+    "shoulders": 0.38,
+    "legs": 0.6,
+    "head": 1.02
+  },
+  "skin": "#935845",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#5b4c43",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.72,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "buzz",
+    "color": "#301e1a",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.52,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "silent-mat",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

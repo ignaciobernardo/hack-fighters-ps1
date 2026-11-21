@@ -1,0 +1,71 @@
+{
+  "id": "jose-tomas-carrasco",
+  "draft": true,
+  "name": "José Tomás Carrasco",
+  "handle": "jcarrascoa7",
+  "title": "hacker",
+  "photo": "jose-tomas-carrasco.png",
+  "seed": 85,
+  "body": {
+    "height": 1.7,
+    "build": 0.4,
+    "shoulders": 0.51,
+    "legs": 0.43,
+    "head": 1.03
+  },
+  "skin": "#865647",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#2a201e",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.5,
+      "angle": 0.1
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#291f1d",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#c9d7e8",
+    "fit": 0.57,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jcarrascoa",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "uriel-gandelman",
+  "draft": true,
+  "name": "Uriel Gandelman",
+  "handle": "UriGandel",
+  "title": "hacker",
+  "photo": "uriel-gandelman.png",
+  "seed": 98,
+  "body": {
+    "height": 1.76,
+    "build": 0.39,
+    "shoulders": 0.35,
+    "legs": 0.54,
+    "head": 1.0
+  },
+  "skin": "#d08d77",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.41,
+      "angle": 0.15
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#5f574b",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1e2026",
+    "fit": 0.61,
+    "length": 0.7
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2c2f3a",
+    "trim": "#ff7ab8",
+    "cord": "#ff7ab8",
+    "collar": "hood",
+    "length": 0.61,
+    "fit": 0.69,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "UriGandel",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

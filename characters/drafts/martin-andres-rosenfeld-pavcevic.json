@@ -1,0 +1,79 @@
+{
+  "id": "martin-andres-rosenfeld-pavcevic",
+  "draft": true,
+  "name": "Martín Andrés Rosenfeld Pavcevic",
+  "handle": "MartinRosenfeld11",
+  "title": "hacker",
+  "photo": "martin-andres-rosenfeld-pavcevic.png",
+  "seed": 88,
+  "body": {
+    "height": 1.7,
+    "build": 0.62,
+    "shoulders": 0.44,
+    "legs": 0.56,
+    "head": 1.08
+  },
+  "skin": "#9a695a",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.65,
+      "angle": 0.09
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#564c55",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#87a8d3",
+    "fit": 0.65,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#23232b",
+    "trim": "#4aa3ff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "MartinRose",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

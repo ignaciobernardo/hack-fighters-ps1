@@ -1,0 +1,71 @@
+{
+  "id": "natan-brugueras",
+  "draft": true,
+  "name": "Natán Brugueras",
+  "handle": "natan",
+  "title": "juez",
+  "photo": "natan-brugueras.png",
+  "seed": 46,
+  "body": {
+    "height": 1.71,
+    "build": 0.52,
+    "shoulders": 0.38,
+    "legs": 0.42,
+    "head": 1.07
+  },
+  "skin": "#aa7e70",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#2b2e39",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.75,
+      "angle": 0.03
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2a2d38",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#0c1017",
+    "fit": 0.47,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "natan",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

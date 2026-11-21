@@ -1,0 +1,81 @@
+{
+  "id": "emmy-daniela-arias-pardo",
+  "draft": true,
+  "name": "Emmy Daniela Arias Pardo",
+  "handle": "estparcae",
+  "title": "hacker",
+  "photo": "emmy-daniela-arias-pardo.png",
+  "seed": 66,
+  "body": {
+    "height": 1.73,
+    "build": 0.65,
+    "shoulders": 0.59,
+    "legs": 0.5,
+    "head": 1.02
+  },
+  "skin": "#dc956f",
+  "face": {
+    "jaw": 0.44,
+    "eyes": {
+      "color": "#1b181b",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.35,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#1b171a",
+    "volume": 1.08,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1b1712",
+    "fit": 0.56,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#22222a",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#f2c230"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "estparcae",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

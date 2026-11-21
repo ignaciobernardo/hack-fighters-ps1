@@ -1,0 +1,82 @@
+{
+  "id": "tomas-trivino",
+  "draft": true,
+  "name": "Tomás Triviño",
+  "handle": "tomas",
+  "title": "invitado · Fintual",
+  "photo": "tomas-trivino.png",
+  "seed": 14,
+  "body": {
+    "height": 1.64,
+    "build": 0.42,
+    "shoulders": 0.56,
+    "legs": 0.58,
+    "head": 1.01
+  },
+  "skin": "#c88666",
+  "face": {
+    "jaw": 0.75,
+    "eyes": {
+      "color": "#090909",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.05
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#090908",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#244462",
+    "fit": 0.52,
+    "length": 0.66
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#1d1d22",
+    "trim": "#e5484d",
+    "cord": "#e5484d",
+    "collar": "hood",
+    "length": 0.61,
+    "fit": 0.6,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#1d1d22",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "tomas",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "rodrigo-requena",
+  "draft": true,
+  "name": "Rodrigo Requena",
+  "handle": "marketingmbc",
+  "title": "hacker",
+  "photo": "rodrigo-requena.png",
+  "seed": 37,
+  "body": {
+    "height": 1.72,
+    "build": 0.51,
+    "shoulders": 0.53,
+    "legs": 0.44,
+    "head": 1.07
+  },
+  "skin": "#9a553f",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#16171d",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.48,
+      "angle": 0.11
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#16161d",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2e2d2f",
+    "fit": 0.39,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#35e08a",
+    "cord": "#35e08a",
+    "collar": "hood",
+    "length": 0.5,
+    "fit": 0.65,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2c2f3a",
+    "stripe": true,
+    "trim": "#35e08a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "marketingm",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

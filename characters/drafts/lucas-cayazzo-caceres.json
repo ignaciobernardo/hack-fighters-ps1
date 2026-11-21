@@ -1,0 +1,83 @@
+{
+  "id": "lucas-cayazzo-caceres",
+  "draft": true,
+  "name": "Lucas Cayazzo Cáceres",
+  "handle": "lcayazzo",
+  "title": "hacker",
+  "photo": "lucas-cayazzo-caceres.png",
+  "seed": 8,
+  "body": {
+    "height": 1.77,
+    "build": 0.45,
+    "shoulders": 0.52,
+    "legs": 0.48,
+    "head": 1.0
+  },
+  "skin": "#eab5a1",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#594842",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.49,
+      "angle": 0.17
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#574741",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#dee4f3",
+    "fit": 0.35,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#23232b",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.5,
+    "fit": 0.63,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "lcayazzo",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

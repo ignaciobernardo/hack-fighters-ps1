@@ -1,0 +1,73 @@
+{
+  "id": "claudio-me-ragni-urrutia",
+  "draft": true,
+  "name": "Claudio Me Ragni Urrutia",
+  "handle": "claudio-ragni",
+  "title": "hacker",
+  "photo": "claudio-me-ragni-urrutia.png",
+  "seed": 23,
+  "body": {
+    "height": 1.76,
+    "build": 0.59,
+    "shoulders": 0.47,
+    "legs": 0.54,
+    "head": 1.07
+  },
+  "skin": "#b46f59",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#2e221c",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.46,
+      "angle": 0.04
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#2d211c",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#c0cbdb",
+    "fit": 0.64,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#f2762e"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "claudio-ra",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

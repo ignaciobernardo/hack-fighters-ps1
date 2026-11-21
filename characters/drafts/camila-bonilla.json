@@ -1,0 +1,77 @@
+{
+  "id": "camila-bonilla",
+  "draft": true,
+  "name": "Camila Bonilla",
+  "handle": "camila",
+  "title": "sponsor · Copec",
+  "photo": "camila-bonilla.png",
+  "seed": 10,
+  "body": {
+    "height": 1.86,
+    "build": 0.36,
+    "shoulders": 0.5,
+    "legs": 0.46,
+    "head": 1.08
+  },
+  "skin": "#a66244",
+  "face": {
+    "jaw": 0.63,
+    "eyes": {
+      "color": "#2d241e",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.55,
+      "angle": 0.06
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2c241d",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#422e20",
+    "fit": 0.63,
+    "length": 0.69
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#3b3550",
+    "collar": "high",
+    "length": 0.49,
+    "fit": 0.59,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.15
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "camila",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nicolas-acosta",
+  "draft": true,
+  "name": "Nicolás Acosta",
+  "handle": "nicolas",
+  "title": "mentor · Zesty",
+  "photo": "nicolas-acosta.png",
+  "seed": 10,
+  "body": {
+    "height": 1.65,
+    "build": 0.66,
+    "shoulders": 0.47,
+    "legs": 0.56,
+    "head": 1.05
+  },
+  "skin": "#915037",
+  "face": {
+    "jaw": 0.4,
+    "eyes": {
+      "color": "#100c09",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.1
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#0f0c08",
+    "volume": 1.04,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#302e31",
+    "fit": 0.36,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nicolas",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

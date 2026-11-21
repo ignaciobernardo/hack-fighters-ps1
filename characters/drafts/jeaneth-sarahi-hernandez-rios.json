@@ -1,0 +1,71 @@
+{
+  "id": "jeaneth-sarahi-hernandez-rios",
+  "draft": true,
+  "name": "Jeaneth Sarahi Hernandez Rios",
+  "handle": "jeanethS",
+  "title": "hacker",
+  "photo": "jeaneth-sarahi-hernandez-rios.png",
+  "seed": 16,
+  "body": {
+    "height": 1.86,
+    "build": 0.44,
+    "shoulders": 0.68,
+    "legs": 0.48,
+    "head": 1.01
+  },
+  "skin": "#f7b89a",
+  "face": {
+    "jaw": 0.6,
+    "eyes": {
+      "color": "#0f0e0d",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.44,
+      "angle": 0.15
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#0e0e0d",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e5bfa7",
+    "fit": 0.39,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jeanethS",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

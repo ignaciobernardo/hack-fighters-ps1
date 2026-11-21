@@ -1,0 +1,80 @@
+{
+  "id": "martin-campos",
+  "draft": true,
+  "name": "Martin Campos",
+  "handle": "martincamposdonoso2000",
+  "title": "hacker",
+  "photo": "martin-campos.png",
+  "seed": 86,
+  "body": {
+    "height": 1.74,
+    "build": 0.59,
+    "shoulders": 0.66,
+    "legs": 0.47,
+    "head": 1.06
+  },
+  "skin": "#bf7554",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#4c433a",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.44,
+      "angle": 0.06
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#4a4239",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#434355",
+    "fit": 0.54,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#33302c",
+    "collar": "high",
+    "length": 0.42,
+    "fit": 0.58,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.05,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "martincamp",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

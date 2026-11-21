@@ -1,0 +1,71 @@
+{
+  "id": "felipe-lechuga",
+  "draft": true,
+  "name": "Felipe Lechuga",
+  "handle": "felipe",
+  "title": "sponsor · CChC",
+  "photo": "felipe-lechuga.png",
+  "seed": 66,
+  "body": {
+    "height": 1.72,
+    "build": 0.49,
+    "shoulders": 0.6,
+    "legs": 0.48,
+    "head": 1.05
+  },
+  "skin": "#ca8068",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#251e1b",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.61,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#241d1a",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2c2a2d",
+    "fit": 0.61,
+    "length": 0.45
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "felipe",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "nicolas-del-valle-ruiz",
+  "draft": true,
+  "name": "Nicolas Del Valle Ruiz",
+  "handle": "nico-del-valle",
+  "title": "hacker",
+  "photo": "nicolas-del-valle-ruiz.png",
+  "seed": 42,
+  "body": {
+    "height": 1.73,
+    "build": 0.41,
+    "shoulders": 0.4,
+    "legs": 0.41,
+    "head": 1.04
+  },
+  "skin": "#b7816e",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#292529",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.58,
+      "angle": 0.2
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#282428",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#9ecb96",
+    "fit": 0.5,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#3b3550",
+    "collar": "high",
+    "length": 0.31,
+    "fit": 0.56,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nico-del-v",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

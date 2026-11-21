@@ -1,0 +1,71 @@
+{
+  "id": "martin-penaloza",
+  "draft": true,
+  "name": "Martín Peñaloza",
+  "handle": "mpenalozag",
+  "title": "hacker",
+  "photo": "martin-penaloza.png",
+  "seed": 28,
+  "body": {
+    "height": 1.69,
+    "build": 0.43,
+    "shoulders": 0.66,
+    "legs": 0.53,
+    "head": 1.01
+  },
+  "skin": "#e8a27f",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#211b18",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.05
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#201b17",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#6a666d",
+    "fit": 0.48,
+    "length": 0.53
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "mpenalozag",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

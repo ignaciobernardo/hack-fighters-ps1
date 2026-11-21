@@ -1,0 +1,79 @@
+{
+  "id": "daniel-enrique-bruno-silva",
+  "draft": true,
+  "name": "Daniel Enrique Bruno Silva",
+  "handle": "Holeekey",
+  "title": "hacker",
+  "photo": "daniel-enrique-bruno-silva.png",
+  "seed": 21,
+  "body": {
+    "height": 1.8,
+    "build": 0.42,
+    "shoulders": 0.62,
+    "legs": 0.57,
+    "head": 1.04
+  },
+  "skin": "#f49b6f",
+  "face": {
+    "jaw": 0.51,
+    "eyes": {
+      "color": "#292524",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.43,
+      "angle": 0.16
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#282423",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1b1b1e",
+    "fit": 0.44,
+    "length": 0.45
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Holeekey",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "benjamin-mauricio-alvarado-guerra",
+  "draft": true,
+  "name": "Benjamín Mauricio Alvarado Guerra",
+  "handle": "elvenji",
+  "title": "hacker",
+  "photo": "benjamin-mauricio-alvarado-guerra.png",
+  "seed": 89,
+  "body": {
+    "height": 1.74,
+    "build": 0.55,
+    "shoulders": 0.68,
+    "legs": 0.53,
+    "head": 1.08
+  },
+  "skin": "#ba8268",
+  "face": {
+    "jaw": 0.67,
+    "eyes": {
+      "color": "#47403f",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.74,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#453f3d",
+    "volume": 1.04,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#434247",
+    "fit": 0.55,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#22222a",
+    "collar": "high",
+    "length": 0.36,
+    "fit": 0.59,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#3b3550",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.14,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "elvenji",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "matilda-roberts",
+  "draft": true,
+  "name": "Matilda Roberts",
+  "handle": "fforttuna",
+  "title": "hacker",
+  "photo": "matilda-roberts.png",
+  "seed": 74,
+  "body": {
+    "height": 1.69,
+    "build": 0.32,
+    "shoulders": 0.61,
+    "legs": 0.52,
+    "head": 1.04
+  },
+  "skin": "#e9ab8b",
+  "face": {
+    "jaw": 0.46,
+    "eyes": {
+      "color": "#211e1b",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.73,
+      "angle": 0.19
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#201d1a",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#131313",
+    "fit": 0.41,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "fforttuna",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

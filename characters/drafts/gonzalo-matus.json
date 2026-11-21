@@ -1,0 +1,82 @@
+{
+  "id": "gonzalo-matus",
+  "draft": true,
+  "name": "Gonzalo Matus",
+  "handle": "gonzalomatus",
+  "title": "hacker",
+  "photo": "gonzalo-matus.png",
+  "seed": 39,
+  "body": {
+    "height": 1.82,
+    "build": 0.44,
+    "shoulders": 0.52,
+    "legs": 0.6,
+    "head": 1.07
+  },
+  "skin": "#cc8b77",
+  "face": {
+    "jaw": 0.47,
+    "eyes": {
+      "color": "#111115",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.06
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#101015",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.5,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#23232b",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "gonzalomat",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "jesus-adrian-balderas-lara",
+  "draft": true,
+  "name": "Jesús Adrián Balderas Lara",
+  "handle": "AdrianBalderas",
+  "title": "hacker",
+  "photo": "jesus-adrian-balderas-lara.png",
+  "seed": 1,
+  "body": {
+    "height": 1.86,
+    "build": 0.66,
+    "shoulders": 0.4,
+    "legs": 0.44,
+    "head": 1.06
+  },
+  "skin": "#cb8261",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#24221f",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.5,
+      "angle": 0.16
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#24211e",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2a2828",
+    "fit": 0.39,
+    "length": 0.69
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#4aa3ff"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "AdrianBald",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

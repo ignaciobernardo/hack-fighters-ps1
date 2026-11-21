@@ -1,0 +1,74 @@
+{
+  "id": "lucia-uriarte",
+  "draft": true,
+  "name": "Lucía Uriarte",
+  "handle": "lucia",
+  "title": "staff · Buk",
+  "photo": "lucia-uriarte.png",
+  "seed": 18,
+  "body": {
+    "height": 1.85,
+    "build": 0.45,
+    "shoulders": 0.57,
+    "legs": 0.44,
+    "head": 1.07
+  },
+  "skin": "#dd9569",
+  "face": {
+    "jaw": 0.58,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.15
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#524f54",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a22047",
+    "fit": 0.48,
+    "length": 0.59
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.07,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "lucia",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

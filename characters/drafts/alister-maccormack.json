@@ -1,0 +1,79 @@
+{
+  "id": "alister-maccormack",
+  "draft": true,
+  "name": "Alister MacCormack",
+  "handle": "alister",
+  "title": "mentor · Cognition",
+  "photo": "alister-maccormack.png",
+  "seed": 79,
+  "body": {
+    "height": 1.68,
+    "build": 0.55,
+    "shoulders": 0.5,
+    "legs": 0.51,
+    "head": 1.04
+  },
+  "skin": "#d8a390",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#2c1c12",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.61,
+      "angle": 0.08
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2b1c12",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#04080e",
+    "fit": 0.36,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#4aa3ff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "alister",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

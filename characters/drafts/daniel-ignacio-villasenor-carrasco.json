@@ -1,0 +1,79 @@
+{
+  "id": "daniel-ignacio-villasenor-carrasco",
+  "draft": true,
+  "name": "Daniel Ignacio Villaseñor Carrasco",
+  "handle": "dvillas28",
+  "title": "hacker",
+  "photo": "daniel-ignacio-villasenor-carrasco.png",
+  "seed": 33,
+  "body": {
+    "height": 1.79,
+    "build": 0.3,
+    "shoulders": 0.5,
+    "legs": 0.52,
+    "head": 1.02
+  },
+  "skin": "#f2ae81",
+  "face": {
+    "jaw": 0.44,
+    "eyes": {
+      "color": "#3c3634",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.71,
+      "angle": 0.1
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#3a3433",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#466e6b",
+    "fit": 0.61,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.34,
+    "fit": 0.4,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#3b3550",
+    "stripe": true,
+    "trim": "#e8e4da"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "dvillas28",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "francisca-alejandra-yepsen-marambio",
+  "draft": true,
+  "name": "Francisca Alejandra Yepsen Marambio",
+  "handle": "Yeps3nM",
+  "title": "hacker",
+  "photo": "francisca-alejandra-yepsen-marambio.png",
+  "seed": 51,
+  "body": {
+    "height": 1.79,
+    "build": 0.6,
+    "shoulders": 0.63,
+    "legs": 0.58,
+    "head": 1.01
+  },
+  "skin": "#b57861",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#2a241f",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.58,
+      "angle": 0.12
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#29241e",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#481e23",
+    "fit": 0.52,
+    "length": 0.66
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.05
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Yeps3nM",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

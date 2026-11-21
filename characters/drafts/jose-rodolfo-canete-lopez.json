@@ -1,0 +1,81 @@
+{
+  "id": "jose-rodolfo-canete-lopez",
+  "draft": true,
+  "name": "José Rodolfo Cañete López",
+  "handle": "josecannete",
+  "title": "hacker",
+  "photo": "jose-rodolfo-canete-lopez.png",
+  "seed": 5,
+  "body": {
+    "height": 1.83,
+    "build": 0.38,
+    "shoulders": 0.4,
+    "legs": 0.46,
+    "head": 1.07
+  },
+  "skin": "#c16f51",
+  "face": {
+    "jaw": 0.51,
+    "eyes": {
+      "color": "#090803",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#080703",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#bfbfbf",
+    "fit": 0.61,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#23232b",
+    "trim": "#e8e4da",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#e8e4da"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.12
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "josecannet",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

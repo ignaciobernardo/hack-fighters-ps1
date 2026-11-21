@@ -1,0 +1,74 @@
+{
+  "id": "jesus-rodolfo-gil-farias",
+  "draft": true,
+  "name": "Jesus Rodolfo Gil Farias",
+  "handle": "Jrgil20",
+  "title": "hacker",
+  "photo": "jesus-rodolfo-gil-farias.png",
+  "seed": 24,
+  "body": {
+    "height": 1.72,
+    "build": 0.32,
+    "shoulders": 0.47,
+    "legs": 0.44,
+    "head": 1.05
+  },
+  "skin": "#eeb18e",
+  "face": {
+    "jaw": 0.49,
+    "eyes": {
+      "color": "#251e1a",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.19
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#241d19",
+    "volume": 1.08,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#131b20",
+    "fit": 0.38,
+    "length": 0.55
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.09,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Jrgil20",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

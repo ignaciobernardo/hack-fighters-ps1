@@ -1,0 +1,73 @@
+{
+  "id": "juan-pedro-lira",
+  "draft": true,
+  "name": "Juan Pedro Lira",
+  "handle": "jplira2",
+  "title": "hacker",
+  "photo": "juan-pedro-lira.png",
+  "seed": 48,
+  "body": {
+    "height": 1.66,
+    "build": 0.3,
+    "shoulders": 0.44,
+    "legs": 0.6,
+    "head": 1.01
+  },
+  "skin": "#d48969",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#332b24",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.15
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#322a24",
+    "volume": 1.08,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#191919",
+    "fit": 0.35,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#1d1d22",
+    "stripe": true,
+    "trim": "#f2762e"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jplira2",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

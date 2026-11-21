@@ -1,0 +1,77 @@
+{
+  "id": "sebastian-torrealba",
+  "draft": true,
+  "name": "Sebastián Torrealba",
+  "handle": "storrealbac",
+  "title": "hacker",
+  "photo": "sebastian-torrealba.png",
+  "seed": 51,
+  "body": {
+    "height": 1.87,
+    "build": 0.57,
+    "shoulders": 0.54,
+    "legs": 0.57,
+    "head": 1.06
+  },
+  "skin": "#ac6d50",
+  "face": {
+    "jaw": 0.52,
+    "eyes": {
+      "color": "#574942",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.61,
+      "angle": 0.04
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#554841",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#202328",
+    "fit": 0.52,
+    "length": 0.53
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#23232b",
+    "collar": "high",
+    "length": 0.35,
+    "fit": 0.54,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "storrealba",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

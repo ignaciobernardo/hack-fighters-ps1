@@ -1,0 +1,71 @@
+{
+  "id": "ignacio-benjamin-palma-arevalo",
+  "draft": true,
+  "name": "Ignacio Benjamín Palma Arévalo",
+  "handle": "IgnacioPalma",
+  "title": "hacker",
+  "photo": "ignacio-benjamin-palma-arevalo.png",
+  "seed": 38,
+  "body": {
+    "height": 1.72,
+    "build": 0.48,
+    "shoulders": 0.5,
+    "legs": 0.44,
+    "head": 1.05
+  },
+  "skin": "#e0a08c",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#27241e",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.15
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#26231d",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#716c77",
+    "fit": 0.6,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "IgnacioPal",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

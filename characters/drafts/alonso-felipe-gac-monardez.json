@@ -1,0 +1,73 @@
+{
+  "id": "alonso-felipe-gac-monardez",
+  "draft": true,
+  "name": "Alonso Felipe Gac Monárdez",
+  "handle": "alonsogm4",
+  "title": "hacker",
+  "photo": "alonso-felipe-gac-monardez.png",
+  "seed": 47,
+  "body": {
+    "height": 1.83,
+    "build": 0.42,
+    "shoulders": 0.6,
+    "legs": 0.44,
+    "head": 1.05
+  },
+  "skin": "#e2a386",
+  "face": {
+    "jaw": 0.55,
+    "eyes": {
+      "color": "#1c1915",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.55,
+      "angle": 0.18
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1c1815",
+    "volume": 0.95,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#48494d",
+    "fit": 0.61,
+    "length": 0.63
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.12
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "alonsogm4",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

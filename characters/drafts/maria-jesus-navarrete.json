@@ -1,0 +1,80 @@
+{
+  "id": "maria-jesus-navarrete",
+  "draft": true,
+  "name": "María Jesús Navarrete",
+  "handle": "jesu-navarrete",
+  "title": "hacker",
+  "photo": "maria-jesus-navarrete.png",
+  "seed": 2,
+  "body": {
+    "height": 1.81,
+    "build": 0.54,
+    "shoulders": 0.39,
+    "legs": 0.6,
+    "head": 1.01
+  },
+  "skin": "#d59a88",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#1f1c1c",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.51,
+      "angle": 0.06
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#1e1c1c",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#4a222b",
+    "fit": 0.49,
+    "length": 0.48
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2a2f3d",
+    "collar": "high",
+    "length": 0.3,
+    "fit": 0.55,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.13,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jesu-navar",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

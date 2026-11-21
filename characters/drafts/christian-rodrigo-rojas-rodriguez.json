@@ -1,0 +1,82 @@
+{
+  "id": "christian-rodrigo-rojas-rodriguez",
+  "draft": true,
+  "name": "Christian Rodrigo Rojas Rodriguez",
+  "handle": "Christian-Rojas-Rodriguez",
+  "title": "hacker",
+  "photo": "christian-rodrigo-rojas-rodriguez.png",
+  "seed": 2,
+  "body": {
+    "height": 1.78,
+    "build": 0.38,
+    "shoulders": 0.61,
+    "legs": 0.53,
+    "head": 1.06
+  },
+  "skin": "#b7694e",
+  "face": {
+    "jaw": 0.58,
+    "eyes": {
+      "color": "#222123",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.57,
+      "angle": 0.02
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#212022",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#101011",
+    "fit": 0.58,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#35e08a",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Christian-",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "eduardo-guzman",
+  "draft": true,
+  "name": "Eduardo Guzman",
+  "handle": "waterboxdeveloper",
+  "title": "hacker",
+  "photo": "eduardo-guzman.png",
+  "seed": 79,
+  "body": {
+    "height": 1.81,
+    "build": 0.3,
+    "shoulders": 0.57,
+    "legs": 0.5,
+    "head": 1.01
+  },
+  "skin": "#d99776",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#121211",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.48,
+      "angle": 0.04
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#121110",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.61,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#22222a",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#1d1d22",
+    "stripe": true,
+    "trim": "#f2c230"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "waterboxde",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

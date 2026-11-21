@@ -1,0 +1,71 @@
+{
+  "id": "juan-ortega",
+  "draft": true,
+  "name": "Juan Ortega",
+  "handle": "juanortega10",
+  "title": "hacker",
+  "photo": "juan-ortega.png",
+  "seed": 55,
+  "body": {
+    "height": 1.67,
+    "build": 0.38,
+    "shoulders": 0.58,
+    "legs": 0.56,
+    "head": 1.04
+  },
+  "skin": "#bb775c",
+  "face": {
+    "jaw": 0.75,
+    "eyes": {
+      "color": "#2f2420",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.13
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2e231f",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a8a09e",
+    "fit": 0.46,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "juanortega",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "anish-samtani",
+  "draft": true,
+  "name": "Anish Samtani",
+  "handle": "chimera-z",
+  "title": "hacker",
+  "photo": "anish-samtani.png",
+  "seed": 78,
+  "body": {
+    "height": 1.64,
+    "build": 0.32,
+    "shoulders": 0.51,
+    "legs": 0.45,
+    "head": 1.08
+  },
+  "skin": "#c9775e",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#3f4548",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.63,
+      "angle": 0.09
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#3e4347",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#563951",
+    "fit": 0.47,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#22222a",
+    "collar": "high",
+    "length": 0.4,
+    "fit": 0.43,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "chimera-z",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

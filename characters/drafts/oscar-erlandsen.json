@@ -1,0 +1,71 @@
+{
+  "id": "oscar-erlandsen",
+  "draft": true,
+  "name": "Oscar Erlandsen",
+  "handle": "oerlandsen",
+  "title": "hacker",
+  "photo": "oscar-erlandsen.png",
+  "seed": 83,
+  "body": {
+    "height": 1.88,
+    "build": 0.63,
+    "shoulders": 0.43,
+    "legs": 0.54,
+    "head": 1.0
+  },
+  "skin": "#a6624d",
+  "face": {
+    "jaw": 0.72,
+    "eyes": {
+      "color": "#2a211f",
+      "size": 1.05
+    },
+    "brows": {
+      "thick": 0.56,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#29201e",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#79adbb",
+    "fit": 0.35,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "oerlandsen",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

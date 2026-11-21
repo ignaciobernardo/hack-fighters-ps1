@@ -1,0 +1,71 @@
+{
+  "id": "ignacio-montenegro",
+  "draft": true,
+  "name": "Ignacio Montenegro",
+  "handle": "ignaciomontenegroc",
+  "title": "hacker",
+  "photo": "ignacio-montenegro.png",
+  "seed": 23,
+  "body": {
+    "height": 1.65,
+    "build": 0.6,
+    "shoulders": 0.6,
+    "legs": 0.46,
+    "head": 1.04
+  },
+  "skin": "#ad7e68",
+  "face": {
+    "jaw": 0.58,
+    "eyes": {
+      "color": "#3e2414",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.62,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#3c2414",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#111418",
+    "fit": 0.53,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ignaciomon",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

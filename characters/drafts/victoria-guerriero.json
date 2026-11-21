@@ -1,0 +1,71 @@
+{
+  "id": "victoria-guerriero",
+  "draft": true,
+  "name": "Victoria Guerriero",
+  "handle": "VictoriaGuerriero",
+  "title": "hacker",
+  "photo": "victoria-guerriero.png",
+  "seed": 49,
+  "body": {
+    "height": 1.79,
+    "build": 0.52,
+    "shoulders": 0.59,
+    "legs": 0.5,
+    "head": 1.0
+  },
+  "skin": "#efb89c",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#3f372d",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.63,
+      "angle": 0.03
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#3e362c",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#792c47",
+    "fit": 0.41,
+    "length": 0.67
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "VictoriaGu",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

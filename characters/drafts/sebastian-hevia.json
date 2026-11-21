@@ -1,0 +1,77 @@
+{
+  "id": "sebastian-hevia",
+  "draft": true,
+  "name": "Sebastián Hevia",
+  "handle": "sebastian",
+  "title": "mentor · AgendaPro",
+  "photo": "sebastian-hevia.png",
+  "seed": 38,
+  "body": {
+    "height": 1.79,
+    "build": 0.57,
+    "shoulders": 0.66,
+    "legs": 0.56,
+    "head": 1.06
+  },
+  "skin": "#d1805e",
+  "face": {
+    "jaw": 0.74,
+    "eyes": {
+      "color": "#261a11",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.19
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#251910",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#622c30",
+    "fit": 0.47,
+    "length": 0.69
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#23232b",
+    "collar": "high",
+    "length": 0.32,
+    "fit": 0.45,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.12
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "sebastian",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

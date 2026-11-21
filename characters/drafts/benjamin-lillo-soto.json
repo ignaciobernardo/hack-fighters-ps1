@@ -1,0 +1,74 @@
+{
+  "id": "benjamin-lillo-soto",
+  "draft": true,
+  "name": "Benjamin Lillo Soto",
+  "handle": "benjaminlillo",
+  "title": "hacker",
+  "photo": "benjamin-lillo-soto.png",
+  "seed": 15,
+  "body": {
+    "height": 1.64,
+    "build": 0.36,
+    "shoulders": 0.54,
+    "legs": 0.48,
+    "head": 1.06
+  },
+  "skin": "#ae7562",
+  "face": {
+    "jaw": 0.57,
+    "eyes": {
+      "color": "#1a191c",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.72,
+      "angle": 0.02
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#19181c",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#ba533c",
+    "fit": 0.65,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#23232b",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "benjaminli",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

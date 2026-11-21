@@ -1,0 +1,80 @@
+{
+  "id": "andres-matte",
+  "draft": true,
+  "name": "Andrés Matte",
+  "handle": "andres",
+  "title": "juez · Kapso",
+  "photo": "andres-matte.png",
+  "seed": 31,
+  "body": {
+    "height": 1.73,
+    "build": 0.61,
+    "shoulders": 0.65,
+    "legs": 0.52,
+    "head": 1.05
+  },
+  "skin": "#b47460",
+  "face": {
+    "jaw": 0.47,
+    "eyes": {
+      "color": "#3f332d",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.72,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#3d322c",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#181f2a",
+    "fit": 0.49,
+    "length": 0.65
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#22222a",
+    "trim": "#4aa3ff",
+    "cord": "#4aa3ff",
+    "collar": "hood",
+    "length": 0.5,
+    "fit": 0.7,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "andres",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

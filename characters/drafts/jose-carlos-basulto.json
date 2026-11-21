@@ -1,0 +1,80 @@
+{
+  "id": "jose-carlos-basulto",
+  "draft": true,
+  "name": "José Carlos Basulto",
+  "handle": "jcbasulto",
+  "title": "hacker",
+  "photo": "jose-carlos-basulto.png",
+  "seed": 58,
+  "body": {
+    "height": 1.71,
+    "build": 0.67,
+    "shoulders": 0.39,
+    "legs": 0.47,
+    "head": 1.03
+  },
+  "skin": "#c38a6c",
+  "face": {
+    "jaw": 0.68,
+    "eyes": {
+      "color": "#373335",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.43,
+      "angle": 0.08
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#363233",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2c343b",
+    "fit": 0.46,
+    "length": 0.48
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.31,
+    "fit": 0.42,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jcbasulto",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

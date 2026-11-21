@@ -1,0 +1,79 @@
+{
+  "id": "francisco-sobral",
+  "draft": true,
+  "name": "Francisco Sobral",
+  "handle": "fransobral",
+  "title": "hacker",
+  "photo": "francisco-sobral.png",
+  "seed": 76,
+  "body": {
+    "height": 1.66,
+    "build": 0.51,
+    "shoulders": 0.55,
+    "legs": 0.45,
+    "head": 1.08
+  },
+  "skin": "#e19672",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#29201b",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#281f1a",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#0e0f11",
+    "fit": 0.47,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#e8e4da",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.05
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "fransobral",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

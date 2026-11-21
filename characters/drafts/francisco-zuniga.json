@@ -1,0 +1,71 @@
+{
+  "id": "francisco-zuniga",
+  "draft": true,
+  "name": "Francisco Zúñiga",
+  "handle": "dreamxist",
+  "title": "hacker",
+  "photo": "francisco-zuniga.png",
+  "seed": 57,
+  "body": {
+    "height": 1.85,
+    "build": 0.38,
+    "shoulders": 0.42,
+    "legs": 0.57,
+    "head": 1.03
+  },
+  "skin": "#dca37e",
+  "face": {
+    "jaw": 0.65,
+    "eyes": {
+      "color": "#121212",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.72,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#121212",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#efeef3",
+    "fit": 0.46,
+    "length": 0.55
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "dreamxist",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

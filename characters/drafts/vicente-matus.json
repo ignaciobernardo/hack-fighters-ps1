@@ -1,0 +1,71 @@
+{
+  "id": "vicente-matus",
+  "draft": true,
+  "name": "Vicente Matus",
+  "handle": "vicentematus",
+  "title": "hacker",
+  "photo": "vicente-matus.png",
+  "seed": 80,
+  "body": {
+    "height": 1.82,
+    "build": 0.31,
+    "shoulders": 0.6,
+    "legs": 0.5,
+    "head": 1.05
+  },
+  "skin": "#f1a783",
+  "face": {
+    "jaw": 0.61,
+    "eyes": {
+      "color": "#3e2f24",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.74,
+      "angle": 0.11
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#3c2e23",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#161614",
+    "fit": 0.5,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "vicentemat",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

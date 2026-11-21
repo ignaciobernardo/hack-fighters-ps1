@@ -1,0 +1,71 @@
+{
+  "id": "paula-yanez",
+  "draft": true,
+  "name": "Paula Yáñez",
+  "handle": "paula",
+  "title": "sponsor · Copec",
+  "photo": "paula-yanez.png",
+  "seed": 5,
+  "body": {
+    "height": 1.64,
+    "build": 0.68,
+    "shoulders": 0.45,
+    "legs": 0.43,
+    "head": 1.01
+  },
+  "skin": "#d08f7a",
+  "face": {
+    "jaw": 0.51,
+    "eyes": {
+      "color": "#2a282b",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.4,
+      "angle": 0.2
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#29272a",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a9629f",
+    "fit": 0.53,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "paula",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

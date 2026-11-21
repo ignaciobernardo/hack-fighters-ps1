@@ -1,0 +1,80 @@
+{
+  "id": "maria-elena-gonzalez-arancibia",
+  "draft": true,
+  "name": "María Elena González Arancibia",
+  "handle": "maria",
+  "title": "sponsor · CChC",
+  "photo": "maria-elena-gonzalez-arancibia.png",
+  "seed": 7,
+  "body": {
+    "height": 1.63,
+    "build": 0.53,
+    "shoulders": 0.4,
+    "legs": 0.44,
+    "head": 1.02
+  },
+  "skin": "#e1886c",
+  "face": {
+    "jaw": 0.69,
+    "eyes": {
+      "color": "#201713",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.5,
+      "angle": 0.06
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1f1613",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#11151a",
+    "fit": 0.49,
+    "length": 0.6
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#23232b",
+    "trim": "#e8e4da",
+    "cord": "#e8e4da",
+    "collar": "hood",
+    "length": 0.62,
+    "fit": 0.55,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "maria",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

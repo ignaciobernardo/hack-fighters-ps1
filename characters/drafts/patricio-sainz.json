@@ -1,0 +1,79 @@
+{
+  "id": "patricio-sainz",
+  "draft": true,
+  "name": "Patricio Sainz",
+  "handle": "patricio",
+  "title": "mentor · Shinkansen",
+  "photo": "patricio-sainz.png",
+  "seed": 17,
+  "body": {
+    "height": 1.79,
+    "build": 0.6,
+    "shoulders": 0.63,
+    "legs": 0.58,
+    "head": 1.02
+  },
+  "skin": "#bb7f67",
+  "face": {
+    "jaw": 0.46,
+    "eyes": {
+      "color": "#2b2522",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.75,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2a2421",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#877a9b",
+    "fit": 0.51,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.42,
+    "fit": 0.49,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#3b3550",
+    "stripe": true,
+    "trim": "#e8e4da"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.15
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "patricio",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

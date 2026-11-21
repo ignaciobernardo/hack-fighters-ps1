@@ -1,0 +1,81 @@
+{
+  "id": "cristobal-tubino",
+  "draft": true,
+  "name": "Cristóbal Tubino",
+  "handle": "ctubito",
+  "title": "hacker",
+  "photo": "cristobal-tubino.png",
+  "seed": 43,
+  "body": {
+    "height": 1.63,
+    "build": 0.47,
+    "shoulders": 0.44,
+    "legs": 0.55,
+    "head": 1.05
+  },
+  "skin": "#b4715b",
+  "face": {
+    "jaw": 0.44,
+    "eyes": {
+      "color": "#3e3534",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.52,
+      "angle": 0.16
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#3c3333",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1b2639",
+    "fit": 0.37,
+    "length": 0.53
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.15
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ctubito",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "nicolas-andres-cruz-mellado",
+  "draft": true,
+  "name": "Nicolás Andrés Cruz Mellado",
+  "handle": "ncruzm",
+  "title": "hacker",
+  "photo": "nicolas-andres-cruz-mellado.png",
+  "seed": 45,
+  "body": {
+    "height": 1.81,
+    "build": 0.51,
+    "shoulders": 0.61,
+    "legs": 0.44,
+    "head": 1.05
+  },
+  "skin": "#e2926d",
+  "face": {
+    "jaw": 0.43,
+    "eyes": {
+      "color": "#281f1a",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.4,
+      "angle": 0.19
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#271e19",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#151516",
+    "fit": 0.46,
+    "length": 0.55
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#22222a",
+    "trim": "#ff7ab8",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.13,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ncruzm",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

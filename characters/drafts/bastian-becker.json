@@ -1,0 +1,80 @@
+{
+  "id": "bastian-becker",
+  "draft": true,
+  "name": "Bastián Becker",
+  "handle": "bastianbeckeru",
+  "title": "hacker",
+  "photo": "bastian-becker.png",
+  "seed": 55,
+  "body": {
+    "height": 1.65,
+    "build": 0.43,
+    "shoulders": 0.43,
+    "legs": 0.47,
+    "head": 1.04
+  },
+  "skin": "#d17851",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#100905",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.43,
+      "angle": 0.05
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#0f0805",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e5dee0",
+    "fit": 0.49,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2a2f3d",
+    "collar": "high",
+    "length": 0.38,
+    "fit": 0.41,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2a2f3d",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.14,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "bastianbec",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

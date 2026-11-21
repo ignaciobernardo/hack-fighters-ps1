@@ -1,0 +1,71 @@
+{
+  "id": "martin-borquez",
+  "draft": true,
+  "name": "Martin Bórquez",
+  "handle": "borquezmartin",
+  "title": "hacker",
+  "photo": "martin-borquez.png",
+  "seed": 55,
+  "body": {
+    "height": 1.71,
+    "build": 0.68,
+    "shoulders": 0.38,
+    "legs": 0.51,
+    "head": 1.01
+  },
+  "skin": "#da977a",
+  "face": {
+    "jaw": 0.71,
+    "eyes": {
+      "color": "#241d1b",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.68,
+      "angle": 0.13
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#231d1a",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#494e53",
+    "fit": 0.53,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "borquezmar",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

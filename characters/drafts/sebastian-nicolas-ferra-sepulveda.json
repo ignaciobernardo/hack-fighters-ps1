@@ -1,0 +1,80 @@
+{
+  "id": "sebastian-nicolas-ferra-sepulveda",
+  "draft": true,
+  "name": "Sebastián Nicolás Ferrá Sepúlveda",
+  "handle": "sebastianferra",
+  "title": "hacker",
+  "photo": "sebastian-nicolas-ferra-sepulveda.png",
+  "seed": 49,
+  "body": {
+    "height": 1.85,
+    "build": 0.38,
+    "shoulders": 0.67,
+    "legs": 0.53,
+    "head": 1.08
+  },
+  "skin": "#ae6f54",
+  "face": {
+    "jaw": 0.54,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.92
+    },
+    "brows": {
+      "thick": 0.4,
+      "angle": 0.02
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "buzz",
+    "color": "#39271f",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#d9d6d4",
+    "fit": 0.45,
+    "length": 0.49
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#23232b",
+    "trim": "#4aa3ff",
+    "cord": "#4aa3ff",
+    "collar": "hood",
+    "length": 0.6,
+    "fit": 0.53,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "sebastianf",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

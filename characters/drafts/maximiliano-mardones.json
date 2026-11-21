@@ -1,0 +1,80 @@
+{
+  "id": "maximiliano-mardones",
+  "draft": true,
+  "name": "Maximiliano Mardones",
+  "handle": "maxmardones",
+  "title": "hacker",
+  "photo": "maximiliano-mardones.png",
+  "seed": 68,
+  "body": {
+    "height": 1.81,
+    "build": 0.6,
+    "shoulders": 0.42,
+    "legs": 0.46,
+    "head": 1.04
+  },
+  "skin": "#c67d67",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#37251d",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.07
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#36241d",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#b79287",
+    "fit": 0.55,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2a2f3d",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.61,
+    "fit": 0.55,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.05
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "maxmardone",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

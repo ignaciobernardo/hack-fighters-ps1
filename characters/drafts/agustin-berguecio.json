@@ -1,0 +1,74 @@
+{
+  "id": "agustin-berguecio",
+  "draft": true,
+  "name": "Agustín Berguecio",
+  "handle": "aberguecio",
+  "title": "hacker",
+  "photo": "agustin-berguecio.png",
+  "seed": 95,
+  "body": {
+    "height": 1.71,
+    "build": 0.59,
+    "shoulders": 0.49,
+    "legs": 0.6,
+    "head": 1.01
+  },
+  "skin": "#a55d46",
+  "face": {
+    "jaw": 0.67,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.55,
+      "angle": 0.02
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "buzz",
+    "color": "#36211b",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#212d34",
+    "fit": 0.55,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.13,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "aberguecio",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

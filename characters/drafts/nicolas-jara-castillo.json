@@ -1,0 +1,82 @@
+{
+  "id": "nicolas-jara-castillo",
+  "draft": true,
+  "name": "Nicolás Jara Castillo",
+  "handle": "kronos0409",
+  "title": "hacker",
+  "photo": "nicolas-jara-castillo.png",
+  "seed": 69,
+  "body": {
+    "height": 1.82,
+    "build": 0.48,
+    "shoulders": 0.4,
+    "legs": 0.42,
+    "head": 1.04
+  },
+  "skin": "#cf9574",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#31363e",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.52,
+      "angle": 0.16
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#30343c",
+    "volume": 1.04,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#818993",
+    "fit": 0.49,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#22222a",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#3b3550",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.1,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "kronos0409",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

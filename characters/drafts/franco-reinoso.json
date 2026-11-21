@@ -1,0 +1,79 @@
+{
+  "id": "franco-reinoso",
+  "draft": true,
+  "name": "Franco Reinoso",
+  "handle": "Francoreinoso",
+  "title": "hacker",
+  "photo": "franco-reinoso.png",
+  "seed": 45,
+  "body": {
+    "height": 1.79,
+    "build": 0.56,
+    "shoulders": 0.37,
+    "legs": 0.6,
+    "head": 1.03
+  },
+  "skin": "#c98561",
+  "face": {
+    "jaw": 0.45,
+    "eyes": {
+      "color": "#1b1b1b",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.14
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1a1a1a",
+    "volume": 1.04,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a4a5a3",
+    "fit": 0.52,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#f2762e",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Francorein",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

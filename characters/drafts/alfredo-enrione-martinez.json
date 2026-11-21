@@ -1,0 +1,83 @@
+{
+  "id": "alfredo-enrione-martinez",
+  "draft": true,
+  "name": "Alfredo Enrione Martinez",
+  "handle": "aenrione",
+  "title": "hacker",
+  "photo": "alfredo-enrione-martinez.png",
+  "seed": 40,
+  "body": {
+    "height": 1.83,
+    "build": 0.63,
+    "shoulders": 0.35,
+    "legs": 0.42,
+    "head": 1.08
+  },
+  "skin": "#db9479",
+  "face": {
+    "jaw": 0.61,
+    "eyes": {
+      "color": "#5a4232",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.67,
+      "angle": 0.06
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#584131",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#adc0d3",
+    "fit": 0.54,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.47,
+    "fit": 0.69,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.12,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "aenrione",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

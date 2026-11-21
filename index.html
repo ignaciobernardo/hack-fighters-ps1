@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hack fighters PS1</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: grid; place-items: center; }
+  #wrap { position: relative; }
+  #wrap canvas { position: absolute; inset: 0; width: 100%; height: 100%; image-rendering: pixelated; display: block; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="view"></canvas><canvas id="hud"></canvas></div>
+<script type="module" src="/src/ps1game/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+{
+  "id": "benjamin-patricio-gutierrez-martinez",
+  "draft": true,
+  "name": "Benjamín Patricio Gutiérrez Martínez",
+  "handle": "gutybv",
+  "title": "hacker",
+  "photo": "benjamin-patricio-gutierrez-martinez.png",
+  "seed": 25,
+  "body": {
+    "height": 1.68,
+    "build": 0.68,
+    "shoulders": 0.38,
+    "legs": 0.53,
+    "head": 1.08
+  },
+  "skin": "#ae7053",
+  "face": {
+    "jaw": 0.54,
+    "eyes": {
+      "color": "#131210",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.73,
+      "angle": 0.17
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#13120f",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e9dfd4",
+    "fit": 0.39,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "gutybv",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

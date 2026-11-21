@@ -1,0 +1,80 @@
+{
+  "id": "antonio-cormatches-contreras",
+  "draft": true,
+  "name": "Antonio Cormatches Contreras",
+  "handle": "Sopademangos",
+  "title": "hacker",
+  "photo": "antonio-cormatches-contreras.png",
+  "seed": 91,
+  "body": {
+    "height": 1.75,
+    "build": 0.62,
+    "shoulders": 0.61,
+    "legs": 0.42,
+    "head": 1.07
+  },
+  "skin": "#df9571",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#24201d",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.74,
+      "angle": 0.16
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#231f1d",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#d1c7c5",
+    "fit": 0.63,
+    "length": 0.59
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#1d1d22",
+    "trim": "#35e08a",
+    "cord": "#35e08a",
+    "collar": "hood",
+    "length": 0.48,
+    "fit": 0.7,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Sopademang",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "andres-cabezas",
+  "draft": true,
+  "name": "Andrés Cabezas",
+  "handle": "ElTioAndresCabezas",
+  "title": "hacker",
+  "photo": "andres-cabezas.png",
+  "seed": 18,
+  "body": {
+    "height": 1.62,
+    "build": 0.35,
+    "shoulders": 0.63,
+    "legs": 0.53,
+    "head": 1.07
+  },
+  "skin": "#996250",
+  "face": {
+    "jaw": 0.71,
+    "eyes": {
+      "color": "#4f3e38",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.07
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#4d3c37",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#292f39",
+    "fit": 0.63,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ElTioAndre",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

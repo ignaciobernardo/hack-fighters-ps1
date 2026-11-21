@@ -1,0 +1,71 @@
+{
+  "id": "nicolas-vargas",
+  "draft": true,
+  "name": "Nicolas Vargas",
+  "handle": "MrUprizing",
+  "title": "hacker",
+  "photo": "nicolas-vargas.png",
+  "seed": 58,
+  "body": {
+    "height": 1.81,
+    "build": 0.65,
+    "shoulders": 0.49,
+    "legs": 0.57,
+    "head": 1.01
+  },
+  "skin": "#cc987a",
+  "face": {
+    "jaw": 0.71,
+    "eyes": {
+      "color": "#2b221e",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.36,
+      "angle": 0.07
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2a211d",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#d2d1d6",
+    "fit": 0.45,
+    "length": 0.49
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "MrUprizing",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

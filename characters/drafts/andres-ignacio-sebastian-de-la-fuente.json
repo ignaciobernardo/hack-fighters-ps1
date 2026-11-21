@@ -1,0 +1,80 @@
+{
+  "id": "andres-ignacio-sebastian-de-la-fuente",
+  "draft": true,
+  "name": "Andrés Ignacio Sebastian De La Fuente",
+  "handle": "AndresSebad",
+  "title": "hacker",
+  "photo": "andres-ignacio-sebastian-de-la-fuente.png",
+  "seed": 59,
+  "body": {
+    "height": 1.85,
+    "build": 0.56,
+    "shoulders": 0.44,
+    "legs": 0.6,
+    "head": 1.08
+  },
+  "skin": "#955a47",
+  "face": {
+    "jaw": 0.61,
+    "eyes": {
+      "color": "#463328",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.41,
+      "angle": 0.1
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#443227",
+    "volume": 1.03,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#92a0b5",
+    "fit": 0.45,
+    "length": 0.57
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2c2f3a",
+    "trim": "#4aa3ff",
+    "cord": "#4aa3ff",
+    "collar": "hood",
+    "length": 0.48,
+    "fit": 0.66,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "AndresSeba",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

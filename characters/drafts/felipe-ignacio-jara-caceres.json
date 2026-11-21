@@ -1,0 +1,73 @@
+{
+  "id": "felipe-ignacio-jara-caceres",
+  "draft": true,
+  "name": "Felipe Ignacio Jara Cáceres",
+  "handle": "felipeuc2020",
+  "title": "hacker",
+  "photo": "felipe-ignacio-jara-caceres.png",
+  "seed": 43,
+  "body": {
+    "height": 1.63,
+    "build": 0.3,
+    "shoulders": 0.62,
+    "legs": 0.56,
+    "head": 1.0
+  },
+  "skin": "#9d5a3d",
+  "face": {
+    "jaw": 0.74,
+    "eyes": {
+      "color": "#030302",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.08
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#030302",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a6a4ac",
+    "fit": 0.48,
+    "length": 0.48
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#22222a",
+    "stripe": true,
+    "trim": "#4aa3ff"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "felipeuc20",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

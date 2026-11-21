@@ -1,0 +1,74 @@
+{
+  "id": "nicolas-cruzat",
+  "draft": true,
+  "name": "Nicolás Cruzat",
+  "handle": "nicru",
+  "title": "hacker",
+  "photo": "nicolas-cruzat.png",
+  "seed": 45,
+  "body": {
+    "height": 1.84,
+    "build": 0.35,
+    "shoulders": 0.41,
+    "legs": 0.56,
+    "head": 1.0
+  },
+  "skin": "#f0956b",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#1a0f0d",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.49,
+      "angle": 0.17
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#190e0d",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#bb801b",
+    "fit": 0.45,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#3b3550",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nicru",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

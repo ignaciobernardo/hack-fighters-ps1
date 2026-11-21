@@ -1,0 +1,95 @@
+{
+  "id": "ian",
+  "name": "Ian Fry",
+  "handle": "ianfryastorga",
+  "title": "vita / ai native gyms",
+  "photo": "ian-fry-astorga.png",
+  "seed": 23,
+  "body": {
+    "height": 1.84,
+    "build": 0.55,
+    "shoulders": 0.65,
+    "legs": 0.6,
+    "head": 0.98
+  },
+  "skin": "#f6cfb6",
+  "face": {
+    "jaw": 0.6,
+    "eyes": {
+      "color": "#5d86a8",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.35,
+      "angle": 0.06,
+      "color": "#c98a4e"
+    },
+    "beard": "stubble",
+    "beardColor": "#c9673a",
+    "mouth": "grin",
+    "freckles": true,
+    "mouthW": 1.3,
+    "ears": 1.15
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#c4541f",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "shirt",
+    "color": "#f4f2ec",
+    "fit": 0.35,
+    "tuck": true,
+    "sleeves": "rolled",
+    "trim": "#dedad0"
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#27324d",
+    "trim": "#c9a24a",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d",
+    "belt": true,
+    "beltColor": "#5b3a25"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#6b4429",
+    "accent": "#4a2e1c",
+    "sole": "#241a16",
+    "lace": "#d9c9a8",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "gloves",
+    "color": "#7a4a2b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "jacket",
+      "side": "back",
+      "text": "VITA",
+      "color": "#c9a24a",
+      "size": 1.4,
+      "y": 0.6
+    }
+  ],
+  "pixel": {
+    "spec": {
+      "hair": {
+        "style": "pompadour"
+      }
+    }
+  }
+}

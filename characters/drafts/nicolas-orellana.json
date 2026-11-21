@@ -1,0 +1,81 @@
+{
+  "id": "nicolas-orellana",
+  "draft": true,
+  "name": "Nicolás Orellana",
+  "handle": "nicolas",
+  "title": "mentor · Copec",
+  "photo": "nicolas-orellana.png",
+  "seed": 33,
+  "body": {
+    "height": 1.86,
+    "build": 0.36,
+    "shoulders": 0.66,
+    "legs": 0.53,
+    "head": 1.0
+  },
+  "skin": "#dd8b71",
+  "face": {
+    "jaw": 0.61,
+    "eyes": {
+      "color": "#221a18",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.68,
+      "angle": 0.2
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#211917",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#dec7bc",
+    "fit": 0.57,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2c2f3a",
+    "trim": "#f2762e",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#23232b",
+    "stripe": true,
+    "trim": "#f2762e"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.05
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nicolas",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

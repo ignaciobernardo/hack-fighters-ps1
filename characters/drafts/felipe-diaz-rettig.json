@@ -1,0 +1,74 @@
+{
+  "id": "felipe-diaz-rettig",
+  "draft": true,
+  "name": "Felipe Díaz Rettig",
+  "handle": "fdiaz-design",
+  "title": "hacker",
+  "photo": "felipe-diaz-rettig.png",
+  "seed": 56,
+  "body": {
+    "height": 1.76,
+    "build": 0.66,
+    "shoulders": 0.48,
+    "legs": 0.58,
+    "head": 1.0
+  },
+  "skin": "#944e38",
+  "face": {
+    "jaw": 0.69,
+    "eyes": {
+      "color": "#241d1a",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.39,
+      "angle": 0.02
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#231d19",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#7a8879",
+    "fit": 0.42,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.09,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "fdiaz-desi",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

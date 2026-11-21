@@ -1,0 +1,71 @@
+{
+  "id": "isidro-pasman",
+  "draft": true,
+  "name": "Isidro Pasman",
+  "handle": "isidropasman",
+  "title": "hacker",
+  "photo": "isidro-pasman.png",
+  "seed": 21,
+  "body": {
+    "height": 1.73,
+    "build": 0.69,
+    "shoulders": 0.64,
+    "legs": 0.57,
+    "head": 1.04
+  },
+  "skin": "#d89271",
+  "face": {
+    "jaw": 0.43,
+    "eyes": {
+      "color": "#402d24",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.12
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#3f2c23",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#fffffd",
+    "fit": 0.4,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.12
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "isidropasm",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

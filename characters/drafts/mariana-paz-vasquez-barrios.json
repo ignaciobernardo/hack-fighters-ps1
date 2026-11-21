@@ -1,0 +1,80 @@
+{
+  "id": "mariana-paz-vasquez-barrios",
+  "draft": true,
+  "name": "Mariana Paz Vásquez Barrios",
+  "handle": "mari-vasquez98",
+  "title": "hacker",
+  "photo": "mariana-paz-vasquez-barrios.png",
+  "seed": 34,
+  "body": {
+    "height": 1.74,
+    "build": 0.32,
+    "shoulders": 0.44,
+    "legs": 0.41,
+    "head": 1.04
+  },
+  "skin": "#c57a62",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#353134",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.71,
+      "angle": 0.04
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#333033",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#f5ceb7",
+    "fit": 0.37,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#33302c",
+    "collar": "high",
+    "length": 0.44,
+    "fit": 0.55,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2c2f3a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.07,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "mari-vasqu",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

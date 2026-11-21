@@ -1,0 +1,74 @@
+{
+  "id": "carlos-pinto-urtubia",
+  "draft": true,
+  "name": "Carlos Pinto Urtubia",
+  "handle": "CxrlosKenobi",
+  "title": "hacker",
+  "photo": "carlos-pinto-urtubia.png",
+  "seed": 23,
+  "body": {
+    "height": 1.72,
+    "build": 0.61,
+    "shoulders": 0.68,
+    "legs": 0.42,
+    "head": 1.01
+  },
+  "skin": "#dca088",
+  "face": {
+    "jaw": 0.49,
+    "eyes": {
+      "color": "#3a2b23",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.49,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#392a22",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#121213",
+    "fit": 0.39,
+    "length": 0.46
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "CxrlosKeno",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

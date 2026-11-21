@@ -1,0 +1,71 @@
+{
+  "id": "orlando-sebastian-avendano-quilapan",
+  "draft": true,
+  "name": "Orlando Sebastian Avendaño Quilapan",
+  "handle": "sebaav12",
+  "title": "hacker",
+  "photo": "orlando-sebastian-avendano-quilapan.png",
+  "seed": 79,
+  "body": {
+    "height": 1.66,
+    "build": 0.61,
+    "shoulders": 0.53,
+    "legs": 0.58,
+    "head": 1.02
+  },
+  "skin": "#c0744d",
+  "face": {
+    "jaw": 0.41,
+    "eyes": {
+      "color": "#100f0d",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.48,
+      "angle": 0.02
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#0f0e0d",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1a1a1b",
+    "fit": 0.49,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "sebaav12",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

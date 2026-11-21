@@ -1,0 +1,71 @@
+{
+  "id": "pedro-ignacio-bahamondes-walters",
+  "draft": true,
+  "name": "Pedro Ignacio Bahamondes Walters",
+  "handle": "pibahamondesw",
+  "title": "hacker",
+  "photo": "pedro-ignacio-bahamondes-walters.png",
+  "seed": 92,
+  "body": {
+    "height": 1.72,
+    "build": 0.59,
+    "shoulders": 0.5,
+    "legs": 0.52,
+    "head": 1.02
+  },
+  "skin": "#b9715a",
+  "face": {
+    "jaw": 0.42,
+    "eyes": {
+      "color": "#141419",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.52,
+      "angle": 0.08
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#141418",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#6f283b",
+    "fit": 0.52,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "pibahamond",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

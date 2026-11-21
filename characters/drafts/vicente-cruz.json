@@ -1,0 +1,74 @@
+{
+  "id": "vicente-cruz",
+  "draft": true,
+  "name": "Vicente Cruz",
+  "handle": "vicente-cruz-labra",
+  "title": "hacker",
+  "photo": "vicente-cruz.png",
+  "seed": 66,
+  "body": {
+    "height": 1.88,
+    "build": 0.63,
+    "shoulders": 0.65,
+    "legs": 0.59,
+    "head": 1.02
+  },
+  "skin": "#9c7062",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#3a393f",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.44,
+      "angle": 0.18
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#39383d",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#32333a",
+    "fit": 0.52,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#23232b",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.14,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "vicente-cr",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

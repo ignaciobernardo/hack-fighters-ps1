@@ -1,0 +1,80 @@
+{
+  "id": "regina-lena",
+  "draft": true,
+  "name": "Regina Lena",
+  "handle": "regina",
+  "title": "mentora",
+  "photo": "regina-lena.png",
+  "seed": 50,
+  "body": {
+    "height": 1.88,
+    "build": 0.36,
+    "shoulders": 0.69,
+    "legs": 0.55,
+    "head": 1.01
+  },
+  "skin": "#9f6f60",
+  "face": {
+    "jaw": 0.63,
+    "eyes": {
+      "color": "#101822",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.6,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#0f1721",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1c1d22",
+    "fit": 0.43,
+    "length": 0.4
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#22222a",
+    "trim": "#f2762e",
+    "cord": "#f2762e",
+    "collar": "hood",
+    "length": 0.58,
+    "fit": 0.6,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "regina",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "esteban-romero-berrios",
+  "draft": true,
+  "name": "Esteban Romero Berrios",
+  "handle": "estebanrb22",
+  "title": "hacker",
+  "photo": "esteban-romero-berrios.png",
+  "seed": 28,
+  "body": {
+    "height": 1.74,
+    "build": 0.58,
+    "shoulders": 0.65,
+    "legs": 0.5,
+    "head": 1.02
+  },
+  "skin": "#df9078",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#100d0b",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.51,
+      "angle": 0.09
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#0f0d0b",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#162645",
+    "fit": 0.46,
+    "length": 0.48
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "estebanrb2",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

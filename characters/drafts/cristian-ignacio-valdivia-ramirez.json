@@ -1,0 +1,82 @@
+{
+  "id": "cristian-ignacio-valdivia-ramirez",
+  "draft": true,
+  "name": "Cristian Ignacio Valdivia Ramirez",
+  "handle": "TesslaRay",
+  "title": "hacker",
+  "photo": "cristian-ignacio-valdivia-ramirez.png",
+  "seed": 93,
+  "body": {
+    "height": 1.65,
+    "build": 0.56,
+    "shoulders": 0.62,
+    "legs": 0.47,
+    "head": 1.01
+  },
+  "skin": "#b36d57",
+  "face": {
+    "jaw": 0.58,
+    "eyes": {
+      "color": "#1b1410",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.45,
+      "angle": 0.07
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1b140f",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#190a0b",
+    "fit": 0.36,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#23232b",
+    "trim": "#4aa3ff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#23232b",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "TesslaRay",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

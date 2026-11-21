@@ -1,0 +1,80 @@
+{
+  "id": "arturo-cantu-olivarez",
+  "draft": true,
+  "name": "Arturo Cantú Olivarez",
+  "handle": "Cantuuuu",
+  "title": "hacker",
+  "photo": "arturo-cantu-olivarez.png",
+  "seed": 4,
+  "body": {
+    "height": 1.71,
+    "build": 0.59,
+    "shoulders": 0.61,
+    "legs": 0.43,
+    "head": 1.06
+  },
+  "skin": "#d89069",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#181613",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.74,
+      "angle": 0.1
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#171613",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#18202a",
+    "fit": 0.41,
+    "length": 0.63
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#22222a",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.52,
+    "fit": 0.68,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Cantuuuu",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

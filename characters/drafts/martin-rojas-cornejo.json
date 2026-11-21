@@ -1,0 +1,81 @@
+{
+  "id": "martin-rojas-cornejo",
+  "draft": true,
+  "name": "Martin Rojas Cornejo",
+  "handle": "nachoroas",
+  "title": "hacker",
+  "photo": "martin-rojas-cornejo.png",
+  "seed": 25,
+  "body": {
+    "height": 1.79,
+    "build": 0.63,
+    "shoulders": 0.54,
+    "legs": 0.57,
+    "head": 1.04
+  },
+  "skin": "#edb7a6",
+  "face": {
+    "jaw": 0.63,
+    "eyes": {
+      "color": "#2d2927",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.43,
+      "angle": 0.17
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#2c2826",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#515c63",
+    "fit": 0.46,
+    "length": 0.52
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#23232b",
+    "stripe": true,
+    "trim": "#b06cff"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nachoroas",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

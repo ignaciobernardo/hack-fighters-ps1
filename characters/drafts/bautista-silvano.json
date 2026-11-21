@@ -1,0 +1,73 @@
+{
+  "id": "bautista-silvano",
+  "draft": true,
+  "name": "Bautista Silvano",
+  "handle": "hernei152",
+  "title": "hacker",
+  "photo": "bautista-silvano.png",
+  "seed": 64,
+  "body": {
+    "height": 1.82,
+    "build": 0.42,
+    "shoulders": 0.5,
+    "legs": 0.47,
+    "head": 1.06
+  },
+  "skin": "#df9b75",
+  "face": {
+    "jaw": 0.56,
+    "eyes": {
+      "color": "#21140d",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.67,
+      "angle": 0.11
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#20140d",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#151515",
+    "fit": 0.54,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#23232b",
+    "stripe": true,
+    "trim": "#ff7ab8"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "hernei152",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

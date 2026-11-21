@@ -1,0 +1,71 @@
+{
+  "id": "gabriela-acuna-benito",
+  "draft": true,
+  "name": "Gabriela Acuña Benito",
+  "handle": "gabiacuna",
+  "title": "hacker",
+  "photo": "gabriela-acuna-benito.png",
+  "seed": 32,
+  "body": {
+    "height": 1.83,
+    "build": 0.46,
+    "shoulders": 0.36,
+    "legs": 0.56,
+    "head": 1.05
+  },
+  "skin": "#dbaf8e",
+  "face": {
+    "jaw": 0.46,
+    "eyes": {
+      "color": "#2e363f",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.68,
+      "angle": 0.19
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2d343e",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1a1f26",
+    "fit": 0.36,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "gabiacuna",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

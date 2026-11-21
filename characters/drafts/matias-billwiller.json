@@ -1,0 +1,83 @@
+{
+  "id": "matias-billwiller",
+  "draft": true,
+  "name": "Matias Billwiller",
+  "handle": "Billwillerm",
+  "title": "hacker",
+  "photo": "matias-billwiller.png",
+  "seed": 92,
+  "body": {
+    "height": 1.74,
+    "build": 0.66,
+    "shoulders": 0.39,
+    "legs": 0.48,
+    "head": 1.03
+  },
+  "skin": "#c0684d",
+  "face": {
+    "jaw": 0.52,
+    "eyes": {
+      "color": "#130f0b",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.05
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#130e0b",
+    "volume": 1.12,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#cccaca",
+    "fit": 0.6,
+    "length": 0.47
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#f2762e",
+    "cord": "#f2762e",
+    "collar": "hood",
+    "length": 0.63,
+    "fit": 0.61,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#f7f5ef",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Billwiller",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "vicente-alexis-diaz-madariaga",
+  "draft": true,
+  "name": "Vicente Alexis Diaz Madariaga",
+  "handle": "vicentealexisdiaz",
+  "title": "hacker",
+  "photo": "vicente-alexis-diaz-madariaga.png",
+  "seed": 6,
+  "body": {
+    "height": 1.84,
+    "build": 0.3,
+    "shoulders": 0.68,
+    "legs": 0.57,
+    "head": 1.08
+  },
+  "skin": "#855444",
+  "face": {
+    "jaw": 0.4,
+    "eyes": {
+      "color": "#392e28",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.5,
+      "angle": 0.09
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#382d27",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#5b5752",
+    "fit": 0.4,
+    "length": 0.62
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#35e08a",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "vicenteale",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

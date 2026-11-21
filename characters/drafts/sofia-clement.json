@@ -1,0 +1,71 @@
+{
+  "id": "sofia-clement",
+  "draft": true,
+  "name": "Sofía Clement",
+  "handle": "sofia",
+  "title": "staff · Platanus",
+  "photo": "sofia-clement.png",
+  "seed": 34,
+  "body": {
+    "height": 1.74,
+    "build": 0.69,
+    "shoulders": 0.44,
+    "legs": 0.46,
+    "head": 1.01
+  },
+  "skin": "#c16c51",
+  "face": {
+    "jaw": 0.71,
+    "eyes": {
+      "color": "#5a4437",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.75,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#584236",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#201e1a",
+    "fit": 0.62,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "sofia",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

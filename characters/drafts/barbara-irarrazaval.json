@@ -1,0 +1,71 @@
+{
+  "id": "barbara-irarrazaval",
+  "draft": true,
+  "name": "Bárbara Irarrazaval",
+  "handle": "barbara",
+  "title": "mentora · Buk",
+  "photo": "barbara-irarrazaval.png",
+  "seed": 83,
+  "body": {
+    "height": 1.79,
+    "build": 0.65,
+    "shoulders": 0.44,
+    "legs": 0.59,
+    "head": 1.04
+  },
+  "skin": "#cc8d72",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.13
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#846b54",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#634b31",
+    "fit": 0.41,
+    "length": 0.59
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "barbara",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

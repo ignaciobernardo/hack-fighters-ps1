@@ -1,0 +1,80 @@
+{
+  "id": "josefina-hidalgo",
+  "draft": true,
+  "name": "Josefina Hidalgo",
+  "handle": "josefina",
+  "title": "mentora · Fintoc",
+  "photo": "josefina-hidalgo.png",
+  "seed": 13,
+  "body": {
+    "height": 1.8,
+    "build": 0.61,
+    "shoulders": 0.51,
+    "legs": 0.5,
+    "head": 1.05
+  },
+  "skin": "#c79281",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.73,
+      "angle": 0.03
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#6a5c5f",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#b49d99",
+    "fit": 0.54,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#23232b",
+    "collar": "high",
+    "length": 0.49,
+    "fit": 0.53,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.09,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "josefina",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

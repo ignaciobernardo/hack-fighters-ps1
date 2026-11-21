@@ -1,0 +1,80 @@
+{
+  "id": "jean-philipe-fuentes-bordagaray",
+  "draft": true,
+  "name": "Jean Philipe Fuentes Bordagaray",
+  "handle": "jean-philipe",
+  "title": "hacker",
+  "photo": "jean-philipe-fuentes-bordagaray.png",
+  "seed": 74,
+  "body": {
+    "height": 1.86,
+    "build": 0.41,
+    "shoulders": 0.62,
+    "legs": 0.49,
+    "head": 1.02
+  },
+  "skin": "#6f4b3f",
+  "face": {
+    "jaw": 0.52,
+    "eyes": {
+      "color": "#252429",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#242328",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#7c90b7",
+    "fit": 0.42,
+    "length": 0.51
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.36,
+    "fit": 0.54,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.05,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jean-phili",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

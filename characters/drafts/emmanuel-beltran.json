@@ -1,0 +1,83 @@
+{
+  "id": "emmanuel-beltran",
+  "draft": true,
+  "name": "Emmanuel Beltran",
+  "handle": "ManoloBrn",
+  "title": "hacker",
+  "photo": "emmanuel-beltran.png",
+  "seed": 81,
+  "body": {
+    "height": 1.68,
+    "build": 0.51,
+    "shoulders": 0.46,
+    "legs": 0.42,
+    "head": 1.01
+  },
+  "skin": "#a46a58",
+  "face": {
+    "jaw": 0.68,
+    "eyes": {
+      "color": "#332c2c",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.12
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#322b2b",
+    "volume": 0.95,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#171c23",
+    "fit": 0.61,
+    "length": 0.53
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2c2f3a",
+    "trim": "#e5484d",
+    "cord": "#e5484d",
+    "collar": "hood",
+    "length": 0.56,
+    "fit": 0.75,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e5484d",
+    "sole": "#f7f5ef",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ManoloBrn",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

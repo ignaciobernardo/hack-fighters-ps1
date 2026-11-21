@@ -1,0 +1,80 @@
+{
+  "id": "raimundo-herrera",
+  "draft": true,
+  "name": "Raimundo Herrera",
+  "handle": "raimundo",
+  "title": "mentor · Grupalia",
+  "photo": "raimundo-herrera.png",
+  "seed": 94,
+  "body": {
+    "height": 1.81,
+    "build": 0.38,
+    "shoulders": 0.63,
+    "legs": 0.51,
+    "head": 1.06
+  },
+  "skin": "#cb927f",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#232126",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.48,
+      "angle": 0.14
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#222025",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#8e6378",
+    "fit": 0.65,
+    "length": 0.66
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#33302c",
+    "collar": "high",
+    "length": 0.4,
+    "fit": 0.5,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "raimundo",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

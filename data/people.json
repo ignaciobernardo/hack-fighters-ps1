@@ -1,0 +1,2135 @@
+[
+ {
+  "id": "adolfo-manuel-villalobos-vega",
+  "name": "Adolfo Villalobos",
+  "short": "ADOLFO",
+  "company": "Fintoc",
+  "cargo": "Senior Software Engineer",
+  "role": "HACKER",
+  "i": 0
+ },
+ {
+  "id": "jesus-adrian-balderas-lara",
+  "name": "Adrian Balderas",
+  "short": "ADRIAN",
+  "company": "Mi Primera Chamba",
+  "cargo": "Cofundador",
+  "role": "HACKER",
+  "i": 1
+ },
+ {
+  "id": "agustin-aguilar",
+  "name": "Agustín Aguilar",
+  "short": "AGUSTÍN AG.",
+  "company": "Grupalia",
+  "cargo": "Software Engineer",
+  "role": "MENTOR",
+  "i": 2
+ },
+ {
+  "id": "agustin-alberto-arevalo-rodriguez",
+  "name": "Agustín Arévalo",
+  "short": "AGUSTÍN AR.",
+  "company": "Bomberos · Cohetería UC",
+  "cargo": "Bombero · Pdte. Ursa Crux",
+  "role": "HACKER",
+  "i": 3
+ },
+ {
+  "id": "agustin-becker-jacques",
+  "name": "Agustin Becker",
+  "short": "AGUSTIN BEC.",
+  "company": "C1DO1",
+  "cargo": "Ingeniero de desarrollo web",
+  "role": "HACKER",
+  "i": 4
+ },
+ {
+  "id": "agustin-berguecio",
+  "name": "Agustín Berguecio",
+  "short": "AGUSTÍN BER.",
+  "company": "TeselaGen · BSponsor",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 5
+ },
+ {
+  "id": "agustin-rios",
+  "name": "Agustín Ríos",
+  "short": "AGUSTÍN R.",
+  "company": "AliviaUC · Capstone UC",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 6
+ },
+ {
+  "id": "alberto-esteban-ferrada-rivas",
+  "name": "Alberto Ferrada",
+  "short": "ALBERTO",
+  "company": "U. de Concepción · ICPC",
+  "cargo": "Full Stack Engineer",
+  "role": "HACKER",
+  "i": 7
+ },
+ {
+  "id": "alejandro-lorca-acevedo",
+  "name": "Alejandro Lorca",
+  "short": "ALEJANDRO",
+  "company": "Fundo Peumayen",
+  "cargo": "Estudiante de Ingeniería",
+  "role": "HACKER",
+  "i": 8
+ },
+ {
+  "id": "alendi-brandtii-balbontin-nunez",
+  "name": "Alendi Balbontín",
+  "short": "ALENDI",
+  "company": "U. Adolfo Ibáñez",
+  "cargo": "Ingeniero en Diseño",
+  "role": "HACKER",
+  "i": 9
+ },
+ {
+  "id": "alessandro-queirolo",
+  "name": "Alessandro Queirolo",
+  "short": "ALESSANDRO",
+  "company": "Ingeniería para Chile",
+  "cargo": "Maker · Estudiante UC",
+  "role": "HACKER",
+  "i": 10
+ },
+ {
+  "id": "alfredo-enrione-martinez",
+  "name": "Alfredo Enrione",
+  "short": "ALFREDO",
+  "company": "Fintoc",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 11
+ },
+ {
+  "id": "alister-maccormack",
+  "name": "Alister MacCormack",
+  "short": "ALISTER",
+  "company": "Cognition · Shinkansen",
+  "cargo": "Forward Deployed Engineer",
+  "role": "MENTOR",
+  "i": 12
+ },
+ {
+  "id": "alonso-felipe-gac-monardez",
+  "name": "Alonso Gac",
+  "short": "ALONSO G.",
+  "company": "Carstat · Helment",
+  "cargo": "Founder · SWE en PGB",
+  "role": "HACKER",
+  "i": 13
+ },
+ {
+  "id": "alonso-peralta-sarrat",
+  "name": "Alonso Peralta",
+  "short": "ALONSO P.",
+  "company": "Pequén · UC",
+  "cargo": "Tech Lead",
+  "role": "HACKER",
+  "i": 14
+ },
+ {
+  "id": "alonso-rivera",
+  "name": "Alonso Rivera",
+  "short": "ALONSO R.",
+  "company": "JAPS",
+  "cargo": "Robotics Engineer · Co-Founder",
+  "role": "HACKER",
+  "i": 15
+ },
+ {
+  "id": "alonso-utreras-miranda",
+  "name": "Alonso Utreras",
+  "short": "ALONSO U.",
+  "company": "Frust · U. de Chile",
+  "cargo": "Product Engineer",
+  "role": "HACKER",
+  "i": 16
+ },
+ {
+  "id": "alvaro-tapia-cruz",
+  "name": "Alvaro Tapia",
+  "short": "ALVARO",
+  "company": "U. de los Andes",
+  "cargo": "Estudiante de Computación",
+  "role": "HACKER",
+  "i": 17
+ },
+ {
+  "id": "ana-undurraga",
+  "name": "Ana Undurraga",
+  "short": "ANA",
+  "company": "Buda.com",
+  "cargo": "Team Lead",
+  "role": "INVITADA",
+  "i": 18
+ },
+ {
+  "id": "anais-neira-zuniga",
+  "name": "Anaís Neira",
+  "short": "ANAÍS",
+  "company": "Topsort",
+  "cargo": "Forward Deployed Engineer",
+  "role": "HACKER",
+  "i": 19
+ },
+ {
+  "id": "andres-cabezas",
+  "name": "Andrés Cabezas",
+  "short": "ANDRÉS C.",
+  "company": "GeoVictoria",
+  "cargo": "Ingeniero Full-Stack",
+  "role": "HACKER",
+  "i": 20
+ },
+ {
+  "id": "andres-alonso-faundez-ortega",
+  "name": "Andrés Faúndez",
+  "short": "ANDRES F.",
+  "company": "TeselaGen · U. de Chile",
+  "cargo": "Ingeniero de software",
+  "role": "HACKER",
+  "i": 21
+ },
+ {
+  "id": "andres-matte",
+  "name": "Andrés Matte",
+  "short": "ANDRÉS MA.",
+  "company": "Kapso · Platanus",
+  "cargo": "Founder · ex GP Platanus",
+  "role": "JUEZ",
+  "i": 22
+ },
+ {
+  "id": "andres-morales",
+  "name": "Andres Morales",
+  "short": "ANDRES MO.",
+  "company": "Vita · Medicina UDD",
+  "cargo": "Head of Sales & Growth",
+  "role": "HACKER",
+  "i": 23
+ },
+ {
+  "id": "andres-augusto-schmidt-calvo",
+  "name": "Andrés Schmidt",
+  "short": "ANDRÉS SCH.",
+  "company": "OpenPartner · U. Mayor",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 24
+ },
+ {
+  "id": "andres-ignacio-sebastian-de-la-fuente",
+  "name": "Andrés Sebastian",
+  "short": "ANDRÉS SEB.",
+  "company": "Falabella",
+  "cargo": "AI Engineer",
+  "role": "HACKER",
+  "i": 25
+ },
+ {
+  "id": "anish-samtani",
+  "name": "Anish Samtani",
+  "short": "ANISH",
+  "company": "U. de Chile",
+  "cargo": "Profesor auxiliar",
+  "role": "HACKER",
+  "i": 26
+ },
+ {
+  "id": "antonio-cormatches-contreras",
+  "name": "Antonio Cormatches",
+  "short": "ANTONIO",
+  "company": "U. de Chile",
+  "cargo": "Estudiante de Computación",
+  "role": "HACKER",
+  "i": 27
+ },
+ {
+  "id": "ariel-ignacio-madariaga-gonzalez",
+  "name": "Ariel Madariaga",
+  "short": "ARIEL",
+  "company": "Unholster",
+  "cargo": "Software Engineer II",
+  "role": "HACKER",
+  "i": 28
+ },
+ {
+  "id": "arturo-cantu-olivarez",
+  "name": "Arturo Cantú",
+  "short": "ARTURO",
+  "company": "U. Autónoma de Querétaro",
+  "cargo": "Estudiante de Ciencia de Datos",
+  "role": "HACKER",
+  "i": 29
+ },
+ {
+  "id": "augusto-tagle-montes",
+  "name": "Augusto Tagle",
+  "short": "AUGUSTO",
+  "company": "Relvo",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 30
+ },
+ {
+  "id": "barbara-irarrazaval",
+  "name": "Bárbara Irarrazaval",
+  "short": "BÁRBARA",
+  "company": "Buk · UC Santa Cruz",
+  "cargo": "Engineering Manager",
+  "role": "MENTORA",
+  "i": 31
+ },
+ {
+  "id": "bastian-becker",
+  "name": "Bastián Becker",
+  "short": "BASTIÁN",
+  "company": "UDP · FEDEP",
+  "cargo": "AI Engineer",
+  "role": "HACKER",
+  "i": 32
+ },
+ {
+  "id": "bautista-silvano",
+  "name": "Bautista Silvano",
+  "short": "BAUTISTA",
+  "company": "Plexo · FIUBA",
+  "cargo": "CTO & Co-Founder",
+  "role": "HACKER",
+  "i": 33
+ },
+ {
+  "id": "benito-palacios-medeiros",
+  "name": "Benito Palacios",
+  "short": "BENITO",
+  "company": "Fintoc · TEDxPUCdeChile",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 34
+ },
+ {
+  "id": "benjamin-mauricio-alvarado-guerra",
+  "name": "Benjamín Alvarado",
+  "short": "BENJAMÍN A.",
+  "company": "U. de Chile",
+  "cargo": "VP IEEE Computer Society",
+  "role": "HACKER",
+  "i": 35
+ },
+ {
+  "id": "benjamin-patricio-gutierrez-martinez",
+  "name": "Benjamín Gutiérrez",
+  "short": "BENJAMÍN G.",
+  "company": "Grupo Colibrí",
+  "cargo": "Fundador",
+  "role": "HACKER",
+  "i": 36
+ },
+ {
+  "id": "benjamin-lillo-soto",
+  "name": "Benjamin Lillo",
+  "short": "BENJAMIN L.",
+  "company": "Turboshop",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 37
+ },
+ {
+  "id": "benjamin-rodriguez",
+  "name": "Benjamin Rodriguez",
+  "short": "BENJAMIN R.",
+  "company": "Batwise",
+  "cargo": "Growth & Ops",
+  "role": "HACKER",
+  "i": 38
+ },
+ {
+  "id": "benjamin-taito",
+  "name": "Benjamín Taito",
+  "short": "BENJAMÍN T.",
+  "company": "Ingeniería UC · WaitUp",
+  "cargo": "Lead TA Emprendimiento UC",
+  "role": "HACKER",
+  "i": 39
+ },
+ {
+  "id": "benjamin-andres-vasquez-moya",
+  "name": "Benjamín Vásquez",
+  "short": "BENJAMÍN V.",
+  "company": "Neat · Sodimac",
+  "cargo": "Product Engineer",
+  "role": "HACKER",
+  "i": 40
+ },
+ {
+  "id": "brayan-moreno-avendano",
+  "name": "Brayan Moreno",
+  "short": "BRAYAN",
+  "company": "Unholster",
+  "cargo": "Data Scientist III",
+  "role": "HACKER",
+  "i": 41
+ },
+ {
+  "id": "bruno-farfan-miquel",
+  "name": "Bruno Farfán",
+  "short": "BRUNO",
+  "company": "BipBop Labs",
+  "cargo": "Product Engineer",
+  "role": "HACKER",
+  "i": 42
+ },
+ {
+  "id": "camila-bonilla",
+  "name": "Camila Bonilla",
+  "short": "CAMILA",
+  "company": "Copec Wind · IDEMAX",
+  "cargo": "Cross Innovation Team Leader",
+  "role": "SPONSOR",
+  "i": 43
+ },
+ {
+  "id": "carlos-escobar-valdivia",
+  "name": "Carlos Escobar",
+  "short": "CARLOS E.",
+  "company": "USM · Control Automático",
+  "cargo": "Profesor de Control",
+  "role": "HACKER",
+  "i": 44
+ },
+ {
+  "id": "carlos-pinto-urtubia",
+  "name": "Carlos Pinto",
+  "short": "CARLOS P.",
+  "company": "Stealth · Octa Aerospace",
+  "cargo": "Founder",
+  "role": "HACKER",
+  "i": 45
+ },
+ {
+  "id": "catalina-goldsack",
+  "name": "Catalina Goldsack",
+  "short": "CATALINA",
+  "company": "ACHS",
+  "cargo": "Product Owner",
+  "role": "INVITADA",
+  "i": 46
+ },
+ {
+  "id": "christian-rodrigo-rojas-rodriguez",
+  "name": "Christian Rojas",
+  "short": "CHRISTIAN",
+  "company": "Nomenclator · MeLi",
+  "cargo": "Founder y ML Engineer",
+  "role": "HACKER",
+  "i": 47
+ },
+ {
+  "id": "claudio-alexis-canales-pavez",
+  "name": "Claudio Canales",
+  "short": "CLAUDIO C.",
+  "company": "LET",
+  "cargo": "Analista de desarrollo",
+  "role": "HACKER",
+  "i": 48
+ },
+ {
+  "id": "claudio-me-ragni-urrutia",
+  "name": "Claudio Me Ragni",
+  "short": "CLAUDIO R.",
+  "company": "USM · Ing. Mecánica",
+  "cargo": "Ingeniero Mecánico, MSc(c)",
+  "role": "HACKER",
+  "i": 49
+ },
+ {
+  "id": "clemente-bobillier-ruff",
+  "name": "Clemente Bobillier",
+  "short": "CLEMENTE B.",
+  "company": "Turboshop · École Nantes",
+  "cargo": "Head of Design",
+  "role": "HACKER",
+  "i": 50
+ },
+ {
+  "id": "clemente-ferrer",
+  "name": "Clemente Ferrer",
+  "short": "CLEMENTE F.",
+  "company": "Quantum Wave",
+  "cargo": "Chief Risk Officer",
+  "role": "HACKER",
+  "i": 51
+ },
+ {
+  "id": "clemente-vial-banduc",
+  "name": "Clemente Vial",
+  "short": "CLEMENTE V.",
+  "company": "LATAM Airlines",
+  "cargo": "Data Scientist",
+  "role": "HACKER",
+  "i": 52
+ },
+ {
+  "id": "consuelo-bianchi-schlotfeld",
+  "name": "Consuelo Bianchi",
+  "short": "CONSUELO",
+  "company": "CChC",
+  "cargo": "Coordinadora de Innovación",
+  "role": "SPONSOR",
+  "i": 53
+ },
+ {
+  "id": "cristian-ignacio-valdivia-ramirez",
+  "name": "Cristian Valdivia",
+  "short": "CRISTIAN",
+  "company": "Valdivia Tech",
+  "cargo": "Founder & CEO",
+  "role": "HACKER",
+  "i": 54
+ },
+ {
+  "id": "cristobal-bofill",
+  "name": "Cristóbal Bofill",
+  "short": "CRISTÓBAL B.",
+  "company": "Buk",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 55
+ },
+ {
+  "id": "cristobal-diaz-barra",
+  "name": "Cristobal Diaz",
+  "short": "CRISTOBAL D.",
+  "company": "C1DO1",
+  "cargo": "Intern full-stack",
+  "role": "HACKER",
+  "i": 56
+ },
+ {
+  "id": "cristobal-perez-cotapos",
+  "name": "Cristóbal Pérez-Cotapos",
+  "short": "CRISTOBAL P.",
+  "company": "Leñadura S.A.",
+  "cargo": "Data Analyst",
+  "role": "HACKER",
+  "i": 57
+ },
+ {
+  "id": "cristobal-tubino",
+  "name": "Cristóbal Tubino",
+  "short": "CRISTÓBAL T.",
+  "company": "U. de los Andes",
+  "cargo": "Estudiante de Kinesiología",
+  "role": "HACKER",
+  "i": 58
+ },
+ {
+  "id": "cristofer-oyarzo",
+  "name": "Cristofer Oyarzo",
+  "short": "CRISTOFER",
+  "company": "ProviWork · U. de Chile",
+  "cargo": "Gestor de Proyectos",
+  "role": "HACKER",
+  "i": 59
+ },
+ {
+  "id": "daniel-acuna-ureta",
+  "name": "Daniel Acuña",
+  "short": "DANIEL A.",
+  "company": "Flair",
+  "cargo": "Ingeniero de producto",
+  "role": "HACKER",
+  "i": 60
+ },
+ {
+  "id": "daniel-enrique-bruno-silva",
+  "name": "Daniel Bruno",
+  "short": "DANIEL B.",
+  "company": "Nextep",
+  "cargo": "Desarrollador Backend",
+  "role": "HACKER",
+  "i": 61
+ },
+ {
+  "id": "daniel-godoy",
+  "name": "Daniel Godoy",
+  "short": "DANIEL G.",
+  "company": "Loken · Pooler",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 62
+ },
+ {
+  "id": "daniel-leal",
+  "name": "Daniel Leal",
+  "short": "DANIEL L.",
+  "company": "Fintoc · DCC UC",
+  "cargo": "Ingeniero de Software Senior",
+  "role": "MENTOR",
+  "i": 63
+ },
+ {
+  "id": "daniel-sateler",
+  "name": "Daniel Sateler",
+  "short": "DANIEL S.",
+  "company": "SmartUp",
+  "cargo": "Co-Founder & CTO",
+  "role": "HACKER",
+  "i": 64
+ },
+ {
+  "id": "daniel-andres-toribio-montupil",
+  "name": "Daniel Toribio",
+  "short": "DANIEL T.",
+  "company": "TurboShop · Se Remonta",
+  "cargo": "Founding Engineer",
+  "role": "HACKER",
+  "i": 65
+ },
+ {
+  "id": "daniel-ignacio-villasenor-carrasco",
+  "name": "Daniel Villaseñor",
+  "short": "DANIEL V.",
+  "company": "DCC UC",
+  "cargo": "Ayudante de Cátedra",
+  "role": "HACKER",
+  "i": 66
+ },
+ {
+  "id": "diego-sebastian-cruz-cervantes",
+  "name": "Diego Cruz",
+  "short": "DIEGO C.",
+  "company": "Valoon · Saquen Plan",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 67
+ },
+ {
+  "id": "diego-agustin-moreno-guzman",
+  "name": "Diego Moreno",
+  "short": "DIEGO M.",
+  "company": "U. de Chile · UNAB",
+  "cargo": "Profesor Adjunto UNAB",
+  "role": "HACKER",
+  "i": 68
+ },
+ {
+  "id": "diego-valenzuela-figueroa",
+  "name": "Diego Valenzuela",
+  "short": "DIEGO VA.",
+  "company": "BipBop · Elunet",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 69
+ },
+ {
+  "id": "diego-eugenio-villanueva-araya",
+  "name": "Diego Villanueva",
+  "short": "DIEGO VI.",
+  "company": "Sodimac",
+  "cargo": "Performance Automation",
+  "role": "HACKER",
+  "i": 70
+ },
+ {
+  "id": "eduardo-guzman",
+  "name": "Eduardo Guzman",
+  "short": "EDUARDO G.",
+  "company": "GBM · miprimerachamba.ai",
+  "cargo": "Co-Fundador · Data en GBM",
+  "role": "HACKER",
+  "i": 71
+ },
+ {
+  "id": "eduardo-hernande-verdugo",
+  "name": "Eduardo Hernández",
+  "short": "EDUARDO H.",
+  "company": "CChC",
+  "cargo": "Subgerente de Innovación",
+  "role": "HACKER",
+  "i": 72
+ },
+ {
+  "id": "emerson-benjamin-salazar-rubilar",
+  "name": "Emerson Salazar",
+  "short": "EMERSON",
+  "company": "BipBop · U. del Bío-Bío",
+  "cargo": "Product Engineer",
+  "role": "HACKER",
+  "i": 73
+ },
+ {
+  "id": "emilia-isadora-cabrera-varas",
+  "name": "Emilia Cabrera",
+  "short": "EMILIA",
+  "company": "U. de Chile · Clickie",
+  "cargo": "Presidenta IEEE CS UChile",
+  "role": "HACKER",
+  "i": 74
+ },
+ {
+  "id": "emmanuel-beltran",
+  "name": "Emmanuel Beltran",
+  "short": "EMMANUEL",
+  "company": "Google Cloud",
+  "cargo": "Cloud Data Architect",
+  "role": "HACKER",
+  "i": 75
+ },
+ {
+  "id": "emmy-daniela-arias-pardo",
+  "name": "Emmy Pardo",
+  "short": "EMMY",
+  "company": "30X · ICANH",
+  "cargo": "GTM Engineer",
+  "role": "HACKER",
+  "i": 76
+ },
+ {
+  "id": "esteban-romero-berrios",
+  "name": "Esteban Romero",
+  "short": "ESTEBAN",
+  "company": "coreDevX · U. de Chile",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 77
+ },
+ {
+  "id": "federico-horl",
+  "name": "Federico Hörl",
+  "short": "FEDERICO",
+  "company": "TELUS Digital · UNSAM",
+  "cargo": "AI Engineering Intern",
+  "role": "HACKER",
+  "i": 78
+ },
+ {
+  "id": "felipe-diaz-rettig",
+  "name": "Felipe Díaz",
+  "short": "FELIPE D.",
+  "company": "Biwiser Group",
+  "cargo": "Gerente Comercial",
+  "role": "HACKER",
+  "i": 79
+ },
+ {
+  "id": "felipe-ignacio-jara-caceres",
+  "name": "Felipe Jara",
+  "short": "FELIPE J.",
+  "company": "Deloitte · Eclectic AI",
+  "cargo": "Data Analyst",
+  "role": "HACKER",
+  "i": 80
+ },
+ {
+  "id": "felipe-lechuga",
+  "name": "Felipe Lechuga",
+  "short": "FELIPE L.",
+  "company": "Lemaco · CChC",
+  "cargo": "CEO de Lemaco",
+  "role": "SPONSOR",
+  "i": 81
+ },
+ {
+  "id": "felipe-andres-mellado-borquez",
+  "name": "Felipe Mellado",
+  "short": "FELIPE M.",
+  "company": "Unholster",
+  "cargo": "Ingeniero de Software II",
+  "role": "HACKER",
+  "i": 82
+ },
+ {
+  "id": "felipe-javier-sanhueza-celis",
+  "name": "Felipe Sanhueza",
+  "short": "FELIPE S.",
+  "company": "Frust",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 83
+ },
+ {
+  "id": "francisca-alejandra-yepsen-marambio",
+  "name": "Francisca Yepsen",
+  "short": "FRANCISCA",
+  "company": "Ciencia de Datos UC",
+  "cargo": "Consejera académica LICD",
+  "role": "HACKER",
+  "i": 84
+ },
+ {
+  "id": "francisco-mackenney",
+  "name": "Francisco Mackenney",
+  "short": "FRANCI MACK",
+  "company": "Revi · CChC",
+  "cargo": "Jefe de Producto",
+  "role": "HACKER",
+  "i": 85
+ },
+ {
+  "id": "francisco-martinez",
+  "name": "Francisco Martínez",
+  "short": "FRANCI MART",
+  "company": "Microsoft · York U.",
+  "cargo": "SWE Intern · Azure Storage",
+  "role": "HACKER",
+  "i": 86
+ },
+ {
+  "id": "francisco-sobral",
+  "name": "Francisco Sobral",
+  "short": "FRANCISCO S.",
+  "company": "Zent Agency · Plexo",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 87
+ },
+ {
+  "id": "francisco-zuniga",
+  "name": "Francisco Zúñiga",
+  "short": "FRANCISCO Z.",
+  "company": "IMC Labs · Taram Capital",
+  "cargo": "Tech Leader · EIR",
+  "role": "HACKER",
+  "i": 88
+ },
+ {
+  "id": "franco-reinoso",
+  "name": "Franco Reinoso",
+  "short": "FRANCO",
+  "company": "AlojaFacil · USM",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 89
+ },
+ {
+  "id": "gabriel-joaquin-carmona-diaz",
+  "name": "Gabriel Carmona",
+  "short": "GABRIEL CAR.",
+  "company": "U. de Chile · ICPC",
+  "cargo": "Estudiante de Computación",
+  "role": "HACKER",
+  "i": 90
+ },
+ {
+  "id": "gabriel-david-castellano-sierra",
+  "name": "Gabriel Castellano",
+  "short": "GABRIEL CAS.",
+  "company": "Innovares · UCAB",
+  "cargo": "Ingeniero de software",
+  "role": "HACKER",
+  "i": 91
+ },
+ {
+  "id": "gabriela-acuna-benito",
+  "name": "Gabriela Acuña",
+  "short": "GABRIELA",
+  "company": "Deloitte · Becker Mining",
+  "cargo": "AI & Data Analyst",
+  "role": "HACKER",
+  "i": 92
+ },
+ {
+  "id": "gerson-marihuan",
+  "name": "Gerson Marihuan",
+  "short": "GERSON",
+  "company": "Inseport",
+  "cargo": "Solution Engineer",
+  "role": "HACKER",
+  "i": 93
+ },
+ {
+  "id": "gonzalo-matus",
+  "name": "Gonzalo Matus",
+  "short": "GONZALO M.",
+  "company": "Ingeniería UC",
+  "cargo": "Dev de software científico",
+  "role": "HACKER",
+  "i": 94
+ },
+ {
+  "id": "gonzalo-saavedra",
+  "name": "Gonzalo Saavedra",
+  "short": "GONZALO S.",
+  "company": "Revi · BipBop Labs",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 95
+ },
+ {
+  "id": "harold-medrano",
+  "name": "Harold Medrano",
+  "short": "HAROLD",
+  "company": "Dropout Capital",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 96
+ },
+ {
+  "id": "hernan-macaya-roman",
+  "name": "Hernán Macaya",
+  "short": "HERNÁN",
+  "company": "Vambe",
+  "cargo": "Product Engineer",
+  "role": "HACKER",
+  "i": 97
+ },
+ {
+  "id": "hugo-castro-leppe",
+  "name": "Hugo Castro",
+  "short": "HUGO",
+  "company": "Buk · U. de Talca",
+  "cargo": "Software Engineer L2",
+  "role": "HACKER",
+  "i": 98
+ },
+ {
+  "id": "ian-berdichewsky-garcia",
+  "name": "Ian Berdichewsky",
+  "short": "IAN B.",
+  "company": "U. de Chile",
+  "cargo": "Estudiante Ing. Computación",
+  "role": "HACKER",
+  "i": 99
+ },
+ {
+  "id": "ian-fry-astorga",
+  "name": "Ian Fry",
+  "short": "IAN F.",
+  "company": "Vita",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 100
+ },
+ {
+  "id": "ignacio-labarca",
+  "name": "Ignacio Labarca",
+  "short": "IGNACIO L.",
+  "company": "Golocal · Ergowear",
+  "cargo": "Socio Cofundador",
+  "role": "HACKER",
+  "i": 101
+ },
+ {
+  "id": "ignacio-montenegro",
+  "name": "Ignacio Montenegro",
+  "short": "IGNACIO M.",
+  "company": "Comunidad CachAI",
+  "cargo": "Founder",
+  "role": "HACKER",
+  "i": 102
+ },
+ {
+  "id": "ignacio-benjamin-palma-arevalo",
+  "name": "Ignacio Palma",
+  "short": "IGNACIO P.",
+  "company": "Ubikas",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 103
+ },
+ {
+  "id": "isidro-pasman",
+  "name": "Isidro Pasman",
+  "short": "ISIDRO",
+  "company": "Plexo",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 104
+ },
+ {
+  "id": "jaime-aza",
+  "name": "Jaime Aza",
+  "short": "JAIME",
+  "company": "Ungga",
+  "cargo": "AI Engineer",
+  "role": "HACKER",
+  "i": 105
+ },
+ {
+  "id": "javier-zagal",
+  "name": "Javier Zagal",
+  "short": "JAVIER",
+  "company": "Welcome Back · Andev",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 106
+ },
+ {
+  "id": "jean-philipe-fuentes-bordagaray",
+  "name": "Jean Fuentes",
+  "short": "JEAN",
+  "company": "GoFarmer · Skilia",
+  "cargo": "CTO GoFarmer · Co-Founder JAPS",
+  "role": "HACKER",
+  "i": 107
+ },
+ {
+  "id": "jeaneth-sarahi-hernandez-rios",
+  "name": "Jeaneth Hernandez",
+  "short": "JEANETH",
+  "company": "Mi Primera Chamba",
+  "cargo": "Founder & CTO",
+  "role": "HACKER",
+  "i": 108
+ },
+ {
+  "id": "jesus-rodolfo-gil-farias",
+  "name": "Jesus Gil",
+  "short": "JESUS GIL",
+  "company": "UCAB · IBM Z",
+  "cargo": "IBM Z Student Ambassador",
+  "role": "HACKER",
+  "i": 109
+ },
+ {
+  "id": "jesus-gabriel-gudino-lara",
+  "name": "Jesus Gudiño",
+  "short": "JESUS GU.",
+  "company": "XalDigital · Superprof",
+  "cargo": "Ingeniero de Datos",
+  "role": "HACKER",
+  "i": 110
+ },
+ {
+  "id": "jhomar-astuyauri",
+  "name": "Jhomar Astuyauri",
+  "short": "JHOMAR",
+  "company": "Alfin Banco",
+  "cargo": "Senior AI Solutions Specialist",
+  "role": "HACKER",
+  "i": 111
+ },
+ {
+  "id": "joaquin-jose-cuevas-munoz",
+  "name": "Joaquin Cuevas",
+  "short": "JOAQUIN C.",
+  "company": "U. de los Andes",
+  "cargo": "Estudiante Ing. Computación",
+  "role": "HACKER",
+  "i": 112
+ },
+ {
+  "id": "joaquin-andres-vila-ormazabal",
+  "name": "Joaquín Vila",
+  "short": "JOAQUÍN V.",
+  "company": "U. de Concepción",
+  "cargo": "Estudiante de Ingeniería",
+  "role": "HACKER",
+  "i": 113
+ },
+ {
+  "id": "jonathan-riquelme",
+  "name": "Jonathan Riquelme",
+  "short": "JONATHAN",
+  "company": "PGB",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 114
+ },
+ {
+  "id": "jorge-eduardo-leon-reyes",
+  "name": "Jorge León",
+  "short": "JORGE L.",
+  "company": "U. Adolfo Ibáñez",
+  "cargo": "PhD Data Science · Game Dev",
+  "role": "HACKER",
+  "i": 115
+ },
+ {
+  "id": "jorge-oehrens",
+  "name": "Jorge Oehrens",
+  "short": "JORGE O.",
+  "company": "Welcome Back",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 116
+ },
+ {
+  "id": "jose-carlos-basulto",
+  "name": "Jose Basulto",
+  "short": "JOSE B.",
+  "company": "Ingeniería Matemática UC",
+  "cargo": "Investigador UC",
+  "role": "HACKER",
+  "i": 117
+ },
+ {
+  "id": "jose-tomas-carrasco",
+  "name": "José Carrasco",
+  "short": "JOSÉ CARR.",
+  "company": "Neat · MSc XR UC",
+  "cargo": "Growth Engineer",
+  "role": "HACKER",
+  "i": 118
+ },
+ {
+  "id": "jose-carter",
+  "name": "José Carter",
+  "short": "JOSÉ CART.",
+  "company": "TEK Chile · UC",
+  "cargo": "Physical AI & Robotics Intern",
+  "role": "HACKER",
+  "i": 119
+ },
+ {
+  "id": "jose-rodolfo-canete-lopez",
+  "name": "José Cañete",
+  "short": "JOSÉ CAÑ.",
+  "company": "Topsort · BETO",
+  "cargo": "Senior Software Engineer",
+  "role": "HACKER",
+  "i": 120
+ },
+ {
+  "id": "jose-tomas-valdivia",
+  "name": "José Valdivia",
+  "short": "JOSÉ V.",
+  "company": "Abaqus",
+  "cargo": "Software Engineer & PM",
+  "role": "HACKER",
+  "i": 121
+ },
+ {
+  "id": "josefa-lozano",
+  "name": "Josefa Lozano",
+  "short": "JOSEFA",
+  "company": "CChC",
+  "cargo": "PM Transformación Digital",
+  "role": "HACKER",
+  "i": 122
+ },
+ {
+  "id": "josefina-brito",
+  "name": "Josefina Brito",
+  "short": "JOSEFINA B.",
+  "company": "AgendaPro · Woorkin",
+  "cargo": "Talent Acquisition",
+  "role": "SPONSOR",
+  "i": 123
+ },
+ {
+  "id": "josefina-hidalgo",
+  "name": "Josefina Hidalgo",
+  "short": "JOSEFINA H.",
+  "company": "Buk · Fintoc",
+  "cargo": "Group Engineering Manager",
+  "role": "MENTORA",
+  "i": 124
+ },
+ {
+  "id": "juan-david-chaparro",
+  "name": "Juan Chaparro",
+  "short": "JUAN C.",
+  "company": "PlusZero",
+  "cargo": "Backend & Data Engineer",
+  "role": "HACKER",
+  "i": 125
+ },
+ {
+  "id": "juan-pablo-herrera-pizarro",
+  "name": "Juan Herrera",
+  "short": "JUAN H.",
+  "company": "U. de Chile",
+  "cargo": "ML & Software Engineer",
+  "role": "HACKER",
+  "i": 126
+ },
+ {
+  "id": "juan-pedro-lira",
+  "name": "Juan Lira",
+  "short": "JUAN L.",
+  "company": "ProHack · U. de los Andes",
+  "cargo": "Machine Learning Engineer",
+  "role": "HACKER",
+  "i": 127
+ },
+ {
+  "id": "juan-federico-morel",
+  "name": "Juan Morel",
+  "short": "JUAN M.",
+  "company": "CEA · Effective Altruism",
+  "cargo": "Senior Events Associate",
+  "role": "MENTOR",
+  "i": 128
+ },
+ {
+  "id": "juan-ortega",
+  "name": "Juan Ortega",
+  "short": "JUAN O.",
+  "company": "Visagente · Gordian",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 129
+ },
+ {
+  "id": "juan-ignacio-valdivia-girardi",
+  "name": "Juan Valdivia",
+  "short": "JUAN VAL.",
+  "company": "U. de Chile",
+  "cargo": "Ayudante de Ing. de Software",
+  "role": "HACKER",
+  "i": 130
+ },
+ {
+  "id": "juan-vargas",
+  "name": "Juan Vargas",
+  "short": "JUAN VAR.",
+  "company": "BipBop Labs",
+  "cargo": "Founder",
+  "role": "HACKER",
+  "i": 131
+ },
+ {
+  "id": "kaina-galdames-roman",
+  "name": "Kaina Galdames",
+  "short": "KAINA",
+  "company": "Buk · UC",
+  "cargo": "Software Engineer L1",
+  "role": "HACKER",
+  "i": 132
+ },
+ {
+  "id": "lian-villalobos-chang",
+  "name": "Lian Villalobos",
+  "short": "LIAN",
+  "company": "GreenBloc · Cóndor UC",
+  "cargo": "Estudiante UC",
+  "role": "HACKER",
+  "i": 133
+ },
+ {
+  "id": "loreto-prieto",
+  "name": "Loreto Prieto",
+  "short": "LORETO",
+  "company": "NeuralWorks",
+  "cargo": "Jefa de ML e Ingeniería",
+  "role": "JUEZA",
+  "i": 134
+ },
+ {
+  "id": "lucas-cayazzo-caceres",
+  "name": "Lucas Cayazzo",
+  "short": "LUCAS C.",
+  "company": "Capítulo SIAM PUC",
+  "cargo": "Presidente Capítulo SIAM",
+  "role": "HACKER",
+  "i": 135
+ },
+ {
+  "id": "lucas-van-sint-jan",
+  "name": "Lucas Van Sint Jan",
+  "short": "LUCAS V.",
+  "company": "Buk",
+  "cargo": "Software Engineer L2",
+  "role": "HACKER",
+  "i": 136
+ },
+ {
+  "id": "lucia-uriarte",
+  "name": "Lucía Uriarte",
+  "short": "LUCÍA",
+  "company": "Buk · Psicología UC",
+  "cargo": "Analista de Marca Empleadora",
+  "role": "STAFF",
+  "i": 137
+ },
+ {
+  "id": "luciano-aguilera",
+  "name": "Luciano Aguilera",
+  "short": "LUCIANO A.",
+  "company": "AMM Capital",
+  "cargo": "Jefe de Inteligencia de Negocios",
+  "role": "HACKER",
+  "i": 138
+ },
+ {
+  "id": "luciano-massa",
+  "name": "Luciano Massa",
+  "short": "LUCIANO M.",
+  "company": "Edaltec · U. de Chile",
+  "cargo": "Ingeniero de Datos",
+  "role": "HACKER",
+  "i": 139
+ },
+ {
+  "id": "maira-sayen-acevedo-gutierrez",
+  "name": "Maira Acevedo",
+  "short": "MAIRA",
+  "company": "RindeChile · UC",
+  "cargo": "Cofundadora de RindeChile",
+  "role": "HACKER",
+  "i": 140
+ },
+ {
+  "id": "manuel-alejandro-blanco-contreras",
+  "name": "Manuel Blanco",
+  "short": "MANUEL B.",
+  "company": "SmartUp · UC",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 141
+ },
+ {
+  "id": "manuel-torres",
+  "name": "Manuel Torres",
+  "short": "MANUEL T.",
+  "company": "SII Group · DomiChat",
+  "cargo": "SDET – Chaos Engineering",
+  "role": "HACKER",
+  "i": 142
+ },
+ {
+  "id": "laura-dunford",
+  "name": "María Dunford",
+  "short": "MARÍA D.",
+  "company": "Buk · Club Andino U.",
+  "cargo": "Práctica Employer Branding",
+  "role": "STAFF",
+  "i": 143
+ },
+ {
+  "id": "maria-elena-gonzalez-arancibia",
+  "name": "Maria Gonzalez",
+  "short": "MARIA G.",
+  "company": "CChC",
+  "cargo": "Coordinadora Innovación Abierta",
+  "role": "SPONSOR",
+  "i": 144
+ },
+ {
+  "id": "maria-jesus-navarrete",
+  "name": "María Navarrete",
+  "short": "MARÍA N.",
+  "company": "Buk · BioElements",
+  "cargo": "Product Manager",
+  "role": "HACKER",
+  "i": 145
+ },
+ {
+  "id": "mariana-paz-vasquez-barrios",
+  "name": "Mariana Vásquez",
+  "short": "MARIANA",
+  "company": "Cristalchile",
+  "cargo": "Científica de Datos",
+  "role": "HACKER",
+  "i": 146
+ },
+ {
+  "id": "martin-bahamonde",
+  "name": "Martin Bahamonde",
+  "short": "MARTIN BA.",
+  "company": "VTI U. de Chile",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 147
+ },
+ {
+  "id": "martin-borquez",
+  "name": "Martín Bórquez",
+  "short": "MARTÍN BÓ.",
+  "company": "Skip",
+  "cargo": "Head of Growth & Data",
+  "role": "HACKER",
+  "i": 148
+ },
+ {
+  "id": "martin-campos",
+  "name": "Martín Campos",
+  "short": "MARTÍN C.",
+  "company": "NTT DATA",
+  "cargo": "Lead Analyst · Data Scientist",
+  "role": "HACKER",
+  "i": 149
+ },
+ {
+  "id": "martin-penaloza",
+  "name": "Martín Peñaloza",
+  "short": "MARTÍN P.",
+  "company": "Fintoc",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 150
+ },
+ {
+  "id": "martin-rojas-cornejo",
+  "name": "Martin Rojas",
+  "short": "MARTIN ROJ.",
+  "company": "SummaPartners · VolleyAI",
+  "cargo": "Dev de Advanced Analytics",
+  "role": "HACKER",
+  "i": 151
+ },
+ {
+  "id": "martin-andres-rosenfeld-pavcevic",
+  "name": "Martín Rosenfeld",
+  "short": "MARTÍN ROS.",
+  "company": "TheHouse Advisory",
+  "cargo": "Consultor Analista",
+  "role": "HACKER",
+  "i": 152
+ },
+ {
+  "id": "massiel-paola-perozo-ballestero",
+  "name": "Massiel Perozo",
+  "short": "MASSIEL",
+  "company": "ESTEI",
+  "cargo": "Analista de Desarrollo con IA",
+  "role": "HACKER",
+  "i": 153
+ },
+ {
+  "id": "mateo-eduardo-morales-farias",
+  "name": "Mateo Morales",
+  "short": "MATEO",
+  "company": "USM · Enaer",
+  "cargo": "Estudiante Ing. Civil Eléctrica",
+  "role": "HACKER",
+  "i": 154
+ },
+ {
+  "id": "matias-antonio-berrios-ortigas",
+  "name": "Matias Berrios",
+  "short": "MATIAS BE.",
+  "company": "Vita",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 155
+ },
+ {
+  "id": "matias-billwiller",
+  "name": "Matías Billwiller",
+  "short": "MATÍAS BI.",
+  "company": "Relvo · Zubale",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 156
+ },
+ {
+  "id": "matias-morgado",
+  "name": "Matías Morgado",
+  "short": "MATÍAS M.",
+  "company": "Matemáticas UC",
+  "cargo": "Magíster en Matemática Pura",
+  "role": "HACKER",
+  "i": 157
+ },
+ {
+  "id": "matias-ramirez",
+  "name": "Matias Ramirez",
+  "short": "MATIAS R.",
+  "company": "Bison Agents",
+  "cargo": "Founder",
+  "role": "HACKER",
+  "i": 158
+ },
+ {
+  "id": "matias-tapia",
+  "name": "Matías Tapia",
+  "short": "MATÍAS T.",
+  "company": "Bison Agents · Tucar",
+  "cargo": "Co-Founder & CEO",
+  "role": "HACKER",
+  "i": 159
+ },
+ {
+  "id": "matilda-roberts",
+  "name": "Matilda Roberts",
+  "short": "MATILDA",
+  "company": "RedTur · NOK",
+  "cargo": "Founder · AI Product Manager",
+  "role": "HACKER",
+  "i": 160
+ },
+ {
+  "id": "mauricio-genta",
+  "name": "Mauricio Genta",
+  "short": "MAURICIO G.",
+  "company": "LATAM · Kepler Coach",
+  "cargo": "Sr Data Science Specialist",
+  "role": "HACKER",
+  "i": 161
+ },
+ {
+  "id": "mauricio-andres-villa-bravo",
+  "name": "Mauricio Villa",
+  "short": "MAURICIO V.",
+  "company": "Identyz",
+  "cargo": "Desarrollador Web",
+  "role": "HACKER",
+  "i": 162
+ },
+ {
+  "id": "max-garcia",
+  "name": "Max García",
+  "short": "MAX G.",
+  "company": "Buk · U. de los Andes",
+  "cargo": "Group Engineering Manager",
+  "role": "MENTOR",
+  "i": 163
+ },
+ {
+  "id": "maximiliano-mardones",
+  "name": "Max Mardones",
+  "short": "MAX",
+  "company": "SmartUp",
+  "cargo": "Co-Founder & CEO",
+  "role": "HACKER",
+  "i": 164
+ },
+ {
+  "id": "maximiliano-aguirre",
+  "name": "Maximiliano Aguirre",
+  "short": "MAXIMILIANO",
+  "company": "MiGuru · Kodual",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 165
+ },
+ {
+  "id": "nahum-mateo-diaz-lopez",
+  "name": "Nahum Díaz",
+  "short": "NAHUM",
+  "company": "Ingeniería UC",
+  "cargo": "Estudiante de Ingeniería Civil",
+  "role": "HACKER",
+  "i": 166
+ },
+ {
+  "id": "natan-brugueras",
+  "name": "Nate Brugueras",
+  "short": "NATE",
+  "company": "CENIA",
+  "cargo": "Investigador ML · Juez",
+  "role": "JUEZ",
+  "i": 167
+ },
+ {
+  "id": "ignacio-bernardo",
+  "name": "natochi Bernardo",
+  "short": "NATOCHI",
+  "company": "Platanus",
+  "cargo": "Growth y Comunidad",
+  "role": "STAFF",
+  "i": 168
+ },
+ {
+  "id": "nelson-salazar",
+  "name": "Nelson Salazar",
+  "short": "NELSON",
+  "company": "Buk · Pisapapeles",
+  "cargo": "Líder de Ciencia de Datos",
+  "role": "HACKER",
+  "i": 169
+ },
+ {
+  "id": "nicolas-acosta",
+  "name": "Nicolás Acosta",
+  "short": "NICOLÁS AC.",
+  "company": "Zesty · Profe UC",
+  "cargo": "Senior SWE · Profesor UC",
+  "role": "MENTOR",
+  "i": 170
+ },
+ {
+  "id": "nicolas-rodrigo-arancibia-aguirre",
+  "name": "Nicolás Arancibia",
+  "short": "NICOLÁS AR.",
+  "company": "U. de Chile",
+  "cargo": "Ingeniero Civil en Computación",
+  "role": "HACKER",
+  "i": 171
+ },
+ {
+  "id": "nicolas-alejandro-bermedo-dominguez",
+  "name": "Nicolas Bermedo",
+  "short": "NICOLAS B.",
+  "company": "Radio Transients Lab",
+  "cargo": "Asistente de Investigación",
+  "role": "HACKER",
+  "i": 172
+ },
+ {
+  "id": "nicolas-andres-cruz-mellado",
+  "name": "Nicolás Cruz",
+  "short": "NICOLÁS CRUZ",
+  "company": "Fintoc · Next Cross",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 173
+ },
+ {
+  "id": "nicolas-cruzat",
+  "name": "Nicolás Cruzat",
+  "short": "NICOLÁ CRUZ",
+  "company": "Abaqus",
+  "cargo": "Product Designer",
+  "role": "HACKER",
+  "i": 174
+ },
+ {
+  "id": "nicolas-del-valle-ruiz",
+  "name": "Nicolás Del Valle",
+  "short": "NICOLÁS D.",
+  "company": "Unholster",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 175
+ },
+ {
+  "id": "nicolas-funes",
+  "name": "Nicolás Funes",
+  "short": "NICOLÁS F.",
+  "company": "Zent Agency",
+  "cargo": "AI Forward Deployed Engineer",
+  "role": "HACKER",
+  "i": 176
+ },
+ {
+  "id": "nicolas-jara-castillo",
+  "name": "Nicolas Jara",
+  "short": "NICOLAS J.",
+  "company": "U. San Sebastián",
+  "cargo": "Estudiante",
+  "role": "HACKER",
+  "i": 177
+ },
+ {
+  "id": "nicolas-nunez",
+  "name": "Nicolas Nuñez",
+  "short": "NICOLAS N.",
+  "company": "50X",
+  "cargo": "Co-Founder & CTO",
+  "role": "MENTOR",
+  "i": 178
+ },
+ {
+  "id": "nicolas-orellana",
+  "name": "Nicolas Orellana",
+  "short": "NICOLAS O.",
+  "company": "Copec Taller",
+  "cargo": "Product Lead",
+  "role": "MENTOR",
+  "i": 179
+ },
+ {
+  "id": "nicolas-quintana",
+  "name": "Nicolás Quintana",
+  "short": "NICOLÁS Q.",
+  "company": "TECHO · Ursa Crux",
+  "cargo": "Capataz TECHO y cohetero UC",
+  "role": "HACKER",
+  "i": 180
+ },
+ {
+  "id": "nicolas-vargas",
+  "name": "Nicolas Vargas",
+  "short": "NICOLAS V.",
+  "company": "Rappi",
+  "cargo": "AI Engineer",
+  "role": "HACKER",
+  "i": 181
+ },
+ {
+  "id": "orlando-sebastian-avendano-quilapan",
+  "name": "Orlando Avendaño",
+  "short": "ORLANDO",
+  "company": "Vinko · Escuela Militar",
+  "cargo": "Ingeniero de software",
+  "role": "HACKER",
+  "i": 182
+ },
+ {
+  "id": "oscar-erlandsen",
+  "name": "Oscar Erlandsen",
+  "short": "OSCAR",
+  "company": "Fintoc",
+  "cargo": "Ingeniero de Software",
+  "role": "HACKER",
+  "i": 183
+ },
+ {
+  "id": "pablo-abara",
+  "name": "Pablo Abara",
+  "short": "PABLO A.",
+  "company": "Fintual",
+  "cargo": "Head of Product",
+  "role": "MENTOR",
+  "i": 184
+ },
+ {
+  "id": "pablo-sebastian-bahamondes-walters",
+  "name": "Pablo Bahamondes",
+  "short": "PABLO B.",
+  "company": "Ing. Matemática UC",
+  "cargo": "Ingeniero de software",
+  "role": "HACKER",
+  "i": 185
+ },
+ {
+  "id": "pablo-landerretche",
+  "name": "Pablo Landerretche",
+  "short": "PABLO L.",
+  "company": "Sonicali · JAPS",
+  "cargo": "CEO JAPS · Co-Founder Sonicali",
+  "role": "HACKER",
+  "i": 186
+ },
+ {
+  "id": "pablo-moraga",
+  "name": "Pablo Moraga",
+  "short": "PABLO M.",
+  "company": "Dasein Futures",
+  "cargo": "CEO y cofundador",
+  "role": "HACKER",
+  "i": 187
+ },
+ {
+  "id": "paolo-luis-flores-congora",
+  "name": "Paolo Flores",
+  "short": "PAOLO",
+  "company": "NTT DATA · San Marcos",
+  "cargo": "Senior Software Engineer",
+  "role": "HACKER",
+  "i": 188
+ },
+ {
+  "id": "patricio-sainz",
+  "name": "Patricio Sainz",
+  "short": "PATRICIO",
+  "company": "Shinkansen",
+  "cargo": "Chief Legal and Policy Officer",
+  "role": "MENTOR",
+  "i": 189
+ },
+ {
+  "id": "paula-enei",
+  "name": "Paula Enei",
+  "short": "PAULA E.",
+  "company": "Platanus",
+  "cargo": "Cofundadora y Partner",
+  "role": "STAFF",
+  "i": 190
+ },
+ {
+  "id": "paula-yanez",
+  "name": "Paula Yáñez",
+  "short": "PAULA Y.",
+  "company": "Copec",
+  "cargo": "Ecosystem Specialist",
+  "role": "SPONSOR",
+  "i": 191
+ },
+ {
+  "id": "pedro-ignacio-bahamondes-walters",
+  "name": "Pedro Bahamondes",
+  "short": "PEDRO B.",
+  "company": "Fintoc · Polytechnique",
+  "cargo": "Senior Software Engineer",
+  "role": "HACKER",
+  "i": 192
+ },
+ {
+  "id": "pedro-pablo-palma-villanueva",
+  "name": "Pedro Palma",
+  "short": "PEDRO P.",
+  "company": "OstheoGlove · UC",
+  "cargo": "Cofundador de OstheoGlove",
+  "role": "HACKER",
+  "i": 193
+ },
+ {
+  "id": "rafael-fernandez",
+  "name": "Rafael Fernández",
+  "short": "RAFAEL F.",
+  "company": "Platanus · Syncventory",
+  "cargo": "Ingeniero de software",
+  "role": "HACKER",
+  "i": 194
+ },
+ {
+  "id": "rafael-rencoret-giaconi",
+  "name": "Rafael Rencoret",
+  "short": "RAFAEL R.",
+  "company": "SIMONA Costa · UC",
+  "cargo": "Consultor Analista",
+  "role": "HACKER",
+  "i": 195
+ },
+ {
+  "id": "raimundo-javier-escalona-santibanez",
+  "name": "Raimundo Escalona",
+  "short": "RAIMUNDO E.",
+  "company": "Global66 · UC",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 196
+ },
+ {
+  "id": "raimundo-herrera",
+  "name": "Raimundo Herrera",
+  "short": "RAIMUNDO H.",
+  "company": "Platanus",
+  "cargo": "General Partner & CTO",
+  "role": "MENTOR",
+  "i": 197
+ },
+ {
+  "id": "raimundo-labbe",
+  "name": "Raimundo Labbé",
+  "short": "RAIMUNDO L.",
+  "company": "Ing. Industrial UC",
+  "cargo": "Ing. Industrial-Computación",
+  "role": "HACKER",
+  "i": 198
+ },
+ {
+  "id": "raimundo-mena",
+  "name": "Raimundo Mena",
+  "short": "RAIMUNDO M.",
+  "company": "Turboshop",
+  "cargo": "CTO y cofundador",
+  "role": "HACKER",
+  "i": 199
+ },
+ {
+  "id": "ramon-molina",
+  "name": "Ramon Molina",
+  "short": "RAMON",
+  "company": "dameldato",
+  "cargo": "Founder",
+  "role": "HACKER",
+  "i": 200
+ },
+ {
+  "id": "regina-lena",
+  "name": "Regina Lena",
+  "short": "REGINA",
+  "company": "Black Sheep · Rondas.ai",
+  "cargo": "Head of Product & Design",
+  "role": "MENTORA",
+  "i": 201
+ },
+ {
+  "id": "renate-romina-rehbein-rehbein",
+  "name": "Renate Rehbein",
+  "short": "RENATE",
+  "company": "DAAB · Robótica UC",
+  "cargo": "Ingeniera de Proyectos I+D",
+  "role": "HACKER",
+  "i": 202
+ },
+ {
+  "id": "ricardo-ignacio-madariaga-gallardo",
+  "name": "Ricardo Madariaga",
+  "short": "RICARDO M.",
+  "company": "U. de los Andes",
+  "cargo": "Estudiante Ing. Computación",
+  "role": "HACKER",
+  "i": 203
+ },
+ {
+  "id": "ricardo-olalquiaga",
+  "name": "Ricardo Olalquiaga",
+  "short": "RICARDO O.",
+  "company": "Claro · USM",
+  "cargo": "GenAI Engineer",
+  "role": "HACKER",
+  "i": 204
+ },
+ {
+  "id": "rodrigo-elicer-krause",
+  "name": "Rodrigo Elicer",
+  "short": "RODRIGO E.",
+  "company": "Unholster · U. Melbourne",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 205
+ },
+ {
+  "id": "rodrigo-gevert",
+  "name": "Rodrigo Gevert",
+  "short": "RODRIGO G.",
+  "company": "Buk",
+  "cargo": "Jefe de Ingeniería",
+  "role": "JUEZ",
+  "i": 206
+ },
+ {
+  "id": "rodrigo-pizarro-alegria",
+  "name": "Rodrigo Pizarro",
+  "short": "RODRIGO P.",
+  "company": "Tenpo · USM",
+  "cargo": "Científico de Datos",
+  "role": "HACKER",
+  "i": 207
+ },
+ {
+  "id": "rodrigo-requena",
+  "name": "Rodrigo Requena",
+  "short": "RODRIGO R.",
+  "company": "Meta Build City",
+  "cargo": "Founder & CEO",
+  "role": "HACKER",
+  "i": 208
+ },
+ {
+  "id": "samuel-belon",
+  "name": "Samuel Belon",
+  "short": "SAMUEL",
+  "company": "Alt Protein Project UC",
+  "cargo": "Co-founder APP UC",
+  "role": "HACKER",
+  "i": 209
+ },
+ {
+  "id": "sebastian-nicolas-ferra-sepulveda",
+  "name": "Sebastián Ferrá",
+  "short": "SEBASTIÁN F.",
+  "company": "Valdishopper · FEUC",
+  "cargo": "AI Engineer",
+  "role": "HACKER",
+  "i": 210
+ },
+ {
+  "id": "sebastian-hevia",
+  "name": "Sebastián Hevia",
+  "short": "SEBASTIÁN H.",
+  "company": "AgendaPro",
+  "cargo": "Co-Founder & CTO",
+  "role": "MENTOR",
+  "i": 211
+ },
+ {
+  "id": "sebastian-torrealba",
+  "name": "Sebastián Torrealba",
+  "short": "SEBASTIÁN T.",
+  "company": "USM · OTH Regensburg",
+  "cargo": "Puentes Fellow @ Antigravity",
+  "role": "HACKER",
+  "i": 212
+ },
+ {
+  "id": "sebastian-vargas-webster",
+  "name": "Sebastian Vargas",
+  "short": "SEBASTIAN V.",
+  "company": "Wingsoft · PlantCare",
+  "cargo": "Full-Stack Developer",
+  "role": "HACKER",
+  "i": 213
+ },
+ {
+  "id": "sergio-andres-urzua-donoso",
+  "name": "Sergio Urzúa",
+  "short": "SERGIO",
+  "company": "JAPS · Sonicali",
+  "cargo": "CFO · Co-Founder JAPS",
+  "role": "HACKER",
+  "i": 214
+ },
+ {
+  "id": "simon-oyaneder",
+  "name": "Simón Oyaneder",
+  "short": "SIMÓN",
+  "company": "Fintoc · Thunder.GG",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 215
+ },
+ {
+  "id": "sofia-clement",
+  "name": "Sofía Clement",
+  "short": "SOFIA",
+  "company": "Platanus",
+  "cargo": "Program Manager",
+  "role": "STAFF",
+  "i": 216
+ },
+ {
+  "id": "syndel-debby-callisaya-cachi",
+  "name": "Syndel Callisaya",
+  "short": "SYNDEL",
+  "company": "Stealth Startup",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 217
+ },
+ {
+  "id": "tito-vicente-orellana-barra",
+  "name": "Tito Orellana",
+  "short": "TITO",
+  "company": "USM",
+  "cargo": "Estudiante Ing. Informática",
+  "role": "HACKER",
+  "i": 218
+ },
+ {
+  "id": "tomas-degese",
+  "name": "Tomás Degese",
+  "short": "TOMAS D.",
+  "company": "UTN · ORT Argentina",
+  "cargo": "Estudiante Ing. en Sistemas",
+  "role": "HACKER",
+  "i": 219
+ },
+ {
+  "id": "tomas-erdmannsdorffer-munoz",
+  "name": "Tomás Erdmannsdörffer",
+  "short": "TOMÁS E.",
+  "company": "MSc Ing. Mecánica UC",
+  "cargo": "ML Engineer",
+  "role": "HACKER",
+  "i": 220
+ },
+ {
+  "id": "tomas-rodrigo-morales-garcia",
+  "name": "Tomás Morales",
+  "short": "TOMÁS M.",
+  "company": "Krunchbox",
+  "cargo": "AI/ML Engineer",
+  "role": "HACKER",
+  "i": 221
+ },
+ {
+  "id": "tomas-nusser-hernandez",
+  "name": "Tomás Nusser",
+  "short": "TOMÁS N.",
+  "company": "Sodimac",
+  "cargo": "Ingeniero Desarrollo Logístico",
+  "role": "HACKER",
+  "i": 222
+ },
+ {
+  "id": "tomas-trivino",
+  "name": "Tomás Triviño",
+  "short": "TOMÁS T.",
+  "company": "Fintual",
+  "cargo": "Software Engineer",
+  "role": "INVITADO",
+  "i": 223
+ },
+ {
+  "id": "tomas-werth",
+  "name": "Tomás Werth",
+  "short": "TOMÁS W.",
+  "company": "Unholster · USM",
+  "cargo": "Data Scientist",
+  "role": "HACKER",
+  "i": 224
+ },
+ {
+  "id": "uriel-gandelman",
+  "name": "Uriel Gandelman",
+  "short": "URIEL",
+  "company": "ORT Argentina",
+  "cargo": "Developer",
+  "role": "HACKER",
+  "i": 225
+ },
+ {
+  "id": "valentina-honorato",
+  "name": "Valentina Honorato",
+  "short": "VALENTINA",
+  "company": "CHAIS · Agronomía UC",
+  "cargo": "Co-Founder",
+  "role": "HACKER",
+  "i": 226
+ },
+ {
+  "id": "valeria-riera",
+  "name": "Valeria Riera",
+  "short": "VALERIA",
+  "company": "Gama · UCAB",
+  "cargo": "Development Intern",
+  "role": "HACKER",
+  "i": 227
+ },
+ {
+  "id": "vicente-acevedo",
+  "name": "Vicente Acevedo",
+  "short": "VICENTE A.",
+  "company": "Front",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 228
+ },
+ {
+  "id": "vicente-cepeda-carrasco",
+  "name": "Vicente Cepeda",
+  "short": "VICENTE CE.",
+  "company": "U. de Chile",
+  "cargo": "Ayudante de programación",
+  "role": "HACKER",
+  "i": 229
+ },
+ {
+  "id": "vicente-cruz",
+  "name": "Vicente Cruz",
+  "short": "VICENTE CR.",
+  "company": "Finapsys",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 230
+ },
+ {
+  "id": "vicente-alexis-diaz-madariaga",
+  "name": "Vicente Díaz",
+  "short": "VICENTE D.",
+  "company": "U. Santa María",
+  "cargo": "Estudiante",
+  "role": "HACKER",
+  "i": 231
+ },
+ {
+  "id": "vicente-andre-loyola-mejias",
+  "name": "Vicente Loyola",
+  "short": "VICENTE L.",
+  "company": "Ingeniería UC",
+  "cargo": "Ayudante Diseño de Software",
+  "role": "HACKER",
+  "i": 232
+ },
+ {
+  "id": "vicente-matus",
+  "name": "Vicente Matus",
+  "short": "VICENTE M.",
+  "company": "puente OS",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 233
+ },
+ {
+  "id": "victor-hernandez",
+  "name": "Victor Hernandez",
+  "short": "VICTOR",
+  "company": "Lici",
+  "cargo": "Mentor · Software Engineer",
+  "role": "MENTOR",
+  "i": 234
+ },
+ {
+  "id": "victoria-guerriero",
+  "name": "Victoria Guerriero",
+  "short": "VICTORIA",
+  "company": "Duemint",
+  "cargo": "Software Engineer",
+  "role": "HACKER",
+  "i": 235
+ },
+ {
+  "id": "yung-hsuan-chung",
+  "name": "Yung Chung",
+  "short": "YUNG",
+  "company": "UDD · AsiaMix",
+  "cargo": "Estudiante Ing. Industrial",
+  "role": "HACKER",
+  "i": 236
+ }
+]

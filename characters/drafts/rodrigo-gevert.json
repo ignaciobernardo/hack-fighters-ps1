@@ -1,0 +1,81 @@
+{
+  "id": "rodrigo-gevert",
+  "draft": true,
+  "name": "Rodrigo Gevert",
+  "handle": "rodrigo",
+  "title": "juez · Buk",
+  "photo": "rodrigo-gevert.png",
+  "seed": 79,
+  "body": {
+    "height": 1.62,
+    "build": 0.38,
+    "shoulders": 0.66,
+    "legs": 0.55,
+    "head": 1.02
+  },
+  "skin": "#d59987",
+  "face": {
+    "jaw": 0.4,
+    "eyes": {
+      "color": "#3c231d",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.53,
+      "angle": 0.13
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#3a221d",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#849cb5",
+    "fit": 0.36,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#2a2f3d",
+    "trim": "#4aa3ff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#22222a",
+    "stripe": true,
+    "trim": "#4aa3ff"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "rodrigo",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

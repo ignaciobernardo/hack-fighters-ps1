@@ -1,0 +1,79 @@
+{
+  "id": "pablo-moraga",
+  "draft": true,
+  "name": "Pablo Moraga",
+  "handle": "salvatierrapm",
+  "title": "hacker",
+  "photo": "pablo-moraga.png",
+  "seed": 96,
+  "body": {
+    "height": 1.87,
+    "build": 0.43,
+    "shoulders": 0.37,
+    "legs": 0.5,
+    "head": 1.06
+  },
+  "skin": "#b87d5a",
+  "face": {
+    "jaw": 0.61,
+    "eyes": {
+      "color": "#0e0e0f",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.47,
+      "angle": 0.05
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#0e0e0e",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3f3e3b",
+    "fit": 0.43,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#23232b",
+    "collar": "high",
+    "length": 0.3,
+    "fit": 0.46,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#3b3550",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "salvatierr",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

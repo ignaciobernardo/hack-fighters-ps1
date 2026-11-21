@@ -1,0 +1,71 @@
+{
+  "id": "simon-oyaneder",
+  "draft": true,
+  "name": "Simón Oyaneder",
+  "handle": "SimonOyaneder",
+  "title": "hacker",
+  "photo": "simon-oyaneder.png",
+  "seed": 86,
+  "body": {
+    "height": 1.63,
+    "build": 0.56,
+    "shoulders": 0.38,
+    "legs": 0.43,
+    "head": 1.01
+  },
+  "skin": "#b7715a",
+  "face": {
+    "jaw": 0.72,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.56,
+      "angle": 0.02
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#be8b77",
+    "volume": 1.11,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#decbb5",
+    "fit": 0.4,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.12
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "SimonOyane",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

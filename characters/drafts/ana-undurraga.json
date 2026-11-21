@@ -1,0 +1,82 @@
+{
+  "id": "ana-undurraga",
+  "draft": true,
+  "name": "Ana Undurraga",
+  "handle": "ana",
+  "title": "invitada",
+  "photo": "ana-undurraga.png",
+  "seed": 66,
+  "body": {
+    "height": 1.76,
+    "build": 0.64,
+    "shoulders": 0.61,
+    "legs": 0.5,
+    "head": 1.03
+  },
+  "skin": "#a68074",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#48484b",
+      "size": 1.02
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.02
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#474649",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#0d1d2d",
+    "fit": 0.38,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#33302c",
+    "trim": "#f2c230",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#33302c",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.1,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ana",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

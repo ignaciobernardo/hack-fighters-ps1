@@ -1,0 +1,79 @@
+{
+  "id": "vicente-andre-loyola-mejias",
+  "draft": true,
+  "name": "Vicente André Loyola Mejías",
+  "handle": "vnloyola",
+  "title": "hacker",
+  "photo": "vicente-andre-loyola-mejias.png",
+  "seed": 59,
+  "body": {
+    "height": 1.81,
+    "build": 0.5,
+    "shoulders": 0.63,
+    "legs": 0.48,
+    "head": 1.01
+  },
+  "skin": "#b4745d",
+  "face": {
+    "jaw": 0.73,
+    "eyes": {
+      "color": "#2b2527",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.03
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#2a2426",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#c1c6dd",
+    "fit": 0.42,
+    "length": 0.6
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.42,
+    "fit": 0.42,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2c2f3a",
+    "stripe": true,
+    "trim": "#4aa3ff"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "vnloyola",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

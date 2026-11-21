@@ -1,0 +1,77 @@
+{
+  "id": "maira-sayen-acevedo-gutierrez",
+  "draft": true,
+  "name": "Maira Sayen Acevedo Gutiérrez",
+  "handle": "mairaace",
+  "title": "hacker",
+  "photo": "maira-sayen-acevedo-gutierrez.png",
+  "seed": 15,
+  "body": {
+    "height": 1.73,
+    "build": 0.34,
+    "shoulders": 0.43,
+    "legs": 0.46,
+    "head": 1.04
+  },
+  "skin": "#a67869",
+  "face": {
+    "jaw": 0.51,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.11
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#5a5d61",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#bfb3b2",
+    "fit": 0.41,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.32,
+    "fit": 0.45,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "mairaace",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

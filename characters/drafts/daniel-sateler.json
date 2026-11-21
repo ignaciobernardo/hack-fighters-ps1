@@ -1,0 +1,71 @@
+{
+  "id": "daniel-sateler",
+  "draft": true,
+  "name": "Daniel Sateler",
+  "handle": "satelerd",
+  "title": "hacker",
+  "photo": "daniel-sateler.png",
+  "seed": 35,
+  "body": {
+    "height": 1.67,
+    "build": 0.6,
+    "shoulders": 0.44,
+    "legs": 0.5,
+    "head": 1.05
+  },
+  "skin": "#90695c",
+  "face": {
+    "jaw": 0.74,
+    "eyes": {
+      "color": "#353136",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.4,
+      "angle": 0.15
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#333034",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#191b21",
+    "fit": 0.39,
+    "length": 0.61
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "satelerd",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

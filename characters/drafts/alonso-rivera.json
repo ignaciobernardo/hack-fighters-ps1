@@ -1,0 +1,77 @@
+{
+  "id": "alonso-rivera",
+  "draft": true,
+  "name": "Alonso Rivera",
+  "handle": "rir001",
+  "title": "hacker",
+  "photo": "alonso-rivera.png",
+  "seed": 65,
+  "body": {
+    "height": 1.65,
+    "build": 0.36,
+    "shoulders": 0.53,
+    "legs": 0.6,
+    "head": 1.01
+  },
+  "skin": "#de9a83",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#1b1612",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.4,
+      "angle": 0.18
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1a1612",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e3e3e0",
+    "fit": 0.35,
+    "length": 0.47
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2c2f3a",
+    "collar": "high",
+    "length": 0.31,
+    "fit": 0.46,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "rir001",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

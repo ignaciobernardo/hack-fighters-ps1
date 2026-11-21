@@ -1,0 +1,79 @@
+{
+  "id": "adolfo-manuel-villalobos-vega",
+  "draft": true,
+  "name": "Adolfo Manuel Villalobos Vega",
+  "handle": "adolfovillalobos",
+  "title": "hacker",
+  "photo": "adolfo-manuel-villalobos-vega.png",
+  "seed": 43,
+  "body": {
+    "height": 1.76,
+    "build": 0.48,
+    "shoulders": 0.69,
+    "legs": 0.5,
+    "head": 1.06
+  },
+  "skin": "#e8ad90",
+  "face": {
+    "jaw": 0.58,
+    "eyes": {
+      "color": "#211c1a",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.72,
+      "angle": 0.05
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#201c19",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#7795d2",
+    "fit": 0.55,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "adolfovill",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

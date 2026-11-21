@@ -1,0 +1,73 @@
+{
+  "id": "alejandro-lorca-acevedo",
+  "draft": true,
+  "name": "Alejandro Lorca Acevedo",
+  "handle": "Rooniejr",
+  "title": "hacker",
+  "photo": "alejandro-lorca-acevedo.png",
+  "seed": 4,
+  "body": {
+    "height": 1.7,
+    "build": 0.34,
+    "shoulders": 0.5,
+    "legs": 0.42,
+    "head": 1.0
+  },
+  "skin": "#955838",
+  "face": {
+    "jaw": 0.62,
+    "eyes": {
+      "color": "#2d2416",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.45,
+      "angle": 0.09
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#2c2316",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e1cab5",
+    "fit": 0.54,
+    "length": 0.4
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#4aa3ff"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Rooniejr",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

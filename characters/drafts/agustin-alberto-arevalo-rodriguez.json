@@ -1,0 +1,79 @@
+{
+  "id": "agustin-alberto-arevalo-rodriguez",
+  "draft": true,
+  "name": "Agustín Alberto Arévalo Rodríguez",
+  "handle": "HechoEnChile",
+  "title": "hacker",
+  "photo": "agustin-alberto-arevalo-rodriguez.png",
+  "seed": 69,
+  "body": {
+    "height": 1.84,
+    "build": 0.39,
+    "shoulders": 0.47,
+    "legs": 0.45,
+    "head": 1.03
+  },
+  "skin": "#de9776",
+  "face": {
+    "jaw": 0.52,
+    "eyes": {
+      "color": "#1d1b1b",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.17
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#1d1b1a",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#8c827c",
+    "fit": 0.39,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#23232b",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "HechoEnChi",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

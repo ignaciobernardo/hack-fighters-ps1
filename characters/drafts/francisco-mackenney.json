@@ -1,0 +1,71 @@
+{
+  "id": "francisco-mackenney",
+  "draft": true,
+  "name": "Francisco Mackenney",
+  "handle": "kiwivolador",
+  "title": "hacker",
+  "photo": "francisco-mackenney.png",
+  "seed": 85,
+  "body": {
+    "height": 1.68,
+    "build": 0.63,
+    "shoulders": 0.63,
+    "legs": 0.57,
+    "head": 1.08
+  },
+  "skin": "#b16f5a",
+  "face": {
+    "jaw": 0.41,
+    "eyes": {
+      "color": "#292725",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.63,
+      "angle": 0.03
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#282624",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e2e4ef",
+    "fit": 0.63,
+    "length": 0.57
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "kiwivolado",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

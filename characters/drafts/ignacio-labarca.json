@@ -1,0 +1,79 @@
+{
+  "id": "ignacio-labarca",
+  "draft": true,
+  "name": "Ignacio Labarca",
+  "handle": "ignaciolaba",
+  "title": "hacker",
+  "photo": "ignacio-labarca.png",
+  "seed": 82,
+  "body": {
+    "height": 1.85,
+    "build": 0.33,
+    "shoulders": 0.54,
+    "legs": 0.54,
+    "head": 1.03
+  },
+  "skin": "#905b48",
+  "face": {
+    "jaw": 0.62,
+    "eyes": {
+      "color": "#2c2623",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.51,
+      "angle": 0.11
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#2b2522",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#23262e",
+    "fit": 0.61,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#23232b",
+    "trim": "#ff7ab8",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ignaciolab",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "jose-carter",
+  "draft": true,
+  "name": "José Carter",
+  "handle": "Cartterr",
+  "title": "hacker",
+  "photo": "jose-carter.png",
+  "seed": 12,
+  "body": {
+    "height": 1.78,
+    "build": 0.46,
+    "shoulders": 0.4,
+    "legs": 0.42,
+    "head": 1.04
+  },
+  "skin": "#eba088",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#312830",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.65,
+      "angle": 0.11
+    },
+    "beard": "short",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#30272f",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#423951",
+    "fit": 0.36,
+    "length": 0.49
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#4aa3ff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Cartterr",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

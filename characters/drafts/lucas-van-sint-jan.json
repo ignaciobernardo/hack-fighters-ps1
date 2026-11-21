@@ -1,0 +1,77 @@
+{
+  "id": "lucas-van-sint-jan",
+  "draft": true,
+  "name": "Lucas Van Sint Jan",
+  "handle": "lucasvsj",
+  "title": "hacker",
+  "photo": "lucas-van-sint-jan.png",
+  "seed": 77,
+  "body": {
+    "height": 1.83,
+    "build": 0.55,
+    "shoulders": 0.64,
+    "legs": 0.47,
+    "head": 1.01
+  },
+  "skin": "#9f7054",
+  "face": {
+    "jaw": 0.41,
+    "eyes": {
+      "color": "#3c3834",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.02
+    },
+    "beard": "short",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#3a3733",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#2a3d5c",
+    "fit": 0.55,
+    "length": 0.69
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2a2f3d",
+    "collar": "high",
+    "length": 0.43,
+    "fit": 0.4,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#3b3550"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "lucasvsj",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

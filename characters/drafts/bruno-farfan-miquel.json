@@ -1,0 +1,80 @@
+{
+  "id": "bruno-farfan-miquel",
+  "draft": true,
+  "name": "Bruno Farfán Miquel",
+  "handle": "BrunoFarfan",
+  "title": "hacker",
+  "photo": "bruno-farfan-miquel.png",
+  "seed": 12,
+  "body": {
+    "height": 1.79,
+    "build": 0.69,
+    "shoulders": 0.52,
+    "legs": 0.42,
+    "head": 1.01
+  },
+  "skin": "#e19b7b",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#181512",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.1
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#171512",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a77474",
+    "fit": 0.57,
+    "length": 0.58
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#22222a",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.65,
+    "fit": 0.74,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "BrunoFarfa",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

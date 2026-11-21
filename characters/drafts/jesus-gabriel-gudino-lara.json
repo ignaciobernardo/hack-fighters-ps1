@@ -1,0 +1,74 @@
+{
+  "id": "jesus-gabriel-gudino-lara",
+  "draft": true,
+  "name": "Jesus Gabriel Gudiño Lara",
+  "handle": "Gabriels114",
+  "title": "hacker",
+  "photo": "jesus-gabriel-gudino-lara.png",
+  "seed": 5,
+  "body": {
+    "height": 1.83,
+    "build": 0.44,
+    "shoulders": 0.69,
+    "legs": 0.53,
+    "head": 1.03
+  },
+  "skin": "#e0a18b",
+  "face": {
+    "jaw": 0.56,
+    "eyes": {
+      "color": "#1b1411",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.15
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#1a1410",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#101116",
+    "fit": 0.53,
+    "length": 0.62
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2c2f3a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.08,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "Gabriels11",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

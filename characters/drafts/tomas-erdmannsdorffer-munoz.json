@@ -1,0 +1,77 @@
+{
+  "id": "tomas-erdmannsdorffer-munoz",
+  "draft": true,
+  "name": "Tomas Erdmannsdorffer Muñoz",
+  "handle": "terdmannsdorffer",
+  "title": "hacker",
+  "photo": "tomas-erdmannsdorffer-munoz.png",
+  "seed": 13,
+  "body": {
+    "height": 1.67,
+    "build": 0.52,
+    "shoulders": 0.7,
+    "legs": 0.5,
+    "head": 1.05
+  },
+  "skin": "#aa6e58",
+  "face": {
+    "jaw": 0.48,
+    "eyes": {
+      "color": "#1e1916",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.16
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1d1816",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e8e8e8",
+    "fit": 0.5,
+    "length": 0.69
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#23232b",
+    "collar": "high",
+    "length": 0.44,
+    "fit": 0.55,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "terdmannsd",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

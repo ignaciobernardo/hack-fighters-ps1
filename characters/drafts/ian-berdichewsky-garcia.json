@@ -1,0 +1,71 @@
+{
+  "id": "ian-berdichewsky-garcia",
+  "draft": true,
+  "name": "Ian Berdichewsky García",
+  "handle": "iaaaanb",
+  "title": "hacker",
+  "photo": "ian-berdichewsky-garcia.png",
+  "seed": 59,
+  "body": {
+    "height": 1.83,
+    "build": 0.61,
+    "shoulders": 0.56,
+    "legs": 0.48,
+    "head": 1.02
+  },
+  "skin": "#a36754",
+  "face": {
+    "jaw": 0.55,
+    "eyes": {
+      "color": "#181312",
+      "size": 0.95
+    },
+    "brows": {
+      "thick": 0.57,
+      "angle": 0.19
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#171312",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#d0c2b9",
+    "fit": 0.46,
+    "length": 0.66
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#f2762e",
+    "sole": "#26262c",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "iaaaanb",
+      "color": "#f2762e",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

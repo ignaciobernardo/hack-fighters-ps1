@@ -1,0 +1,77 @@
+{
+  "id": "alendi-brandtii-balbontin-nunez",
+  "draft": true,
+  "name": "Alendi Brandtii Balbontín Nuñez",
+  "handle": "ImBalbontin",
+  "title": "hacker",
+  "photo": "alendi-brandtii-balbontin-nunez.png",
+  "seed": 55,
+  "body": {
+    "height": 1.77,
+    "build": 0.38,
+    "shoulders": 0.47,
+    "legs": 0.41,
+    "head": 1.04
+  },
+  "skin": "#d48f6b",
+  "face": {
+    "jaw": 0.72,
+    "eyes": {
+      "color": "#181714",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.18
+    },
+    "beard": "stubble",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#171614",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#161412",
+    "fit": 0.63,
+    "length": 0.68
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#33302c",
+    "collar": "high",
+    "length": 0.44,
+    "fit": 0.54,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ImBalbonti",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

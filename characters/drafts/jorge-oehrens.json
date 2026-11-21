@@ -1,0 +1,71 @@
+{
+  "id": "jorge-oehrens",
+  "draft": true,
+  "name": "Jorge Oehrens",
+  "handle": "JorgeOehrens",
+  "title": "hacker",
+  "photo": "jorge-oehrens.png",
+  "seed": 64,
+  "body": {
+    "height": 1.87,
+    "build": 0.5,
+    "shoulders": 0.39,
+    "legs": 0.51,
+    "head": 1.08
+  },
+  "skin": "#c08876",
+  "face": {
+    "jaw": 0.62,
+    "eyes": {
+      "color": "#080808",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.6,
+      "angle": 0.09
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#070707",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#49536b",
+    "fit": 0.4,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "JorgeOehre",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nicolas-rodrigo-arancibia-aguirre",
+  "draft": true,
+  "name": "Nicolás Rodrigo Arancibia Aguirre",
+  "handle": "nicoaranc",
+  "title": "hacker",
+  "photo": "nicolas-rodrigo-arancibia-aguirre.png",
+  "seed": 5,
+  "body": {
+    "height": 1.78,
+    "build": 0.41,
+    "shoulders": 0.63,
+    "legs": 0.57,
+    "head": 1.08
+  },
+  "skin": "#794c39",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#372c24",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.09
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#362b23",
+    "volume": 0.98,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3a4b53",
+    "fit": 0.37,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#ff7ab8",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nicoaranc",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

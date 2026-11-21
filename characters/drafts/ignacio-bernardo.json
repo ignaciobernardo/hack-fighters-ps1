@@ -1,0 +1,80 @@
+{
+  "id": "ignacio-bernardo",
+  "draft": true,
+  "name": "Ignacio Bernardo",
+  "handle": "ignacio",
+  "title": "staff · Platanus",
+  "photo": "ignacio-bernardo.png",
+  "seed": 6,
+  "body": {
+    "height": 1.84,
+    "build": 0.48,
+    "shoulders": 0.58,
+    "legs": 0.44,
+    "head": 1.06
+  },
+  "skin": "#52392e",
+  "face": {
+    "jaw": 0.51,
+    "eyes": {
+      "color": "#261e1a",
+      "size": 0.98
+    },
+    "brows": {
+      "thick": 0.74,
+      "angle": 0.06
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#251d19",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#252932",
+    "fit": 0.62,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#2a2f3d",
+    "trim": "#e8e4da",
+    "cord": "#e8e4da",
+    "collar": "hood",
+    "length": 0.54,
+    "fit": 0.5,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ignacio",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

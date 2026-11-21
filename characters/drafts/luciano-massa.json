@@ -1,0 +1,71 @@
+{
+  "id": "luciano-massa",
+  "draft": true,
+  "name": "Luciano Massa",
+  "handle": "kohai-of-javier",
+  "title": "hacker",
+  "photo": "luciano-massa.png",
+  "seed": 29,
+  "body": {
+    "height": 1.7,
+    "build": 0.54,
+    "shoulders": 0.66,
+    "legs": 0.6,
+    "head": 1.02
+  },
+  "skin": "#ce8b72",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#46352b",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.51,
+      "angle": 0.07
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#44332a",
+    "volume": 0.97,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#4a5a6a",
+    "fit": 0.36,
+    "length": 0.55
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#ff7ab8",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "kohai-of-j",
+      "color": "#ff7ab8",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "nicolas-funes",
+  "draft": true,
+  "name": "Nicolás Funes",
+  "handle": "nicolas152",
+  "title": "hacker",
+  "photo": "nicolas-funes.png",
+  "seed": 39,
+  "body": {
+    "height": 1.67,
+    "build": 0.5,
+    "shoulders": 0.44,
+    "legs": 0.53,
+    "head": 1.01
+  },
+  "skin": "#eb9376",
+  "face": {
+    "jaw": 0.66,
+    "eyes": {
+      "color": "#1b140e",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.41,
+      "angle": 0.12
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1b140e",
+    "volume": 1.01,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#0b0b0b",
+    "fit": 0.46,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2c2f3a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.09,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "nicolas152",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

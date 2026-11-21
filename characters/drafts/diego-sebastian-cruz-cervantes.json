@@ -1,0 +1,80 @@
+{
+  "id": "diego-sebastian-cruz-cervantes",
+  "draft": true,
+  "name": "Diego Sebastian Cruz Cervantes",
+  "handle": "SebasCrucer",
+  "title": "hacker",
+  "photo": "diego-sebastian-cruz-cervantes.png",
+  "seed": 23,
+  "body": {
+    "height": 1.68,
+    "build": 0.4,
+    "shoulders": 0.65,
+    "legs": 0.48,
+    "head": 1.07
+  },
+  "skin": "#d78058",
+  "face": {
+    "jaw": 0.55,
+    "eyes": {
+      "color": "#2d2117",
+      "size": 1.0
+    },
+    "brows": {
+      "thick": 0.62,
+      "angle": 0.16
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2c2016",
+    "volume": 0.99,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#c78966",
+    "fit": 0.6,
+    "length": 0.47
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#2c2f3a",
+    "collar": "high",
+    "length": 0.43,
+    "fit": 0.54,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#3b3550",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#4aa3ff",
+    "sole": "#f7f5ef",
+    "size": 1.1,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "SebasCruce",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

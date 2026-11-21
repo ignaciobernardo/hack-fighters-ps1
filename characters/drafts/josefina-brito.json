@@ -1,0 +1,71 @@
+{
+  "id": "josefina-brito",
+  "draft": true,
+  "name": "Josefina Brito",
+  "handle": "josefina",
+  "title": "sponsor · AgendaPro",
+  "photo": "josefina-brito.png",
+  "seed": 16,
+  "body": {
+    "height": 1.78,
+    "build": 0.63,
+    "shoulders": 0.56,
+    "legs": 0.56,
+    "head": 1.06
+  },
+  "skin": "#995944",
+  "face": {
+    "jaw": 0.63,
+    "eyes": {
+      "color": "#2d2a24",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.09
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2c2924",
+    "volume": 1.13,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#483a31",
+    "fit": 0.61,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "josefina",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

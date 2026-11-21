@@ -1,0 +1,98 @@
+{
+  "id": "juan",
+  "name": "Juan Vargas",
+  "handle": "v4rgas",
+  "title": "founder / ing. computación",
+  "photo": "juan-vargas.png",
+  "seed": 37,
+  "body": {
+    "height": 1.77,
+    "build": 0.78,
+    "shoulders": 0.6,
+    "legs": 0.45,
+    "belly": 0.5,
+    "head": 1.03
+  },
+  "skin": "#e6b596",
+  "face": {
+    "jaw": 0.8,
+    "eyes": {
+      "color": "#3a2a1e",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.6,
+      "angle": 0.04
+    },
+    "beard": "short",
+    "mouth": "grin",
+    "mouthW": 1.15,
+    "width": 1.06
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#2a2020",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1b1b20",
+    "fit": 0.6,
+    "length": 0.6
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#f2762e",
+    "cord": "#f2762e",
+    "collar": "hood",
+    "length": 0.62,
+    "fit": 0.7,
+    "open": 0.5,
+    "flare": 0.7,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#22222a",
+    "trim": "#111"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#f2762e",
+    "sole": "#e9e6df",
+    "lace": "#f2762e",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "wrist": true,
+    "wristColor": "#f2762e"
+  },
+  "acc": {
+    "glasses": {
+      "color": "#15151a",
+      "shape": "rect"
+    }
+  },
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "v4rgas",
+      "color": "#f2762e",
+      "size": 0.85,
+      "y": 0.62
+    },
+    {
+      "on": "jacket",
+      "side": "back",
+      "text": "V4",
+      "color": "#f2762e",
+      "size": 2.2,
+      "y": 0.6
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "raimundo-javier-escalona-santibanez",
+  "draft": true,
+  "name": "Raimundo Javier Escalona Santibanez",
+  "handle": "raiescalona",
+  "title": "hacker",
+  "photo": "raimundo-javier-escalona-santibanez.png",
+  "seed": 82,
+  "body": {
+    "height": 1.87,
+    "build": 0.4,
+    "shoulders": 0.62,
+    "legs": 0.41,
+    "head": 1.05
+  },
+  "skin": "#b57759",
+  "face": {
+    "jaw": 0.63,
+    "eyes": {
+      "color": "#2b221c",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.58,
+      "angle": 0.08
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#2a211c",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#212024",
+    "fit": 0.39,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#26262c",
+    "size": 1.12,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "raiescalon",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

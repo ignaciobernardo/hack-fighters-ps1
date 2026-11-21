@@ -1,0 +1,71 @@
+{
+  "id": "raimundo-mena",
+  "draft": true,
+  "name": "Raimundo Mena",
+  "handle": "rmena1",
+  "title": "hacker",
+  "photo": "raimundo-mena.png",
+  "seed": 21,
+  "body": {
+    "height": 1.65,
+    "build": 0.46,
+    "shoulders": 0.35,
+    "legs": 0.41,
+    "head": 1.07
+  },
+  "skin": "#946a5d",
+  "face": {
+    "jaw": 0.62,
+    "eyes": {
+      "color": "#31343c",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.64,
+      "angle": 0.14
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#30333a",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#a7afcb",
+    "fit": 0.44,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#33302c"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "rmena1",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

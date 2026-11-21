@@ -1,0 +1,83 @@
+{
+  "id": "matias-tapia",
+  "draft": true,
+  "name": "Matías Tapia",
+  "handle": "mgtapia",
+  "title": "hacker",
+  "photo": "matias-tapia.png",
+  "seed": 31,
+  "body": {
+    "height": 1.81,
+    "build": 0.57,
+    "shoulders": 0.47,
+    "legs": 0.45,
+    "head": 1.07
+  },
+  "skin": "#a0553c",
+  "face": {
+    "jaw": 0.5,
+    "eyes": {
+      "color": "#493c33",
+      "size": 0.97
+    },
+    "brows": {
+      "thick": 0.68,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#483a32",
+    "volume": 1.07,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#ee6341",
+    "fit": 0.6,
+    "length": 0.56
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#b06cff",
+    "cord": "#b06cff",
+    "collar": "hood",
+    "length": 0.48,
+    "fit": 0.71,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "long"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#3b3550",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.14,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "mgtapia",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

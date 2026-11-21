@@ -1,0 +1,81 @@
+{
+  "id": "rafael-rencoret-giaconi",
+  "draft": true,
+  "name": "Rafael Rencoret Giaconi",
+  "handle": "rafarencoretg",
+  "title": "hacker",
+  "photo": "rafael-rencoret-giaconi.png",
+  "seed": 65,
+  "body": {
+    "height": 1.79,
+    "build": 0.62,
+    "shoulders": 0.67,
+    "legs": 0.5,
+    "head": 1.06
+  },
+  "skin": "#b1674f",
+  "face": {
+    "jaw": 0.52,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.37,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "buzz",
+    "color": "#3a251e",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#47433d",
+    "fit": 0.48,
+    "length": 0.41
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#3b3550",
+    "trim": "#e5484d",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#e5484d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.15
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "rafarencor",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

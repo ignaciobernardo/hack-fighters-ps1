@@ -1,0 +1,81 @@
+{
+  "id": "clemente-ferrer",
+  "draft": true,
+  "name": "Clemente Ferrer",
+  "handle": "clementeferrer",
+  "title": "hacker",
+  "photo": "clemente-ferrer.png",
+  "seed": 96,
+  "body": {
+    "height": 1.82,
+    "build": 0.56,
+    "shoulders": 0.69,
+    "legs": 0.5,
+    "head": 1.04
+  },
+  "skin": "#d08e79",
+  "face": {
+    "jaw": 0.7,
+    "eyes": {
+      "color": "#1d1b18",
+      "size": 1.05
+    },
+    "brows": {
+      "thick": 0.7,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1d1a17",
+    "volume": 1.14,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.6,
+    "length": 0.64
+  },
+  "jacket": {
+    "type": "vest",
+    "color": "#1d1d22",
+    "trim": "#b06cff",
+    "collar": "none",
+    "sleeves": "none",
+    "length": 0.22,
+    "fit": 0.1,
+    "open": 0.3,
+    "flare": 0.15
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#33302c",
+    "stripe": true,
+    "trim": "#b06cff"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "clementefe",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

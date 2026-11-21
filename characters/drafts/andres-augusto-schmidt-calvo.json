@@ -1,0 +1,71 @@
+{
+  "id": "andres-augusto-schmidt-calvo",
+  "draft": true,
+  "name": "Andres Augusto Schmidt Calvo",
+  "handle": "elmiich",
+  "title": "hacker",
+  "photo": "andres-augusto-schmidt-calvo.png",
+  "seed": 60,
+  "body": {
+    "height": 1.76,
+    "build": 0.56,
+    "shoulders": 0.51,
+    "legs": 0.52,
+    "head": 1.03
+  },
+  "skin": "#945b4a",
+  "face": {
+    "jaw": 0.6,
+    "eyes": {
+      "color": "#23232c",
+      "size": 0.94
+    },
+    "brows": {
+      "thick": 0.58,
+      "angle": 0.04
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "curly",
+    "color": "#22222b",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#3c3c46",
+    "fit": 0.56,
+    "length": 0.53
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2c2f3a"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.11
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "elmiich",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

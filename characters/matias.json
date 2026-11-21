@@ -1,0 +1,91 @@
+{
+  "id": "matias",
+  "name": "Matías Berrios",
+  "handle": "m5b6",
+  "title": "vita / ai native gyms",
+  "photo": "matias-antonio-berrios-ortigas.png",
+  "seed": 11,
+  "body": {
+    "height": 1.8,
+    "build": 0.72,
+    "shoulders": 0.8,
+    "legs": 0.5,
+    "head": 0.98
+  },
+  "skin": "#dba27c",
+  "face": {
+    "jaw": 0.75,
+    "eyes": {
+      "color": "#2a1b14",
+      "size": 0.9,
+      "tilt": 0.0,
+      "open": 0.85
+    },
+    "brows": {
+      "thick": 0.85,
+      "angle": 0.28,
+      "arch": 0.2
+    },
+    "beard": "stubble",
+    "mouth": "smirk",
+    "ears": 1.35
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#1b1a1f",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#6a6a70",
+    "fit": 0.3,
+    "length": 0.4
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "trim": "#0f0f12",
+    "collar": "high",
+    "length": 0.42,
+    "fit": 0.55,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2c2f3a",
+    "trim": "#16171c",
+    "stripe": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.1
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "jacket",
+      "side": "back",
+      "text": "VITA",
+      "color": "#f2c230",
+      "size": 1.5,
+      "y": 0.62
+    },
+    {
+      "on": "top",
+      "side": "front",
+      "kind": "band",
+      "color": "#4f4f55",
+      "size": 0.5,
+      "y": 0.55
+    }
+  ]
+}

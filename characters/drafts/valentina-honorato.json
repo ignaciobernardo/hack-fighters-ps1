@@ -1,0 +1,71 @@
+{
+  "id": "valentina-honorato",
+  "draft": true,
+  "name": "Valentina Honorato",
+  "handle": "ValHonom",
+  "title": "hacker",
+  "photo": "valentina-honorato.png",
+  "seed": 66,
+  "body": {
+    "height": 1.7,
+    "build": 0.61,
+    "shoulders": 0.69,
+    "legs": 0.41,
+    "head": 1.0
+  },
+  "skin": "#be7c60",
+  "face": {
+    "jaw": 0.68,
+    "eyes": {
+      "color": "#4a3626",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.45,
+      "angle": 0.03
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#c6c6c8",
+    "volume": 0.95,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#b5c8df",
+    "fit": 0.51,
+    "length": 0.4
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#4aa3ff",
+    "sole": "#26262c",
+    "size": 1.06
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "ValHonom",
+      "color": "#4aa3ff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

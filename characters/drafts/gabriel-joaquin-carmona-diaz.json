@@ -1,0 +1,80 @@
+{
+  "id": "gabriel-joaquin-carmona-diaz",
+  "draft": true,
+  "name": "Gabriel Joaquín Carmona Díaz",
+  "handle": "m1tuw",
+  "title": "hacker",
+  "photo": "gabriel-joaquin-carmona-diaz.png",
+  "seed": 20,
+  "body": {
+    "height": 1.72,
+    "build": 0.38,
+    "shoulders": 0.68,
+    "legs": 0.42,
+    "head": 1.05
+  },
+  "skin": "#915e46",
+  "face": {
+    "jaw": 0.64,
+    "eyes": {
+      "color": "#393331",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.59,
+      "angle": 0.08
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#383230",
+    "volume": 1.04,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#bdc2de",
+    "fit": 0.39,
+    "length": 0.5
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#3b3550",
+    "trim": "#e8e4da",
+    "cord": "#e8e4da",
+    "collar": "hood",
+    "length": 0.6,
+    "fit": 0.55,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "straight",
+    "color": "#1d1d22"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "m1tuw",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

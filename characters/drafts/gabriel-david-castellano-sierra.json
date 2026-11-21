@@ -1,0 +1,80 @@
+{
+  "id": "gabriel-david-castellano-sierra",
+  "draft": true,
+  "name": "Gabriel David Castellano Sierra",
+  "handle": "GdCastellano",
+  "title": "hacker",
+  "photo": "gabriel-david-castellano-sierra.png",
+  "seed": 22,
+  "body": {
+    "height": 1.71,
+    "build": 0.55,
+    "shoulders": 0.38,
+    "legs": 0.45,
+    "head": 1.06
+  },
+  "skin": "#a46953",
+  "face": {
+    "jaw": 0.67,
+    "eyes": {
+      "color": "#1b1614",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.69,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#1a1614",
+    "volume": 1.04,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#747472",
+    "fit": 0.48,
+    "length": 0.43
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#23232b",
+    "collar": "high",
+    "length": 0.47,
+    "fit": 0.52,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#26262c",
+    "size": 1.1,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "GdCastella",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

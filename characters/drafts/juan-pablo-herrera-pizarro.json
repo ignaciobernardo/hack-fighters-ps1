@@ -1,0 +1,77 @@
+{
+  "id": "juan-pablo-herrera-pizarro",
+  "draft": true,
+  "name": "Juan Pablo Herrera Pizarro",
+  "handle": "jpherrerap",
+  "title": "hacker",
+  "photo": "juan-pablo-herrera-pizarro.png",
+  "seed": 94,
+  "body": {
+    "height": 1.65,
+    "build": 0.47,
+    "shoulders": 0.45,
+    "legs": 0.52,
+    "head": 1.0
+  },
+  "skin": "#b67a5f",
+  "face": {
+    "jaw": 0.5,
+    "eyes": {
+      "color": "#2c2621",
+      "size": 0.96
+    },
+    "brows": {
+      "thick": 0.35,
+      "angle": 0.15
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2b2520",
+    "volume": 1.06,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#77765d",
+    "fit": 0.42,
+    "length": 0.47
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#1d1d22",
+    "collar": "high",
+    "length": 0.42,
+    "fit": 0.41,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "wide",
+    "color": "#23232b"
+  },
+  "shoes": {
+    "type": "boot",
+    "color": "#ecebe6",
+    "accent": "#35e08a",
+    "sole": "#26262c",
+    "size": 1.13
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "jpherrerap",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

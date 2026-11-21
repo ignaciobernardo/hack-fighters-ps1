@@ -1,0 +1,80 @@
+{
+  "id": "juan-ignacio-valdivia-girardi",
+  "draft": true,
+  "name": "Juan Ignacio Valdivia Girardi",
+  "handle": "chunchometalero",
+  "title": "hacker",
+  "photo": "juan-ignacio-valdivia-girardi.png",
+  "seed": 42,
+  "body": {
+    "height": 1.72,
+    "build": 0.63,
+    "shoulders": 0.68,
+    "legs": 0.45,
+    "head": 1.03
+  },
+  "skin": "#e0a386",
+  "face": {
+    "jaw": 0.59,
+    "eyes": {
+      "color": "#2d241f",
+      "size": 0.99
+    },
+    "brows": {
+      "thick": 0.54,
+      "angle": 0.1
+    },
+    "beard": "stubble",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#2c241e",
+    "volume": 1.0,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#151516",
+    "fit": 0.64,
+    "length": 0.69
+  },
+  "jacket": {
+    "type": "fleece",
+    "color": "#33302c",
+    "collar": "high",
+    "length": 0.32,
+    "fit": 0.56,
+    "open": 0.42,
+    "flare": 0.5
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#22222a",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.06,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "chunchomet",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

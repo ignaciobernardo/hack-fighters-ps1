@@ -1,0 +1,74 @@
+{
+  "id": "anais-neira-zuniga",
+  "draft": true,
+  "name": "Anaís Neira Zúñiga",
+  "handle": "chichitaocss",
+  "title": "hacker",
+  "photo": "anais-neira-zuniga.png",
+  "seed": 78,
+  "body": {
+    "height": 1.72,
+    "build": 0.4,
+    "shoulders": 0.37,
+    "legs": 0.43,
+    "head": 1.08
+  },
+  "skin": "#e6a785",
+  "face": {
+    "jaw": 0.68,
+    "eyes": {
+      "color": "#2d2723",
+      "size": 0.93
+    },
+    "brows": {
+      "thick": 0.44,
+      "angle": 0.18
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#2c2622",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#e8e7e4",
+    "fit": 0.44,
+    "length": 0.6
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#2a2f3d",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.11,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "chichitaoc",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

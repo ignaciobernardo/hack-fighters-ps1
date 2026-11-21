@@ -1,0 +1,83 @@
+{
+  "id": "massiel-paola-perozo-ballestero",
+  "draft": true,
+  "name": "Massiel Paola Perozo Ballestero",
+  "handle": "massiperozo",
+  "title": "hacker",
+  "photo": "massiel-paola-perozo-ballestero.png",
+  "seed": 53,
+  "body": {
+    "height": 1.68,
+    "build": 0.55,
+    "shoulders": 0.35,
+    "legs": 0.53,
+    "head": 1.08
+  },
+  "skin": "#ae6a49",
+  "face": {
+    "jaw": 0.41,
+    "eyes": {
+      "color": "#28221e",
+      "size": 0.9
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.11
+    },
+    "beard": "none",
+    "mouth": "smirk"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#27211d",
+    "volume": 1.05,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#161618",
+    "fit": 0.46,
+    "length": 0.66
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#33302c",
+    "trim": "#35e08a",
+    "cord": "#35e08a",
+    "collar": "hood",
+    "length": 0.63,
+    "fit": 0.66,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "shorts",
+    "color": "#1d1d22",
+    "length": 0.5,
+    "pocket": true
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#35e08a",
+    "sole": "#f7f5ef",
+    "size": 1.14,
+    "sock": 0.3
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "massiperoz",
+      "color": "#35e08a",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

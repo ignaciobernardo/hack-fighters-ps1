@@ -1,0 +1,73 @@
+{
+  "id": "diego-valenzuela-figueroa",
+  "draft": true,
+  "name": "Diego Valenzuela Figueroa",
+  "handle": "data-diego",
+  "title": "hacker",
+  "photo": "diego-valenzuela-figueroa.png",
+  "seed": 2,
+  "body": {
+    "height": 1.8,
+    "build": 0.65,
+    "shoulders": 0.59,
+    "legs": 0.45,
+    "head": 1.06
+  },
+  "skin": "#955a47",
+  "face": {
+    "jaw": 0.75,
+    "eyes": {
+      "color": "#312e34",
+      "size": 1.04
+    },
+    "brows": {
+      "thick": 0.38,
+      "angle": 0.08
+    },
+    "beard": "short",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "quiff",
+    "color": "#302d33",
+    "volume": 1.02,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#1c202c",
+    "fit": 0.38,
+    "length": 0.46
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#b06cff"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.09
+  },
+  "hands": {
+    "type": "bare",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "data-diego",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

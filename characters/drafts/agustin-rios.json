@@ -1,0 +1,73 @@
+{
+  "id": "agustin-rios",
+  "draft": true,
+  "name": "Agustin Rios",
+  "handle": "agustin-rios",
+  "title": "hacker",
+  "photo": "agustin-rios.png",
+  "seed": 41,
+  "body": {
+    "height": 1.84,
+    "build": 0.49,
+    "shoulders": 0.64,
+    "legs": 0.55,
+    "head": 1.03
+  },
+  "skin": "#8c5948",
+  "face": {
+    "jaw": 0.61,
+    "eyes": {
+      "color": "#524b54",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.66,
+      "angle": 0.05
+    },
+    "beard": "none",
+    "mouth": "grin"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#504952",
+    "volume": 0.96,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#584a4e",
+    "fit": 0.5,
+    "length": 0.54
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#23232b",
+    "stripe": true,
+    "trim": "#f2c230"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#f1efe9",
+    "accent": "#f2c230",
+    "sole": "#f7f5ef",
+    "size": 1.12
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "agustin-ri",
+      "color": "#f2c230",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

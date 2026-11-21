@@ -1,0 +1,73 @@
+{
+  "id": "tomas-rodrigo-morales-garcia",
+  "draft": true,
+  "name": "Tomás Rodrigo Morales Garcia",
+  "handle": "tmorals",
+  "title": "hacker",
+  "photo": "tomas-rodrigo-morales-garcia.png",
+  "seed": 98,
+  "body": {
+    "height": 1.86,
+    "build": 0.48,
+    "shoulders": 0.58,
+    "legs": 0.54,
+    "head": 1.01
+  },
+  "skin": "#bd7d65",
+  "face": {
+    "jaw": 0.62,
+    "eyes": {
+      "color": "#29282a",
+      "size": 0.91
+    },
+    "brows": {
+      "thick": 0.58,
+      "angle": 0.13
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "crop",
+    "color": "#282729",
+    "volume": 1.15,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#242326",
+    "fit": 0.59,
+    "length": 0.67
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "joggers",
+    "color": "#2a2f3d",
+    "stripe": true,
+    "trim": "#e8e4da"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e8e4da",
+    "sole": "#f7f5ef",
+    "size": 1.14
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "tmorals",
+      "color": "#e8e4da",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

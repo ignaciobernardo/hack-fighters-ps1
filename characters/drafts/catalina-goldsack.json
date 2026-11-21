@@ -1,0 +1,71 @@
+{
+  "id": "catalina-goldsack",
+  "draft": true,
+  "name": "Catalina Goldsack",
+  "handle": "catalina",
+  "title": "invitada",
+  "photo": "catalina-goldsack.png",
+  "seed": 12,
+  "body": {
+    "height": 1.78,
+    "build": 0.44,
+    "shoulders": 0.62,
+    "legs": 0.58,
+    "head": 1.03
+  },
+  "skin": "#f79165",
+  "face": {
+    "jaw": 0.58,
+    "eyes": {
+      "color": "#53351f",
+      "size": 1.03
+    },
+    "brows": {
+      "thick": 0.49,
+      "angle": 0.14
+    },
+    "beard": "none",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "long",
+    "color": "#51331e",
+    "volume": 1.1,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#944730",
+    "fit": 0.63,
+    "length": 0.42
+  },
+  "jacket": {
+    "type": "none"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#2a2f3d"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#2a2a30",
+    "accent": "#b06cff",
+    "sole": "#f7f5ef",
+    "size": 1.07
+  },
+  "hands": {
+    "type": "fingerless",
+    "color": "#efe8d8"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "catalina",
+      "color": "#b06cff",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}

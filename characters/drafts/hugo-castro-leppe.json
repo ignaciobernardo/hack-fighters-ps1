@@ -1,0 +1,80 @@
+{
+  "id": "hugo-castro-leppe",
+  "draft": true,
+  "name": "Hugo Castro Leppe",
+  "handle": "HugoCL",
+  "title": "hacker",
+  "photo": "hugo-castro-leppe.png",
+  "seed": 61,
+  "body": {
+    "height": 1.76,
+    "build": 0.33,
+    "shoulders": 0.65,
+    "legs": 0.59,
+    "head": 1.08
+  },
+  "skin": "#c58973",
+  "face": {
+    "jaw": 0.43,
+    "eyes": {
+      "color": "#211d2f",
+      "size": 1.01
+    },
+    "brows": {
+      "thick": 0.57,
+      "angle": 0.06
+    },
+    "beard": "stubble",
+    "mouth": "smile"
+  },
+  "hair": {
+    "style": "messy",
+    "color": "#201d2e",
+    "volume": 1.09,
+    "length": 1.0
+  },
+  "top": {
+    "type": "tee",
+    "color": "#897a63",
+    "fit": 0.41,
+    "length": 0.44
+  },
+  "jacket": {
+    "type": "hoodie",
+    "color": "#23232b",
+    "trim": "#e5484d",
+    "cord": "#e5484d",
+    "collar": "hood",
+    "length": 0.46,
+    "fit": 0.65,
+    "open": 0.5,
+    "flare": 0.6,
+    "sleeves": "rolled"
+  },
+  "bottom": {
+    "type": "slim",
+    "color": "#22222a"
+  },
+  "shoes": {
+    "type": "sneaker",
+    "color": "#ecebe6",
+    "accent": "#e5484d",
+    "sole": "#26262c",
+    "size": 1.08
+  },
+  "hands": {
+    "type": "wraps",
+    "color": "#23232b"
+  },
+  "acc": {},
+  "prints": [
+    {
+      "on": "top",
+      "side": "front",
+      "text": "HugoCL",
+      "color": "#e5484d",
+      "size": 0.8,
+      "y": 0.62
+    }
+  ]
+}
