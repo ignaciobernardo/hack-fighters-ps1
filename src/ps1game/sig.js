@@ -42,7 +42,7 @@ export class Sigs {
       const ppo = p === 'bubble' ? { text: pick(sig.texts, i), color: sig.color, fg: sig.fg } : po;
       this.spawn(f, p, ppo, {
         kind: 'fall', x: opp.x + (Math.random() - 0.5) * 1.3 + opp.vx * 0.25, y: f.floorY + 4.6 + Math.random() * 0.6, vx: 0, vy: -5.5 - Math.random() * 2,
-        dmg: 39, spin: p === 'bubble' || p === 'doc' || p === 'bill' ? [0, 0, (Math.random() - 0.5) * 2] : [Math.random() * 5, Math.random() * 3, Math.random() * 5],
+        dmg: 42, spin: p === 'bubble' || p === 'doc' || p === 'bill' ? [0, 0, (Math.random() - 0.5) * 2] : [Math.random() * 5, Math.random() * 3, Math.random() * 5],
         scale: p === 'bubble' ? 1.5 : 1.35, r: 0.3, lying, flutter: p === 'bill' || p === 'doc' || p === 'envelope' ? 1 : 0,
       });
     });

@@ -7,7 +7,7 @@ const N = +(process.argv[2] || 120);
 const browser = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true, args: ['--use-angle=metal', '--enable-gpu', '--ignore-gpu-blocklist'] });
 const page = await browser.newPage({ viewport: { width: 320, height: 240 } });
 const errs = []; page.on('pageerror', (e) => errs.push(e.message));
-await page.goto('http://127.0.0.1:8118/?demo=1&p1=ian-fry&p2=rafael-fernandez', { waitUntil: 'load' });
+await page.goto('http://127.0.0.1:8118/?fight=1&p1=ian-fry&p2=rafael-fernandez', { waitUntil: 'load' });
 await page.waitForFunction(() => window.__pelea?.ready, null, { timeout: 60000 });
 const K = {}; let frames = 0, rounds = 0, timeouts = 0;
 for (let m = 0; m < N; m++) {
