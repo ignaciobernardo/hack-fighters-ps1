@@ -11,20 +11,21 @@ await page.goto('http://127.0.0.1:8118/?demo=1&p1=ian-fry&p2=rafael-fernandez', 
 await page.waitForFunction(() => window.__pelea?.ready, null, { timeout: 60000 });
 const K = {}; let frames = 0, rounds = 0, timeouts = 0;
 for (let m = 0; m < N; m++) {
-  const r = await page.evaluate(async () => {
+  const r = await page.evaluate(async (KIND) => {
     const P = __pelea, n = P.IDS.length; P.S.demo = false; P.S.autoCpu = true;
     // un representante por ataque, para que todos los tipos jueguen parejo
     P._reps ||= Object.values(P.IDS.reduce((o, id) => ((o[P.FIGHTERS[id].special.name] ||= id), o), {}));
     const pick = () => P.IDS.indexOf(P._reps[Math.floor(Math.random() * P._reps.length)]);
-    const ids = [pick(), pick()];
+    const only = KIND && P._reps.filter((id) => P.FIGHTERS[id].special.kind === KIND);
+    const ids = [only ? P.IDS.indexOf(only[Math.floor(Math.random() * only.length)]) : pick(), pick()];
     await Promise.all(ids.map((i) => P.ensureChar(P.IDS[i])));
     P.S.cur = ids; P.startMatch();
     let f = 0; while (P.S.phase !== 'over' && f < 30000) { P.sim(200); f += 200; }
     const [a, b] = P.S.f;
     return { kinds: [a.data.special.kind, b.data.special.kind], wins: [a.wins, b.wins], f, rounds: P.S.round };
-  });
+  }, process.argv[3] || null);
   frames += r.f; rounds += r.rounds; if (r.f >= 30000) timeouts++;
-  r.kinds.forEach((k, i) => { (K[k] ||= { w: 0, n: 0 }).n++; if (r.wins[i] > r.wins[1 - i]) K[k].w++; });
+  (process.argv[3] ? [r.kinds[0]] : r.kinds).forEach((k, i) => { (K[k] ||= { w: 0, n: 0 }).n++; if (r.wins[i] > r.wins[1 - i]) K[k].w++; });
 }
 console.log(`${N} peleas · ${(frames / rounds / 60).toFixed(1)} s por ronda · sin terminar: ${timeouts}`);
 console.log(Object.entries(K).sort((a, b) => b[1].w / b[1].n - a[1].w / a[1].n).map(([k, v]) => `${k.padEnd(9)} ${String(Math.round((100 * v.w) / v.n)).padStart(3)}% de ${v.n}`).join('\n'));

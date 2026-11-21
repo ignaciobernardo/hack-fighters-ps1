@@ -105,7 +105,7 @@ export class Sigs {
         // se cura a la vista: brilla verde, suben objetos grandes y además empuja al rival que esté pegado
         f.fx.heal = 80;
         for (let i = 0; i < 8; i++) this.later(f, i * 9, () => {
-          f.hp = Math.min(f.maxHp, f.hp + Math.round(f.maxHp * 0.034));
+          f.hp = Math.min(f.maxHp, f.hp + Math.round(f.maxHp * 0.028));
           for (const sx of [-0.55, 0.55]) this.spawn(f, pick(sig.prop, i), po, { kind: 'puff', x: f.x + sx + (Math.random() - 0.5) * 0.3, y: f.floorY + 0.2, vx: 0, vy: 3.4, life: 40, scale: 2.2, spin: [0, 4, 0] });
           this.game.sfx('select');
         });
@@ -121,7 +121,7 @@ export class Sigs {
         }));
         break;
       }
-      case 'throw': this.spawn(f, pick(sig.prop, 0), po, { kind: 'shot', x: hx, y: hy, vx: dir * 13, vy: 0, dmg: 240, heavy: true, knock: true, chip: 0.45, spin: [0, 0, -dir * 10], r: 0.32, scale: 1.6 }); break;
+      case 'throw': this.spawn(f, pick(sig.prop, 0), po, { kind: 'shot', x: hx, y: hy, vx: dir * 13, vy: 0, dmg: 165, heavy: true, chip: 0.45, bounce: 1, spin: [0, 0, -dir * 10], r: 0.32, scale: 1.6 }); break;
       case 'lob': {
         const T = 44, dx = Math.max(1.2, Math.abs(opp.x - f.x)) * dir, g = 16;
         this.spawn(f, pick(sig.prop, 0), po, { kind: 'lob', x: hx, y: hy + 0.2, vx: (dx - dir * 0.5) / (T * DT), vy: (g * T * DT) / 2 + (f.floorY + 0.7 - hy) / (T * DT), g, dmg: 150, heavy: true, knock: true, spin: [0, 0, -dir * 7], r: 0.42, scale: 1.9 });
@@ -180,8 +180,11 @@ export class Sigs {
       } else if (it.kind === 'shot') {
         it.x += it.vx * DT;
         if (!it.hit && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r && it.y - ground < d.top + 0.1 && it.y - ground > d.y - 0.15 && !(d.crouching && it.y - ground > 0.66 * d.H)) {
-          this.strike(it, d, { dmg: it.dmg, heavy: it.heavy, push: 1.2, hitstun: 16 }); it.alive = false;
+          this.strike(it, d, { dmg: it.dmg, heavy: it.heavy, push: 1.2, hitstun: 22, knock: it.bounce === 0, chip: it.chip });
+          // el pelotazo rebota y vuelve a pasar
+          if (it.bounce > 0) { it.bounce = 0; it.vx = -it.vx * 0.2; it.back = 14; } else it.alive = false;
         }
+        if (it.back && --it.back === 0) { it.vx = Math.sign(d.x - it.x || 1) * 12; it.t = 60; }
         if (Math.abs(it.x) > 13 || it.t > 120) it.alive = false;
       } else if (it.kind === 'lob') {
         it.vy -= it.g * DT; it.x += it.vx * DT; it.y += it.vy * DT;
