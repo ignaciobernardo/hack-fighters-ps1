@@ -29,7 +29,7 @@ export class CPU {
     if (oppAtk || shot) {
       if (this.blockRoll === null) { this.blockRoll = Math.random() < L * 0.85; this.react = Math.round(7 - L * 5); }
       if (this.react-- <= 0) {
-        if (shot && !oppAtk && (shot.kind === 'trap' || shot.kind === 'drive') && Math.random() < 0.2 + L * 0.5) { out.up = true; out[fwd] = true; return out; }
+        if (shot && !oppAtk && (shot.kind === 'trap' || shot.kind === 'drive') && Math.random() < 0.1 + L * 0.25) { out.up = true; out[fwd] = true; return out; }
         if (shot && !oppAtk && (shot.kind === 'fall' || shot.kind === 'lob') && Math.random() < 0.3) { out.pressed.dash = true; out[Math.random() < 0.5 ? fwd : back] = true; return out; }
         if (shot && !oppAtk && Math.random() < 0.03 + L * 0.04) { out.up = true; out[fwd] = true; return out; }
         if (this.blockRoll) {
@@ -54,12 +54,12 @@ export class CPU {
 
     const can = game.canCast(me);
     if (dist > 3.0) {
-      if (can && r < 0.4) out.pressed.s = true;
+      if (can && r < 0.5) out.pressed.s = true;
       else if (r < 0.55) out.pressed.dash = true;
       else if (r < 0.7) { out.up = true; out[fwd] = true; this.plan = 'jumpin'; }
       else this.walk(fwd, 14);
     } else if (dist > 1.45) {
-      if (can && r < 0.22) out.pressed.s = true;
+      if (can && r < 0.35) out.pressed.s = true;
       else if (r < 0.3) { out.pressed.dash = true; this.hold = { pressed: {} }; }
       else if (r < 0.45) out.pressed.k2 = true;
       else if (r < 0.55) out.pressed.k1 = true;

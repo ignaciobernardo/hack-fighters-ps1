@@ -42,7 +42,7 @@ export class Sigs {
       const ppo = p === 'bubble' ? { text: pick(sig.texts, i), color: sig.color, fg: sig.fg } : po;
       this.spawn(f, p, ppo, {
         kind: 'fall', x: opp.x + (Math.random() - 0.5) * 1.3 + opp.vx * 0.25, y: f.floorY + 4.6 + Math.random() * 0.6, vx: 0, vy: -5.5 - Math.random() * 2,
-        dmg: 26, spin: p === 'bubble' || p === 'doc' || p === 'bill' ? [0, 0, (Math.random() - 0.5) * 2] : [Math.random() * 5, Math.random() * 3, Math.random() * 5],
+        dmg: 39, spin: p === 'bubble' || p === 'doc' || p === 'bill' ? [0, 0, (Math.random() - 0.5) * 2] : [Math.random() * 5, Math.random() * 3, Math.random() * 5],
         scale: p === 'bubble' ? 1.5 : 1.35, r: 0.3, lying, flutter: p === 'bill' || p === 'doc' || p === 'envelope' ? 1 : 0,
       });
     });
@@ -50,6 +50,7 @@ export class Sigs {
 
   // lanzar el ataque de f contra opp
   cast(f, opp) {
+    const st = ((this.stats ||= {})[f.data.special.kind] ||= { cast: 0, hit: 0, block: 0, dmg: 0 }); st.cast++;
     if (['storm', 'crush', 'control', 'teleport', 'phone'].includes(f.data.special.kind)) this.game.dim(f.data.special.kind === 'storm' ? 150 : 70);
     const sig = f.data.special, po = sig.po || {}, dir = f.facing;
     const hx = f.x + dir * 0.5 * f.k, hy = f.floorY + f.y + 0.68 * f.H;
@@ -58,31 +59,31 @@ export class Sigs {
         this.rainOn(f, opp, sig, sig.prop, po, sig.n ?? 9);
         if (sig.finisher) this.later(f, (sig.n ?? 9) * 6 + 10, () => this.crush(f, opp, sig.finisher, sig.finisherPo || {}, 3.2, 110));
         break;
-      case 'crush': this.crush(f, opp, pick(sig.prop, 0), po, sig.size ?? 4.2, 150); break;
+      case 'crush': this.crush(f, opp, pick(sig.prop, 0), po, sig.size ?? 4.2, 175); break;
       case 'orbit': {   // objetos girando alrededor: escudo que pega
-        const n = sig.n ?? 4;
-        for (let i = 0; i < n; i++) this.spawn(f, pick(sig.prop, i), po, { kind: 'orbit', x: f.x, y: f.floorY + 0.9, vx: 0, vy: 0, a: (i / n) * Math.PI * 2, life: 330, dmg: 34, cd: 0, r: 0.3, scale: 1.25, spin: [3, 5, 0] });
+        const n = Math.min(4, sig.n ?? 3);
+        for (let i = 0; i < n; i++) this.spawn(f, pick(sig.prop, i), po, { kind: 'orbit', x: f.x, y: f.floorY + 0.9, vx: 0, vy: 0, a: (i / n) * Math.PI * 2, life: 200, dmg: 30, cd: 0, r: 0.3, scale: 1.25, spin: [3, 5, 0] });
         break;
       }
       case 'mines': {   // quedan en el suelo esperando
         const n = sig.n ?? 3;
-        for (let i = 0; i < n; i++) this.spawn(f, pick(sig.prop, i), po, { kind: 'mine', x: f.x + dir * 0.5, y: hy, vx: dir * (2.6 + i * 2.1), vy: 3.4, life: 420, dmg: 60, r: 0.34, scale: 1.4, spin: [0, 2, 0] });
+        for (let i = 0; i < n; i++) this.spawn(f, pick(sig.prop, i), po, { kind: 'mine', x: f.x + dir * 0.5, y: hy, vx: dir * (2.6 + i * 2.1), vy: 3.4, life: 420, dmg: 85, r: 0.34, scale: 1.4, spin: [0, 2, 0] });
         break;
       }
       case 'control':   // un control remoto: si conecta, el rival camina solo hacia ti y le llueve encima
-        this.spawn(f, pick(sig.prop, 0), po, { kind: 'shot', x: hx, y: hy, vx: dir * 10.5, vy: 0, dmg: 40, spin: [0, 0, -dir * 6], r: 0.34, scale: 1.4, status: { puppet: 210 }, onHit: (d) => {
-          const n = 22; for (let i = 0; i < n; i++) this.later(f, 10 + i * 6, () => this.spawn(f, sig.then || 'bill', sig.thenPo || {}, { kind: 'fall', x: d.x + (Math.random() - 0.5) * 6, y: f.floorY + 4.6 + Math.random(), vx: 0, vy: -6 - Math.random() * 2, dmg: 18, spin: [0, 0, (Math.random() - 0.5) * 2], scale: 1.3, r: 0.32, flutter: 1 }));
+        this.spawn(f, pick(sig.prop, 0), po, { kind: 'shot', x: hx, y: hy, vx: dir * 10.5, vy: 0, dmg: 40, spin: [0, 0, -dir * 6], r: 0.34, scale: 1.4, status: { puppet: 150 }, onHit: (d) => {
+          const n = 22; for (let i = 0; i < n; i++) this.later(f, 10 + i * 6, () => this.spawn(f, sig.then || 'bill', sig.thenPo || {}, { kind: 'fall', x: d.x + (Math.random() - 0.5) * 6, y: f.floorY + 4.6 + Math.random(), vx: 0, vy: -6 - Math.random() * 2, dmg: 30, spin: [0, 0, (Math.random() - 0.5) * 2], scale: 1.3, r: 0.32, flutter: 1 }));
         } });
         break;
       case 'storm': {   // cae por todo el escenario
         const n = sig.n ?? 26;
         for (let i = 0; i < n; i++) this.later(f, i * 4, () => {
           const p = pick(sig.prop, i);
-          this.spawn(f, p, po, { kind: 'fall', x: opp.x + (i % 3 === 0 ? (Math.random() - 0.5) * 0.9 + opp.vx * 0.3 : (Math.random() - 0.5) * 7.5), y: f.floorY + 4.6 + Math.random() * 1.2, vx: 0, vy: -6 - Math.random() * 2.5, dmg: 20,
+          this.spawn(f, p, po, { kind: 'fall', x: opp.x + (i % 3 === 0 ? (Math.random() - 0.5) * 0.9 + opp.vx * 0.3 : (Math.random() - 0.5) * 7.5), y: f.floorY + 4.6 + Math.random() * 1.2, vx: 0, vy: -6 - Math.random() * 2.5, dmg: 16,
             spin: p === 'doc' || p === 'bill' ? [0, 0, (Math.random() - 0.5) * 2] : [Math.random() * 5, Math.random() * 3, Math.random() * 5], scale: 1.35, r: 0.32, flutter: p === 'bill' || p === 'doc' ? 1 : 0 });
         });
         // remate: uno gigante al final
-        this.later(f, n * 4 + 8, () => this.crush(f, opp, pick(sig.prop, 0), po, 3.4, 90));
+        this.later(f, n * 4 + 8, () => this.crush(f, opp, pick(sig.prop, 0), po, 3.4, 60));
         break;
       }
       case 'teleport': {  // desaparece y aparece detrás del rival con un golpe
@@ -95,39 +96,42 @@ export class Sigs {
           this.puff(f, sig, po, f.x, f.floorY + 0.9);
           this.game.sfx('rise');
         });
-        this.later(f, 14, () => {
-          if (Math.abs(opp.x - f.x) < 1.35 && !opp.lying && opp.invuln <= 0) this.strike({ owner: f, vx: f.facing }, opp, { dmg: 100, heavy: true, knock: true, push: 2.6 });
+        this.later(f, 12, () => {
+          if (Math.abs(opp.x - f.x) < 1.7 && !opp.lying && opp.invuln <= 0) this.strike({ owner: f, vx: f.facing }, opp, { dmg: 190, heavy: true, knock: true, push: 2.6, chip: 0.4 });
         });
         break;
       }
       case 'heal': {
-        for (let i = 0; i < 7; i++) this.later(f, i * 9, () => {
-          f.hp = Math.min(f.maxHp, f.hp + Math.round(f.maxHp * 0.028));
-          this.spawn(f, pick(sig.prop, i), po, { kind: 'puff', x: f.x + (Math.random() - 0.5) * 0.9, y: f.floorY + 0.4 + Math.random() * 0.6, vx: 0, vy: 2.2, life: 26, scale: 1, spin: [0, 3, 0] });
+        // se cura a la vista: brilla verde, suben objetos grandes y además empuja al rival que esté pegado
+        f.fx.heal = 80;
+        for (let i = 0; i < 8; i++) this.later(f, i * 9, () => {
+          f.hp = Math.min(f.maxHp, f.hp + Math.round(f.maxHp * 0.02));
+          for (const sx of [-0.55, 0.55]) this.spawn(f, pick(sig.prop, i), po, { kind: 'puff', x: f.x + sx + (Math.random() - 0.5) * 0.3, y: f.floorY + 0.2, vx: 0, vy: 3.4, life: 40, scale: 2.2, spin: [0, 4, 0] });
           this.game.sfx('select');
         });
+        this.later(f, 2, () => { if (Math.abs(opp.x - f.x) < 1.5 && !opp.lying && opp.invuln <= 0) this.strike({ owner: f, vx: f.facing }, opp, { dmg: 45, knock: true, heavy: true, push: 3 }); this.game.sparkAt(f.x, f.floorY + 1, f.z, true, true); });
         break;
       }
       case 'swing': break;   // el golpe lo da el propio luchador con el objeto en la mano
       case 'volley': {
         const n = sig.n ?? 3;
         for (let i = 0; i < n; i++) this.later(f, i * 8, () => this.spawn(f, pick(sig.prop, i), po, {
-          kind: 'shot', x: f.x + dir * 0.5 * f.k, y: f.floorY + f.y + (0.5 + (i % 3) * 0.13) * f.H, vx: dir * 9.5, vy: 0, dmg: Math.round(130 / n) + 8,
+          kind: 'shot', x: f.x + dir * 0.5 * f.k, y: f.floorY + f.y + (0.5 + (i % 3) * 0.13) * f.H, vx: dir * 9.5, vy: 0, dmg: Math.round(170 / n) + 8,
           spin: [0, 0, -dir * 9], r: 0.26, scale: 1.2,
         }));
         break;
       }
-      case 'throw': this.spawn(f, pick(sig.prop, 0), po, { kind: 'shot', x: hx, y: hy, vx: dir * 8.5, vy: 0, dmg: 95, heavy: true, spin: [0, 0, -dir * 10], r: 0.32, scale: 1.6 }); break;
+      case 'throw': this.spawn(f, pick(sig.prop, 0), po, { kind: 'shot', x: hx, y: hy, vx: dir * 11.5, vy: 0, dmg: 185, heavy: true, knock: true, chip: 0.35, spin: [0, 0, -dir * 10], r: 0.32, scale: 1.6 }); break;
       case 'lob': {
         const T = 44, dx = Math.max(1.2, Math.abs(opp.x - f.x)) * dir, g = 16;
-        this.spawn(f, pick(sig.prop, 0), po, { kind: 'lob', x: hx, y: hy + 0.2, vx: (dx - dir * 0.5) / (T * DT), vy: (g * T * DT) / 2 + (f.floorY + 0.7 - hy) / (T * DT), g, dmg: 105, heavy: true, knock: true, spin: [0, 0, -dir * 7], r: 0.42, scale: 1.9 });
+        this.spawn(f, pick(sig.prop, 0), po, { kind: 'lob', x: hx, y: hy + 0.2, vx: (dx - dir * 0.5) / (T * DT), vy: (g * T * DT) / 2 + (f.floorY + 0.7 - hy) / (T * DT), g, dmg: 185, heavy: true, knock: true, spin: [0, 0, -dir * 7], r: 0.42, scale: 1.9 });
         break;
       }
       case 'slip':
-        this.spawn(f, pick(sig.prop, 0), po, { kind: 'trap', x: f.x + dir * 0.6, y: f.floorY + 0.55, vx: dir * 5.2, vy: 1.5, life: 150, r: 0.3, scale: 1.3, spin: [0, 4, 0], sig });
+        this.spawn(f, pick(sig.prop, 0), po, { kind: 'trap', x: f.x + dir * 0.5, y: f.floorY + 0.06, vx: dir * 11, vy: 0, life: 150, r: 0.42, scale: 1.3, spin: [0, 4, 0], sig });
         break;
       case 'drive':
-        this.spawn(f, pick(sig.prop, 0), po, { kind: 'drive', x: f.x - dir * 0.9, y: f.floorY + 0.42, vx: dir * 9.5, vy: 0, dmg: 110, heavy: true, knock: true, r: 0.55, scale: 2.4, face: dir, roll: sig.prop === 'tire' });
+        this.spawn(f, pick(sig.prop, 0), po, { kind: 'drive', x: f.x - dir * 0.4, y: f.floorY + 0.42, vx: dir * 12.5, vy: 0, dmg: 215, heavy: true, knock: true, chip: 0.45, r: 0.8, scale: 2.4, face: dir, roll: sig.prop === 'tire' });
         break;
     }
   }
@@ -137,6 +141,7 @@ export class Sigs {
     const from = Object.create(o); from.facing = Math.sign(it.vx) || o.facing;
     const hp0 = d.hp;
     const r = d.takeHit({ hitstun: 14, blockstun: 9, push: 0.7, height: 'mid', tier: 3, ...m }, from, this.game);
+    const st = this.stats?.[o.data.special.kind]; if (st) { st[r === 'hit' ? 'hit' : 'block']++; st.dmg += hp0 - d.hp; }
     if (r === 'hit') {
       o.combo = from.combo; o.comboT = 70;
       const st = it.status || o.data.special.status;
@@ -161,7 +166,7 @@ export class Sigs {
         if (!it.hit && reach && it.y - ground < d.top && it.y - ground > d.y - 0.1) {
           if (d.lying || d.state === 'fall') {
             if (it.lying && d.state !== 'getup' && d.hp > 0) {
-              d.hp = Math.max(0, d.hp - Math.round(it.dmg * 0.7)); this.game.sparkAt(it.x, it.y, d.z, false, false); this.game.sfx('hit');
+              d.hp = Math.max(0, d.hp - it.dmg); this.game.sparkAt(it.x, it.y, d.z, false, false); this.game.sfx('hit');
               if (d.hp <= 0 && d.state === 'down') d.set('ko');
               it.hit = true; it.vy = 3; it.dead = 12;
             }
@@ -188,9 +193,9 @@ export class Sigs {
         }
       } else if (it.kind === 'trap') {
         if (it.y > ground + 0.06) { it.vy -= 14 * DT; it.y = Math.max(ground + 0.06, it.y + it.vy * DT); it.x += it.vx * DT; }
-        else { it.vx *= 0.955; it.x += it.vx * DT; it.spin = [0, it.vx * 2, 0]; m.rotation.x = 0; m.rotation.z = 0; }
+        else { it.vx *= 0.975; it.x += it.vx * DT; it.spin = [0, it.vx * 2, 0]; m.rotation.x = 0; m.rotation.z = 0; }
         if (it.y <= ground + 0.07 && !d.airborne && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r) {
-          const r = this.strike(it, d, { dmg: 34, height: 'low', knock: true, heavy: true, push: 1 });
+          const r = this.strike(it, d, { dmg: 110, height: 'low', knock: true, heavy: true, push: 1 });
           it.alive = false;
           if (r === 'hit') {
             d.downT = 80; d.vy = 6.2; d.vx = -Math.sign(it.vx || 1) * 0.6;
@@ -202,7 +207,7 @@ export class Sigs {
         }
         if (it.t > it.life || Math.abs(it.x) > 13) it.alive = false;
       } else if (it.kind === 'crush') {
-        if (it.t < 34) { it.x += (it.aim.x - it.x) * 0.12; it.y += Math.sin(it.t * 0.5) * 0.01; it.shadow.scale.setScalar(0.3 + it.t * 0.025); it.shadow.visible = it.t % 6 < 4; }
+        if (it.t < 24) { it.x += (it.aim.x - it.x) * 0.25; it.y += Math.sin(it.t * 0.5) * 0.01; it.shadow.scale.setScalar(0.3 + it.t * 0.025); it.shadow.visible = it.t % 6 < 4; }
         else if (!it.landed) {
           it.shadow.visible = true; it.vy -= 60 * DT; it.y += it.vy * DT;
           if (it.y <= ground + 0.25 * it.scale * 0.3 + 0.2) {
@@ -214,11 +219,15 @@ export class Sigs {
       } else if (it.kind === 'orbit') {
         const o = it.owner; it.a += 0.13; if (it.cd > 0) it.cd--;
         it.x = o.x + Math.cos(it.a) * 1.2; it.y = o.floorY + o.y + 0.85 + Math.sin(it.a * 0.5) * 0.3; m.position.z = o.z + Math.sin(it.a) * 0.6;
-        if (it.cd <= 0 && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r && it.y - ground < d.top + 0.1 && it.y - ground > d.y - 0.1) { it.vx = Math.sign(d.x - o.x) || 1; this.strike(it, d, { dmg: it.dmg, push: 1.6, hitstun: 16 }); it.cd = 34; }
-        if (it.t >= it.life || o.hp <= 0) it.alive = false;
+        if (it.cd <= 0 && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r && it.y - ground < d.top + 0.1 && it.y - ground > d.y - 0.1) { it.vx = Math.sign(d.x - o.x) || 1; this.strike(it, d, { dmg: it.dmg, push: 2.4, hitstun: 14 }); it.cd = 60; }
+        if (it.t >= it.life || o.hp <= 0 || o.state === 'fall' || o.state === 'down') it.alive = false;   // se cae el escudo si lo botan
         if (it.t > it.life - 40) m.visible = it.t % 4 < 2;
       } else if (it.kind === 'mine') {
-        if (it.y > ground + 0.08 && !it.set) { it.vy -= 14 * DT; it.y = Math.max(ground + 0.08, it.y + it.vy * DT); it.x += it.vx * DT; }
+        if (it.y > ground + 0.08 && !it.set) {
+          it.vy -= 14 * DT; it.y = Math.max(ground + 0.08, it.y + it.vy * DT); it.x += it.vx * DT;
+          // en el aire también pega
+          if (!d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r && it.y - ground < d.top && it.y - ground > d.y) { this.strike(it, d, { dmg: 45, push: 1.8, hitstun: 18 }); it.alive = false; }
+        }
         else { it.set = true; it.spin = [0, 1.2, 0]; m.rotation.x = 0; m.rotation.z = 0; }
         if (it.set && !d.airborne && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r) { it.vx = Math.sign(d.x - it.owner.x) || 1; this.strike(it, d, { dmg: it.dmg, heavy: true, knock: true, height: 'low', push: 1.5 }); it.alive = false; }
         if (it.t > it.life) it.alive = false;
@@ -229,7 +238,7 @@ export class Sigs {
         if (it.t >= it.life) it.alive = false;
       } else if (it.kind === 'drive') {
         it.x += it.vx * DT;
-        if (!it.hit && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r && d.y < 0.9) { this.strike(it, d, { dmg: it.dmg, heavy: true, knock: true, push: 3 }); it.hit = true; }
+        if (!it.hit && !d.lying && d.invuln <= 0 && Math.abs(it.x - d.x) < d.halfW + it.r && d.y < 0.9) { this.strike(it, d, { dmg: it.dmg, heavy: true, knock: true, push: 3, chip: it.chip }); it.hit = true; }
         if (Math.abs(it.x - it.owner.x) > 14 || it.t > 150) it.alive = false;
       }
       m.position.x = it.x; m.position.y = it.y;

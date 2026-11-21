@@ -48,7 +48,7 @@ export class Fighter {
       hp: this.data.hp, maxHp: this.data.hp, move: null, hasHit: false, blocked: false, stun: 0,
       crouching: false, guarding: false, walking: false, walkPhase: 0, invuln: 0, combo: 0, comboT: 0, lastPose: -99, dirty: true,
       buf: null, bufT: 0, dbuf: 0, dbufT: 0, airAttacks: 0, airDashUsed: false, dashDir: 1, chain: 0, juggle: 0, landLag: 3,
-      yawOverride: null, fx: { confuse: 0, freeze: 0, slow: 0, burn: 0, shock: 0, puppet: 0, squash: 0 }, hidden: 0,
+      yawOverride: null, sigCd: 0, fx: { confuse: 0, freeze: 0, slow: 0, burn: 0, shock: 0, puppet: 0, squash: 0, heal: 0 }, hidden: 0,
     });
     this.walkDir = [Math.cos(YAW), Math.sin(YAW)];
   }
@@ -88,9 +88,10 @@ export class Fighter {
       this.move.pose = { phone: 'phone', rain: 'toss', lob: 'toss', slip: 'cjab', drive: 'point', volley: 'shot', throw: 'shot' }[this.data.special.kind] || 'shot';
       const sp = this.data.special;
       if (sp.kind === 'phone') { this.move.startup = 16; this.move.recover = 34; }
-      if (sp.kind === 'swing') Object.assign(this.move, { pose: 'straight', startup: 13, active: 6, recover: 22, dmg: 118, reach: 1.8, height: 'mid', hitstun: 0, blockstun: 16, push: 3, knock: true, heavy: true, spawn: true, move: 4.2 });
+      if (sp.kind === 'swing') Object.assign(this.move, { pose: 'straight', startup: 10, active: 7, recover: 14, dmg: 185, reach: 2.0, chip: 0.4, height: 'mid', hitstun: 0, blockstun: 16, push: 3, knock: true, heavy: true, spawn: true, move: 4.2 });
       if (sp.kind === 'heal') { this.move.pose = 'toss'; this.move.recover = 46; }
-      if (sp.kind === 'teleport') { this.move.pose = 'cjab'; this.move.startup = 8; this.move.recover = 30; }
+      if (sp.kind === 'teleport') { this.move.pose = 'cjab'; this.move.startup = 6; this.move.recover = 20; }
+      if (sp.kind === 'drive' || sp.kind === 'slip') { this.move.startup = 8; this.move.recover = 18; }
       if (sp.kind === 'storm' || sp.kind === 'crush' || sp.kind === 'orbit') { this.move.pose = 'toss'; this.move.recover = sp.kind === 'orbit' ? 16 : 34; }
       if (sp.kind === 'mines') this.move.pose = 'cjab';
       if (sp.kind === 'control') { this.move.pose = 'point'; this.move.recover = 30; }
@@ -230,7 +231,7 @@ export class Fighter {
     if (blockOk) {
       this.stun = m.blockstun; this.set('block'); this.t = 0;
       this.vx = dir * m.push * 0.9;
-      if (m.tier === 3 && m.dmg) this.hp = Math.max(1, this.hp - Math.round(m.dmg * 0.12));
+      if (m.tier === 3 && m.dmg) this.hp = Math.max(1, this.hp - Math.round(m.dmg * (m.chip ?? 0.12)));
       game.spark(this, from, true); game.sfx('block');
       return 'block';
     }

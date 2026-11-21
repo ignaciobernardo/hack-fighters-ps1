@@ -49,6 +49,8 @@ Todos los de una misma empresa comparten ataque (`src/ps1game/firmas.js`, 132 at
 
 Estados que quedan en el rival (teñido y con cartel): `confuse` controles al revés ("te leo la mente"), `freeze`, `slow`, `shock`, `burn`, `puppet` (controlado), y `drain` cura al que ataca.
 
+El botón 3 tiene recarga de 5,5 s (barra verde bajo el nombre). `node tools/balance.mjs 200` corre un torneo CPU contra CPU y muestra el % de victorias y el daño por lanzamiento de cada tipo de ataque.
+
 `node tools/check_all.mjs` arma a los 237 y prueba cada ataque contra un rival: tiene que hacer daño y cumplir su mecánica.
 
 Los objetos son modelos low-poly armados con piezas simples en `src/ps1game/props.js`.

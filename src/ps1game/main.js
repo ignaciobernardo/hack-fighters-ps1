@@ -113,13 +113,14 @@ const game = {
     fx.spark(x, y, def.z, blocked, heavy);
   },
   sparkAt(x, y, z, blocked, heavy) { fx.spark(x, y, z, blocked, heavy); },
-  canCast(f) { return !sigs.busy(f); },
+  canCast(f) { return !(f.sigCd > 0) && !sigs.busy(f); },
   dim(n) { S.dim = Math.max(S.dim || 0, n); },
-  cast(f) { const o = S.f[0] === f ? S.f[1] : S.f[0]; sigs.cast(f, o); S.banner[S.f.indexOf(f)] = 80; sfx('shot'); },
+  cast(f) { const o = S.f[0] === f ? S.f[1] : S.f[0]; sigs.cast(f, o); f.sigCd = SIG_CD; S.banner[S.f.indexOf(f)] = 80; sfx('shot'); },
   // amenazas en vuelo contra `me` (para la CPU)
   threat(me) { return sigs.items.find((i) => i.owner !== me && (i.kind === 'shot' || i.kind === 'drive' || i.kind === 'trap') && Math.sign(me.x - i.x) === Math.sign(i.vx) && Math.abs(i.x - me.x) < 2.8) || sigs.items.find((i) => i.owner !== me && (i.kind === 'fall' || i.kind === 'lob') && !i.hit && Math.abs(i.x - me.x) < 0.9 && i.y < 3); },
 };
 const sigs = new Sigs(scene, game);
+const SIG_CD = 330;   // recarga del ataque de empresa (5,5 s)
 
 // ---------------- escenario y luces ----------------
 function setStage(id, tod = 'day') {
@@ -224,7 +225,7 @@ function startMatch() {
   setStage(STAGE_IDS[S.stageI], 'day');
   placeFighters([IDS[S.cur[0]], IDS[S.cur[1]]]);
   cpu = new CPU(+(q.get('cpu') || 0.6));
-  cpu1 = S.demo ? new CPU(0.6) : null;
+  cpu1 = S.demo || S.autoCpu ? new CPU(0.6) : null;
   S.screen = 'fight'; S.round = 1;
   S.f.forEach((f) => (f.wins = 0));
   startRound();
@@ -286,10 +287,12 @@ function fightStep() {
     const x = f.fx;
     for (const k in x) if (x[k] > 0 && k !== 'master') (f.fxSeen ||= {})[k] = true;
     if (f.hidden > 0) f.hidden--;
+    if (f.sigCd > 0) f.sigCd--;
     if (x.burn > 0) { x.burn--; if (x.burn % 30 === 0 && f.hp > 1) { f.hp = Math.max(1, f.hp - 14); fx.spark(f.x, f.floorY + 0.9, f.z, false, false); } }
     if (x.puppet > 0) { x.puppet--; const m = x.master, to = m && m.x >= f.x ? 'right' : 'left'; ctl = { pressed: {}, [to]: !m || Math.abs(m.x - f.x) > 0.75 }; }
     else if (x.confuse > 0) { x.confuse--; ctl = { ...ctl, left: ctl.right, right: ctl.left, up: ctl.down, down: ctl.up, dashTap: -(ctl.dashTap || 0), pressed: { ...ctl.pressed, p1: ctl.pressed.k1, k1: ctl.pressed.p1, p2: ctl.pressed.k2, k2: ctl.pressed.p2 } }; }
-    const tint = x.freeze > 0 || x.shock > 0 ? (x.shock > 0 ? '#fff27a' : '#7fc8ff') : x.puppet > 0 ? '#8dff9a' : x.confuse > 0 ? '#d49aff' : x.slow > 0 ? '#9aa0a8' : x.burn > 0 ? '#ff9a6a' : '#ffffff';
+    if (x.heal > 0) x.heal--;
+    const tint = x.heal > 0 ? (S.frame % 8 < 4 ? '#9dffb0' : '#ffffff') : x.freeze > 0 || x.shock > 0 ? (x.shock > 0 ? '#fff27a' : '#7fc8ff') : x.puppet > 0 ? '#8dff9a' : x.confuse > 0 ? '#d49aff' : x.slow > 0 ? '#9aa0a8' : x.burn > 0 ? '#ff9a6a' : '#ffffff';
     f.char.material.color.set(tint);
     if (x.squash > 0) { x.squash--; if (S.frame % 2) return null; }
     if (x.shock > 0) { x.shock--; if (!f.lying && f.state !== 'fall') return null; }
@@ -533,7 +536,12 @@ function drawHud() {
       lifeBar(hud, side, k, S.trail[i], flash);
       chrome(hud, f.data.short, i ? HW - 36 : 36, 54, 19, { align: i ? 'right' : 'left', pal: i ? 'blue' : 'chrome' });
       winMarks(hud, side, f.wins);
-      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.squash > 0 ? 'APLASTADO' : x.puppet > 0 ? 'CONTROLADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? (S.f[1 - i].data.special.burnLabel || 'QUEMÁNDOSE') : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
+      { // recarga del botón 3
+        const k = 1 - (f.sigCd || 0) / SIG_CD, bx = i ? HW - 36 - 120 : 36, by = 70;
+        hud.fillStyle = '#0b0b10'; hud.fillRect(bx - 2, by - 2, 124, 9); hud.fillStyle = '#3a3f48'; hud.fillRect(bx, by, 120, 5);
+        hud.fillStyle = k >= 1 ? (flash ? '#3fd6a0' : '#b8ffe2') : '#2a8f6c'; hud.fillRect(i ? bx + 120 - 120 * k : bx, by, 120 * k, 5);
+      }
+      { const x = f.fx, lab = x.freeze > 0 ? 'CONGELADO' : x.shock > 0 ? 'ELECTROCUTADO' : x.heal > 0 ? 'CURÁNDOSE' : x.squash > 0 ? 'APLASTADO' : x.puppet > 0 ? 'CONTROLADO' : x.confuse > 0 ? 'CONFUNDIDO' : x.slow > 0 ? 'LENTO' : x.burn > 0 ? (S.f[1 - i].data.special.burnLabel || 'QUEMÁNDOSE') : ''; if (lab && Math.floor(S.frame / 10) % 2) plain(hud, lab, i ? HW - 36 : 36, 106, 11, '#ffd23a', { align: i ? 'right' : 'left' }); }
       if (S.banner[i] > 0) { glyph(hud, '3', i ? HW - 44 : 44, 84, 8); chrome(hud, f.data.special.name, i ? HW - 58 : 58, 85, 15, { align: i ? 'right' : 'left', pal: 'gold', alpha: Math.min(1, S.banner[i] / 12), spacing: 0.04 }); }
       if (f.combo >= 2 && f.comboT > 0) chrome(hud, `${f.combo} GOLPES`, i ? HW - 40 : 40, 150, 22, { align: i ? 'right' : 'left', pal: 'red' });
     });
