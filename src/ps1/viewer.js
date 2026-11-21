@@ -8,12 +8,13 @@ import { ANIMS, POSES, applyPose } from '../gen/poses.js';
 import { buildPS1, loadAssets, loadFaces } from './build.js';
 import { ps1Globals, makeDitherPass } from './material.js';
 
+import { applyLook } from './looks.js';
 const files = import.meta.glob('../../characters/*.json', { eager: true });
 const drafts = import.meta.glob('../../characters/drafts/*.json', { eager: true });
 const order = ['ian', 'matias', 'paolo', 'rafa', 'juan'];
 const made = Object.values(files).map((m) => structuredClone(m.default));
 made.sort((a, b) => (order.indexOf(a.id) + 99) % 99 - (order.indexOf(b.id) + 99) % 99);
-const rough = Object.values(drafts).map((m) => structuredClone(m.default)).sort((a, b) => a.name.localeCompare(b.name, 'es'));
+const rough = Object.values(drafts).map((m) => applyLook(structuredClone(m.default))).sort((a, b) => a.name.localeCompare(b.name, 'es'));
 const roster = [...made, ...rough];
 
 const q = new URLSearchParams(location.search);

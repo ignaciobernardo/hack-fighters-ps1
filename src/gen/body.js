@@ -5,16 +5,16 @@ import { V, lerp, clamp, smooth, curve, sweep, blob, skin1, skin2, rotM } from '
 export function torsoProfile(P, spec) {
   const u = P.H, k = P.k;
   const hipK = lerp(0.93, 1.14, P.hipsW);
-  const belly = spec.body?.belly ?? 0;
+  const belly = spec.body?.belly ?? 0, waist = spec.body?.waist ?? 0, bust = spec.body?.bust ?? 0;
   const sx = P.shoulderX / u;
   const f = curve([
     // s, rx, rz, zc, exp
     [-0.08, 0.058 * hipK, 0.054, 0, 2.2],
     [0.0, 0.08 * hipK, 0.066, 0, 2.3],
     [0.13, 0.093 * hipK, 0.071, -0.002, 2.4],
-    [0.36, 0.08 + belly * 0.012, 0.059 + belly * 0.022, 0.002 + belly * 0.014, 2.3],
-    [0.58, sx * 0.84 + belly * 0.006, 0.066 + belly * 0.012, 0.004 + belly * 0.008, 2.5],
-    [0.76, sx * 0.96, 0.073, 0.006, 2.7],
+    [0.36, 0.08 + belly * 0.012 - waist * 0.014, 0.059 + belly * 0.022 - waist * 0.006, 0.002 + belly * 0.014, 2.3],
+    [0.58, sx * 0.84 + belly * 0.006, 0.066 + belly * 0.012 + bust * 0.006, 0.004 + belly * 0.008 + bust * 0.006, 2.5],
+    [0.76, sx * 0.96, 0.073 + bust * 0.004, 0.006 + bust * 0.004, 2.7],
     [0.87, sx * 0.92, 0.06, 0.002, 2.8],
     [0.95, sx * 0.66, 0.05, -0.002, 2.6],
     [1.0, 0.05, 0.044, -0.004, 2.2],

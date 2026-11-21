@@ -6,6 +6,25 @@
   "company": "Fintoc",
   "cargo": "Senior Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#2b3038",
+    "color2": "#5b8fe0",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b3038"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1c"
+   }
+  },
   "i": 0
  },
  {
@@ -15,6 +34,25 @@
   "company": "Mi Primera Chamba",
   "cargo": "Cofundador",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#1c1d22",
+    "color2": "#7a1e2c",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1c1d22"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#141414"
+   }
+  },
   "i": 1
  },
  {
@@ -24,6 +62,25 @@
   "company": "Grupalia",
   "cargo": "Software Engineer",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#6b7878",
+    "color2": "#2e3138",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#384660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#3a3d44"
+   }
+  },
   "i": 2
  },
  {
@@ -33,6 +90,25 @@
   "company": "Bomberos · Cohetería UC",
   "cargo": "Bombero · Pdte. Ursa Crux",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#7d6b52",
+    "color2": "#b9cde6",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#3a2c22"
+   }
+  },
   "i": 3
  },
  {
@@ -42,6 +118,25 @@
   "company": "C1DO1",
   "cargo": "Ingeniero de desarrollo web",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c2333",
+    "color2": "#2a3246",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a6a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee9"
+   }
+  },
   "i": 4
  },
  {
@@ -51,6 +146,25 @@
   "company": "TeselaGen · BSponsor",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#3b5452",
+    "color2": "#4b6664",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a6a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#eeeae2"
+   }
+  },
   "i": 5
  },
  {
@@ -60,6 +174,25 @@
   "company": "AliviaUC · Capstone UC",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#4b4436",
+    "color2": "#d9d7d1",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 6
  },
  {
@@ -69,6 +202,25 @@
   "company": "U. de Concepción · ICPC",
   "cargo": "Full Stack Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f2f2ef",
+    "color2": "#fbfbf9",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2b2b2f"
+   }
+  },
   "i": 7
  },
  {
@@ -78,6 +230,25 @@
   "company": "Fundo Peumayen",
   "cargo": "Estudiante de Ingeniería",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#ece5da",
+    "color2": "#f4efe7",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a63"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e1"
+   }
+  },
   "i": 8
  },
  {
@@ -87,6 +258,25 @@
   "company": "U. Adolfo Ibáñez",
   "cargo": "Ingeniero en Diseño",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#5a3720",
+    "color2": "#ece9e2",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2a2a30"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#3b2a1e"
+   }
+  },
   "i": 9
  },
  {
@@ -96,6 +286,25 @@
   "company": "Ingeniería para Chile",
   "cargo": "Maker · Estudiante UC",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "delgado",
+   "top": {
+    "tipo": "traje",
+    "color": "#2c4f93",
+    "color2": "#24407a",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2c4f93"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#3a2618"
+   }
+  },
   "i": 10
  },
  {
@@ -105,6 +314,25 @@
   "company": "Fintoc",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1e2a47",
+    "color2": "#c9dcf0",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 11
  },
  {
@@ -114,6 +342,25 @@
   "company": "Cognition · Shinkansen",
   "cargo": "Forward Deployed Engineer",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#14161f",
+    "color2": "#232737",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efeee8"
+   }
+  },
   "i": 12
  },
  {
@@ -123,6 +370,25 @@
   "company": "Carstat · Helment",
   "cargo": "Founder · SWE en PGB",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3f1ec",
+    "color2": "#1f2b3d",
+    "manga": "larga",
+    "estampado": "floreado"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#3a3b41"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#3b2a20"
+   }
+  },
   "i": 13
  },
  {
@@ -132,6 +398,25 @@
   "company": "Pequén · UC",
   "cargo": "Tech Lead",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#aebd92",
+    "color2": "#1c1c1f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#55574d"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6b4f36"
+   }
+  },
   "i": 14
  },
  {
@@ -141,6 +426,25 @@
   "company": "JAPS",
   "cargo": "Robotics Engineer · Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#e8e7e0",
+    "color2": "#f2f1ec",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a6a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2c2c30"
+   }
+  },
   "i": 15
  },
  {
@@ -150,6 +454,25 @@
   "company": "Frust · U. de Chile",
   "cargo": "Product Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#141414",
+    "color2": "#262626",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e8e2"
+   }
+  },
   "i": 16
  },
  {
@@ -159,6 +482,25 @@
   "company": "U. de los Andes",
   "cargo": "Estudiante de Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#f4f4f1",
+    "color2": "#fbfbf9",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e6e4de"
+   }
+  },
   "i": 17
  },
  {
@@ -168,6 +510,25 @@
   "company": "Buda.com",
   "cargo": "Team Lead",
   "role": "INVITADA",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1b1a1c",
+    "color2": "#2a292d",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2b2f3a"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#1d1a19"
+   }
+  },
   "i": 18
  },
  {
@@ -177,6 +538,25 @@
   "company": "Topsort",
   "cargo": "Forward Deployed Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3f2ee",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 19
  },
  {
@@ -186,6 +566,25 @@
   "company": "GeoVictoria",
   "cargo": "Ingeniero Full-Stack",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1f2125",
+    "color2": "#5a5d63",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 20
  },
  {
@@ -195,6 +594,25 @@
   "company": "TeselaGen · U. de Chile",
   "cargo": "Ingeniero de software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#e3ebf5",
+    "color2": "#f3f6fb",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 21
  },
  {
@@ -204,6 +622,25 @@
   "company": "Kapso · Platanus",
   "cargo": "Founder · ex GP Platanus",
   "role": "JUEZ",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#15171c",
+    "color2": "#24272e",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 22
  },
  {
@@ -213,6 +650,25 @@
   "company": "Vita · Medicina UDD",
   "cargo": "Head of Sales & Growth",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#8b8174",
+    "color2": "#9a9184",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efede7"
+   }
+  },
   "i": 23
  },
  {
@@ -222,6 +678,25 @@
   "company": "OpenPartner · U. Mayor",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#9db2cf",
+    "color2": "#b6c6dc",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#4a4f5a"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#3a2c22"
+   }
+  },
   "i": 24
  },
  {
@@ -231,6 +706,25 @@
   "company": "Falabella",
   "cargo": "AI Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#a9bfd4",
+    "color2": "#c4d4e3",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2f3440"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0efe9"
+   }
+  },
   "i": 25
  },
  {
@@ -240,6 +734,25 @@
   "company": "U. de Chile",
   "cargo": "Profesor auxiliar",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#4a2440",
+    "color2": "#5c3252",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 26
  },
  {
@@ -249,6 +762,25 @@
   "company": "U. de Chile",
   "cargo": "Estudiante de Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#1d1e24",
+    "color2": "#6e1f33",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1d1e24"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#17171a"
+   }
+  },
   "i": 27
  },
  {
@@ -258,6 +790,25 @@
   "company": "Unholster",
   "cargo": "Software Engineer II",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f1f1ee",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#3a3f4b"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#2b241f"
+   }
+  },
   "i": 28
  },
  {
@@ -267,6 +818,25 @@
   "company": "U. Autónoma de Querétaro",
   "cargo": "Estudiante de Ciencia de Datos",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "polo",
+    "color": "#1c2335",
+    "color2": "#2a3349",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 29
  },
  {
@@ -276,6 +846,25 @@
   "company": "Relvo",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#a9c3e6",
+    "color2": "#c3d5ee",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 30
  },
  {
@@ -285,6 +874,25 @@
   "company": "Buk · UC Santa Cruz",
   "cargo": "Engineering Manager",
   "role": "MENTORA",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#2e2c2b",
+    "color2": "#3d3a39",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4f6e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efede8"
+   }
+  },
   "i": 31
  },
  {
@@ -294,6 +902,25 @@
   "company": "UDP · FEDEP",
   "cargo": "AI Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3f2ef",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3d5c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efeee9"
+   }
+  },
   "i": 32
  },
  {
@@ -303,6 +930,25 @@
   "company": "Plexo · FIUBA",
   "cargo": "CTO & Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1b1b1d",
+    "color2": "#2a2a2e",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e8e4"
+   }
+  },
   "i": 33
  },
  {
@@ -312,6 +958,25 @@
   "company": "Fintoc · TEDxPUCdeChile",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#6f90c4",
+    "color2": "#7f9fd0",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#b8a888"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ece9e2"
+   }
+  },
   "i": 34
  },
  {
@@ -321,6 +986,25 @@
   "company": "U. de Chile",
   "cargo": "VP IEEE Computer Society",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#3a3b3e",
+    "color2": "#4a4b4f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2a2d35"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#3a3a3c"
+   }
+  },
   "i": 35
  },
  {
@@ -330,6 +1014,25 @@
   "company": "Grupo Colibrí",
   "cargo": "Fundador",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#e4dac8",
+    "color2": "#efe7da",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#37445e"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#6b4a32"
+   }
+  },
   "i": 36
  },
  {
@@ -339,6 +1042,25 @@
   "company": "Turboshop",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#b5522f",
+    "color2": "#56603f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#3f4636"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#5a3c28"
+   }
+  },
   "i": 37
  },
  {
@@ -348,6 +1070,25 @@
   "company": "Batwise",
   "cargo": "Growth & Ops",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#8fb3d9",
+    "color2": "#a8c6e4",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#b9a988"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f4f2ec"
+   }
+  },
   "i": 38
  },
  {
@@ -357,6 +1098,25 @@
   "company": "Ingeniería UC · WaitUp",
   "cargo": "Lead TA Emprendimiento UC",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#1c1d22",
+    "color2": "#2f6f9e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4d70"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 39
  },
  {
@@ -366,6 +1126,25 @@
   "company": "Neat · Sodimac",
   "cargo": "Product Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#252528",
+    "color2": "#36363b",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ebe8e1"
+   }
+  },
   "i": 40
  },
  {
@@ -375,6 +1154,25 @@
   "company": "Unholster",
   "cargo": "Data Scientist III",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#18181a",
+    "color2": "#2a2a2e",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 41
  },
  {
@@ -384,6 +1182,25 @@
   "company": "BipBop Labs",
   "cargo": "Product Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#4a4b4f",
+    "color2": "#d99a94",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a4f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 42
  },
  {
@@ -393,6 +1210,25 @@
   "company": "Copec Wind · IDEMAX",
   "cargo": "Cross Innovation Team Leader",
   "role": "SPONSOR",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1b1b1f",
+    "color2": "#f3f1ed",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#23262c"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1d"
+   }
+  },
   "i": 43
  },
  {
@@ -402,6 +1238,25 @@
   "company": "USM · Control Automático",
   "cargo": "Profesor de Control",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1f1f22",
+    "color2": "#2e2e33",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#39475e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e1"
+   }
+  },
   "i": 44
  },
  {
@@ -411,6 +1266,25 @@
   "company": "Stealth · Octa Aerospace",
   "cargo": "Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#1c1c1f",
+    "color2": "#3a3a3f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a4f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ececea"
+   }
+  },
   "i": 45
  },
  {
@@ -420,6 +1294,25 @@
   "company": "ACHS",
   "cargo": "Product Owner",
   "role": "INVITADA",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#9a5a45",
+    "color2": "#ad6c56",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#5b3a2a"
+   }
+  },
   "i": 46
  },
  {
@@ -429,6 +1322,25 @@
   "company": "Nomenclator · MeLi",
   "cargo": "Founder y ML Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#1b1b1e",
+    "color2": "#2c2c30",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 47
  },
  {
@@ -438,6 +1350,25 @@
   "company": "LET",
   "cargo": "Analista de desarrollo",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#141414",
+    "color2": "#d6d6d6",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2a"
+   }
+  },
   "i": 48
  },
  {
@@ -447,6 +1378,25 @@
   "company": "USM · Ing. Mecánica",
   "cargo": "Ingeniero Mecánico, MSc(c)",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#ebe7dd",
+    "color2": "#a8c3e3",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b3550"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#5a3b25"
+   }
+  },
   "i": 49
  },
  {
@@ -456,6 +1406,25 @@
   "company": "Turboshop · École Nantes",
   "cargo": "Head of Design",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#22252b",
+    "color2": "#30343c",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#8a7f6c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0ede6"
+   }
+  },
   "i": 50
  },
  {
@@ -465,6 +1434,25 @@
   "company": "Quantum Wave",
   "cargo": "Chief Risk Officer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3f3f1",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#262b45"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1e1a18"
+   }
+  },
   "i": 51
  },
  {
@@ -474,6 +1462,25 @@
   "company": "LATAM Airlines",
   "cargo": "Data Scientist",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#1c1c1f",
+    "color2": "#2c2c31",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#6b6458"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 52
  },
  {
@@ -483,6 +1490,25 @@
   "company": "CChC",
   "cargo": "Coordinadora de Innovación",
   "role": "SPONSOR",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#16161a",
+    "color2": "#2a2a30",
+    "manga": "sin",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4d6e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 53
  },
  {
@@ -492,6 +1518,25 @@
   "company": "Valdivia Tech",
   "cargo": "Founder & CEO",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#3b1b22",
+    "color2": "#4a2a31",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2b3448"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2a"
+   }
+  },
   "i": 54
  },
  {
@@ -501,6 +1546,25 @@
   "company": "Buk",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#262a33",
+    "color2": "#4f80c8",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#262a33"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1b1b1e"
+   }
+  },
   "i": 55
  },
  {
@@ -510,6 +1574,25 @@
   "company": "C1DO1",
   "cargo": "Intern full-stack",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#b4655a",
+    "color2": "#c27a6f",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a465e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efede8"
+   }
+  },
   "i": 56
  },
  {
@@ -519,6 +1602,25 @@
   "company": "Leñadura S.A.",
   "cargo": "Data Analyst",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#1b2134",
+    "color2": "#3f5f95",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1b2134"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1614"
+   }
+  },
   "i": 57
  },
  {
@@ -528,6 +1630,25 @@
   "company": "U. de los Andes",
   "cargo": "Estudiante de Kinesiología",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c2238",
+    "color2": "#283050",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "buzo",
+    "color": "#1f2333"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f2ee"
+   }
+  },
   "i": 58
  },
  {
@@ -537,6 +1658,25 @@
   "company": "ProviWork · U. de Chile",
   "cargo": "Gestor de Proyectos",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#1d1d1f",
+    "color2": "#2c2c2e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33363d"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#1f1f1f"
+   }
+  },
   "i": 59
  },
  {
@@ -546,6 +1686,25 @@
   "company": "Flair",
   "cargo": "Ingeniero de producto",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#a9c4e4",
+    "color2": "#bfd4ee",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34425e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 60
  },
  {
@@ -555,6 +1714,25 @@
   "company": "Nextep",
   "cargo": "Desarrollador Backend",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1e1e20",
+    "color2": "#2b2b2e",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2a"
+   }
+  },
   "i": 61
  },
  {
@@ -564,6 +1742,25 @@
   "company": "Loken · Pooler",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#5b6578",
+    "color2": "#6d778b",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 62
  },
  {
@@ -573,6 +1770,25 @@
   "company": "Fintoc · DCC UC",
   "cargo": "Ingeniero de Software Senior",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#3e3f4a",
+    "color2": "#4c4d58",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2c2f36"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 63
  },
  {
@@ -582,6 +1798,25 @@
   "company": "SmartUp",
   "cargo": "Co-Founder & CTO",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#18181b",
+    "color2": "#2a2a2e",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 64
  },
  {
@@ -591,6 +1826,25 @@
   "company": "TurboShop · Se Remonta",
   "cargo": "Founding Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#5b75a3",
+    "color2": "#161616",
+    "manga": "larga",
+    "estampado": "rayas"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 65
  },
  {
@@ -600,6 +1854,25 @@
   "company": "DCC UC",
   "cargo": "Ayudante de Cátedra",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#2e5d50",
+    "color2": "#d8cdb5",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 66
  },
  {
@@ -609,6 +1882,25 @@
   "company": "Valoon · Saquen Plan",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#46658c",
+    "color2": "#efeeea",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2a2a2e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 67
  },
  {
@@ -618,6 +1910,25 @@
   "company": "U. de Chile · UNAB",
   "cargo": "Profesor Adjunto UNAB",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaleco",
+    "color": "#1d1e22",
+    "color2": "#141417",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a50"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e7e4dc"
+   }
+  },
   "i": 68
  },
  {
@@ -627,6 +1938,25 @@
   "company": "BipBop · Elunet",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#2b2725",
+    "color2": "#3d4e6e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#d8d2c4"
+   }
+  },
   "i": 69
  },
  {
@@ -636,6 +1966,25 @@
   "company": "Sodimac",
   "cargo": "Performance Automation",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "ancho",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#8eab9b",
+    "color2": "#f2f0ea",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e5de"
+   }
+  },
   "i": 70
  },
  {
@@ -645,6 +1994,25 @@
   "company": "GBM · miprimerachamba.ai",
   "cargo": "Co-Fundador · Data en GBM",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1b2436",
+    "color2": "#b7cbe2",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b2f38"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#3a2a20"
+   }
+  },
   "i": 71
  },
  {
@@ -654,6 +2022,25 @@
   "company": "CChC",
   "cargo": "Subgerente de Innovación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#2c2c30",
+    "color2": "#f3f1ec",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 72
  },
  {
@@ -663,6 +2050,25 @@
   "company": "BipBop · U. del Bío-Bío",
   "cargo": "Product Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "polo",
+    "color": "#6b3f26",
+    "color2": "#7e4d31",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2f3542"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e6e3dc"
+   }
+  },
   "i": 73
  },
  {
@@ -672,6 +2078,25 @@
   "company": "U. de Chile · Clickie",
   "cargo": "Presidenta IEEE CS UChile",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#1e2a3d",
+    "color2": "#2b3a52",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4d6e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0ede6"
+   }
+  },
   "i": 74
  },
  {
@@ -681,6 +2106,25 @@
   "company": "Google Cloud",
   "cargo": "Cloud Data Architect",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1b1c20",
+    "color2": "#2d3036",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33415c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#4a4c52"
+   }
+  },
   "i": 75
  },
  {
@@ -690,6 +2134,25 @@
   "company": "30X · ICANH",
   "cargo": "GTM Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#24201e",
+    "color2": "#151515",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#262a33"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#1a1a1a"
+   }
+  },
   "i": 76
  },
  {
@@ -699,6 +2162,25 @@
   "company": "coreDevX · U. de Chile",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1d2b4f",
+    "color2": "#2b3b63",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#45556f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e9e6"
+   }
+  },
   "i": 77
  },
  {
@@ -708,6 +2190,25 @@
   "company": "TELUS Digital · UNSAM",
   "cargo": "AI Engineering Intern",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#6b6b69",
+    "color2": "#8a8a86",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3c55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0efe9"
+   }
+  },
   "i": 78
  },
  {
@@ -717,6 +2218,25 @@
   "company": "Biwiser Group",
   "cargo": "Gerente Comercial",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#6d8766",
+    "color2": "#7f9a77",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#b9a888"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#5a3b26"
+   }
+  },
   "i": 79
  },
  {
@@ -726,6 +2246,25 @@
   "company": "Deloitte · Eclectic AI",
   "cargo": "Data Analyst",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#c9d5ea",
+    "color2": "#dfe6f2",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2e3648"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#4a3426"
+   }
+  },
   "i": 80
  },
  {
@@ -735,6 +2274,25 @@
   "company": "Lemaco · CChC",
   "cargo": "CEO de Lemaco",
   "role": "SPONSOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1c1c20",
+    "color2": "#5d6570",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2c2f36"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1a"
+   }
+  },
   "i": 81
  },
  {
@@ -744,6 +2302,25 @@
   "company": "Unholster",
   "cargo": "Ingeniero de Software II",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#e6dfcd",
+    "color2": "#f2ecdc",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#46577a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ece9e1"
+   }
+  },
   "i": 82
  },
  {
@@ -753,6 +2330,25 @@
   "company": "Frust",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "polo",
+    "color": "#a8a59e",
+    "color2": "#232836",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 83
  },
  {
@@ -762,6 +2358,25 @@
   "company": "Ciencia de Datos UC",
   "cargo": "Consejera académica LICD",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#1d1f2b",
+    "color2": "#8a8f99",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 84
  },
  {
@@ -771,6 +2386,25 @@
   "company": "Revi · CChC",
   "cargo": "Jefe de Producto",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f4f4f1",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4f6e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 85
  },
  {
@@ -780,6 +2414,25 @@
   "company": "Microsoft · York U.",
   "cargo": "SWE Intern · Azure Storage",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "delgado",
+   "top": {
+    "tipo": "remera",
+    "color": "#141416",
+    "color2": "#26262a",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f2f2"
+   }
+  },
   "i": 86
  },
  {
@@ -789,6 +2442,25 @@
   "company": "Zent Agency · Plexo",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c1c1e",
+    "color2": "#2b2b2f",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a68"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0efea"
+   }
+  },
   "i": 87
  },
  {
@@ -798,6 +2470,25 @@
   "company": "IMC Labs · Taram Capital",
   "cargo": "Tech Leader · EIR",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#f3f3f1",
+    "color2": "#fafafa",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "buzo",
+    "color": "#24262c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f26b3a"
+   }
+  },
   "i": 88
  },
  {
@@ -807,6 +2498,25 @@
   "company": "AlojaFacil · USM",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#8d8f92",
+    "color2": "#a3a5a8",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#384561"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2b2b2d"
+   }
+  },
   "i": 89
  },
  {
@@ -816,6 +2526,25 @@
   "company": "U. de Chile · ICPC",
   "cargo": "Estudiante de Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#f1f1ee",
+    "color2": "#ffffff",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34496e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 90
  },
  {
@@ -825,6 +2554,25 @@
   "company": "Innovares · UCAB",
   "cargo": "Ingeniero de software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#f2f2f0",
+    "color2": "#fafafa",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33405c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#1f1f1f"
+   }
+  },
   "i": 91
  },
  {
@@ -834,6 +2582,25 @@
   "company": "Deloitte · Becker Mining",
   "cargo": "AI & Data Analyst",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1e1f24",
+    "color2": "#bccfe4",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#2b2622"
+   }
+  },
   "i": 92
  },
  {
@@ -843,6 +2610,25 @@
   "company": "Inseport",
   "cargo": "Solution Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#cfc4b8",
+    "color2": "#7a5a4a",
+    "manga": "larga",
+    "estampado": "cuadros"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a63"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2c2c2e"
+   }
+  },
   "i": 93
  },
  {
@@ -852,6 +2638,25 @@
   "company": "Ingeniería UC",
   "cargo": "Dev de software científico",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#18181b",
+    "color2": "#2b2b31",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2e"
+   }
+  },
   "i": 94
  },
  {
@@ -861,6 +2666,25 @@
   "company": "Revi · BipBop Labs",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#6e2f35",
+    "color2": "#813b42",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a50"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 95
  },
  {
@@ -870,6 +2694,25 @@
   "company": "Dropout Capital",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#1c1c1f",
+    "color2": "#2b2b30",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe8"
+   }
+  },
   "i": 96
  },
  {
@@ -879,6 +2722,25 @@
   "company": "Vambe",
   "cargo": "Product Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#a9b8c8",
+    "color2": "#c4d0dc",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#c7b897"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee9"
+   }
+  },
   "i": 97
  },
  {
@@ -888,6 +2750,25 @@
   "company": "Buk · U. de Talca",
   "cargo": "Software Engineer L2",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#6f6a49",
+    "color2": "#cfc8a8",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#39465f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 98
  },
  {
@@ -897,6 +2778,25 @@
   "company": "U. de Chile",
   "cargo": "Estudiante Ing. Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#e4ded3",
+    "color2": "#eee9e1",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2d2d30"
+   }
+  },
   "i": 99
  },
  {
@@ -906,6 +2806,25 @@
   "company": "Vita",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3f3f1",
+    "color2": "#e4e4e1",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2f3b4d"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 100
  },
  {
@@ -915,6 +2834,25 @@
   "company": "Golocal · Ergowear",
   "cargo": "Socio Cofundador",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#232a36",
+    "color2": "#2f3745",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 101
  },
  {
@@ -924,6 +2862,25 @@
   "company": "Comunidad CachAI",
   "cargo": "Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c1c1e",
+    "color2": "#29292c",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4762"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 102
  },
  {
@@ -933,6 +2890,25 @@
   "company": "Ubikas",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#7b736f",
+    "color2": "#8f8783",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2c3446"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efeee9"
+   }
+  },
   "i": 103
  },
  {
@@ -942,6 +2918,25 @@
   "company": "Plexo",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1e2433",
+    "color2": "#2b3348",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#4a4f57"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6b4a2e"
+   }
+  },
   "i": 104
  },
  {
@@ -951,6 +2946,25 @@
   "company": "Ungga",
   "cargo": "AI Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#19191b",
+    "color2": "#262629",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33415c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ebe9e4"
+   }
+  },
   "i": 105
  },
  {
@@ -960,6 +2974,25 @@
   "company": "Welcome Back · Andev",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1f2024",
+    "color2": "#f0eeea",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#5b5a4c"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6a4a32"
+   }
+  },
   "i": 106
  },
  {
@@ -969,6 +3002,25 @@
   "company": "GoFarmer · Skilia",
   "cargo": "CTO GoFarmer · Co-Founder JAPS",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#efebe2",
+    "color2": "#f6f3ec",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4b6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 107
  },
  {
@@ -978,6 +3030,25 @@
   "company": "Mi Primera Chamba",
   "cargo": "Founder & CTO",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1f2024",
+    "color2": "#34363c",
+    "manga": "sin",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a55"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#1a1a1c"
+   }
+  },
   "i": 108
  },
  {
@@ -987,6 +3058,25 @@
   "company": "UCAB · IBM Z",
   "cargo": "IBM Z Student Ambassador",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#1c1f26",
+    "color2": "#30343c",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e9e9"
+   }
+  },
   "i": 109
  },
  {
@@ -996,6 +3086,25 @@
   "company": "XalDigital · Superprof",
   "cargo": "Ingeniero de Datos",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#161616",
+    "color2": "#2a2a2a",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 110
  },
  {
@@ -1005,6 +3114,25 @@
   "company": "Alfin Banco",
   "cargo": "Senior AI Solutions Specialist",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1d2027",
+    "color2": "#c5d5ea",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#8a7a62"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2a"
+   }
+  },
   "i": 111
  },
  {
@@ -1014,6 +3142,25 @@
   "company": "U. de los Andes",
   "cargo": "Estudiante Ing. Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f4f4f2",
+    "color2": "#e2e2df",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b3448"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#4a3324"
+   }
+  },
   "i": 112
  },
  {
@@ -1023,6 +3170,25 @@
   "company": "U. de Concepción",
   "cargo": "Estudiante de Ingeniería",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#1d2230",
+    "color2": "#2a3040",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ededed"
+   }
+  },
   "i": 113
  },
  {
@@ -1032,6 +3198,25 @@
   "company": "PGB",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#d8ceba",
+    "color2": "#e6dece",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a4f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eeea"
+   }
+  },
   "i": 114
  },
  {
@@ -1041,6 +3226,25 @@
   "company": "U. Adolfo Ibáñez",
   "cargo": "PhD Data Science · Game Dev",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#1e1f24",
+    "color2": "#c41e2e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1e1f24"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1414"
+   }
+  },
   "i": 115
  },
  {
@@ -1050,6 +3254,25 @@
   "company": "Welcome Back",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#5a6f8c",
+    "color2": "#6b7f9a",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#b8a78a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 116
  },
  {
@@ -1059,6 +3282,25 @@
   "company": "Ingeniería Matemática UC",
   "cargo": "Investigador UC",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#23262c",
+    "color2": "#1a1b1f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#2a2522"
+   }
+  },
   "i": 117
  },
  {
@@ -1068,6 +3310,25 @@
   "company": "Neat · MSc XR UC",
   "cargo": "Growth Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#d4e3f1",
+    "color2": "#7c9cc6",
+    "manga": "larga",
+    "estampado": "rayas"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34466a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 118
  },
  {
@@ -1077,6 +3338,25 @@
   "company": "TEK Chile · UC",
   "cargo": "Physical AI & Robotics Intern",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#2c2f3d",
+    "color2": "#2a2c33",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2c2f3d"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1a"
+   }
+  },
   "i": 119
  },
  {
@@ -1086,6 +3366,25 @@
   "company": "Topsort · BETO",
   "cargo": "Senior Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#a9aaa9",
+    "color2": "#bdbebd",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2e"
+   }
+  },
   "i": 120
  },
  {
@@ -1095,6 +3394,25 @@
   "company": "Abaqus",
   "cargo": "Software Engineer & PM",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#cc2229",
+    "color2": "#f2f2f2",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34446a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 121
  },
  {
@@ -1104,6 +3422,25 @@
   "company": "CChC",
   "cargo": "PM Transformación Digital",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#ece5d6",
+    "color2": "#f6f1e7",
+    "manga": "sin",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#232428"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1f1f22"
+   }
+  },
   "i": 122
  },
  {
@@ -1113,6 +3450,25 @@
   "company": "AgendaPro · Woorkin",
   "cargo": "Talent Acquisition",
   "role": "SPONSOR",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#5b4535",
+    "color2": "#f2efe9",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 123
  },
  {
@@ -1122,6 +3478,25 @@
   "company": "Buk · Fintoc",
   "cargo": "Group Engineering Manager",
   "role": "MENTORA",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#f3f1ec",
+    "color2": "#ffffff",
+    "manga": "sin",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3e5277"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 124
  },
  {
@@ -1131,6 +3506,25 @@
   "company": "PlusZero",
   "cargo": "Backend & Data Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#141416",
+    "color2": "#2a2a2e",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3d5c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 125
  },
  {
@@ -1140,6 +3534,25 @@
   "company": "U. de Chile",
   "cargo": "ML & Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#5d6a45",
+    "color2": "#6f7d55",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#353f55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 126
  },
  {
@@ -1149,6 +3562,25 @@
   "company": "ProHack · U. de los Andes",
   "cargo": "Machine Learning Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#18181b",
+    "color2": "#6b2238",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1c1c20"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#141416"
+   }
+  },
   "i": 127
  },
  {
@@ -1158,6 +3590,25 @@
   "company": "CEA · Effective Altruism",
   "cargo": "Senior Events Associate",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#5f5f62",
+    "color2": "#5c6e8e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#b8a37f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e6e3dc"
+   }
+  },
   "i": 128
  },
  {
@@ -1167,6 +3618,25 @@
   "company": "Visagente · Gordian",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1c1d21",
+    "color2": "#dfe2e4",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33405e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2b2c30"
+   }
+  },
   "i": 129
  },
  {
@@ -1176,6 +3646,25 @@
   "company": "U. de Chile",
   "cargo": "Ayudante de Ing. de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#141518",
+    "color2": "#26282d",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#22242a"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#1a1a1c"
+   }
+  },
   "i": 130
  },
  {
@@ -1185,6 +3674,25 @@
   "company": "BipBop Labs",
   "cargo": "Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1d1d20",
+    "color2": "#2b2b30",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3c4f78"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 131
  },
  {
@@ -1194,6 +3702,25 @@
   "company": "Buk · UC",
   "cargo": "Software Engineer L1",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#2b2321",
+    "color2": "#c47a3a",
+    "manga": "larga",
+    "estampado": "rayas"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ece8e0"
+   }
+  },
   "i": 132
  },
  {
@@ -1203,6 +3730,25 @@
   "company": "GreenBloc · Cóndor UC",
   "cargo": "Estudiante UC",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#ecebe6",
+    "color2": "#f8f7f3",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2b2f"
+   }
+  },
   "i": 133
  },
  {
@@ -1212,6 +3758,25 @@
   "company": "NeuralWorks",
   "cargo": "Jefa de ML e Ingeniería",
   "role": "JUEZA",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#ece9e1",
+    "color2": "#bcd4e8",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0ede6"
+   }
+  },
   "i": 134
  },
  {
@@ -1221,6 +3786,25 @@
   "company": "Capítulo SIAM PUC",
   "cargo": "Presidente Capítulo SIAM",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "delgado",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#a9aaa8",
+    "color2": "#f4f4f1",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 135
  },
  {
@@ -1230,6 +3814,25 @@
   "company": "Buk",
   "cargo": "Software Engineer L2",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#3a69a8",
+    "color2": "#2b2b30",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2c3446"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#4a3524"
+   }
+  },
   "i": 136
  },
  {
@@ -1239,6 +3842,25 @@
   "company": "Buk · Psicología UC",
   "cargo": "Analista de Marca Empleadora",
   "role": "STAFF",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#a5294b",
+    "color2": "#b83a5c",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#4a5f86"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f3f1ec"
+   }
+  },
   "i": 137
  },
  {
@@ -1248,6 +3870,25 @@
   "company": "AMM Capital",
   "cargo": "Jefe de Inteligencia de Negocios",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#2d3036",
+    "color2": "#f5f5f3",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2a2d33"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#3a2a20"
+   }
+  },
   "i": 138
  },
  {
@@ -1257,6 +3898,25 @@
   "company": "Edaltec · U. de Chile",
   "cargo": "Ingeniero de Datos",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#4f6178",
+    "color2": "#e3dccb",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#5a5248"
+   }
+  },
   "i": 139
  },
  {
@@ -1266,6 +3926,25 @@
   "company": "RindeChile · UC",
   "cargo": "Cofundadora de RindeChile",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f1efe9",
+    "color2": "#e2ded4",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#44557a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efece4"
+   }
+  },
   "i": 140
  },
  {
@@ -1275,6 +3954,25 @@
   "company": "SmartUp · UC",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#1f2b46",
+    "color2": "#2c3a5a",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 141
  },
  {
@@ -1284,6 +3982,25 @@
   "company": "SII Group · DomiChat",
   "cargo": "SDET – Chaos Engineering",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#2f3339",
+    "color2": "#3f434a",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2c3445"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 142
  },
  {
@@ -1293,6 +4010,25 @@
   "company": "Buk · Club Andino U.",
   "cargo": "Práctica Employer Branding",
   "role": "STAFF",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#18181a",
+    "color2": "#efece4",
+    "manga": "sin",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#4a5d80"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6b4a2f"
+   }
+  },
   "i": 143
  },
  {
@@ -1302,6 +4038,25 @@
   "company": "CChC",
   "cargo": "Coordinadora Innovación Abierta",
   "role": "SPONSOR",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1d1d21",
+    "color2": "#6a6a6e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b2d33"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1a"
+   }
+  },
   "i": 144
  },
  {
@@ -1311,6 +4066,25 @@
   "company": "Buk · BioElements",
   "cargo": "Product Manager",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#6e2531",
+    "color2": "#151517",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a55"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#2e2420"
+   }
+  },
   "i": 145
  },
  {
@@ -1320,6 +4094,25 @@
   "company": "Cristalchile",
   "cargo": "Científica de Datos",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#f0e4e1",
+    "color2": "#1f3a2e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#3a3540"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#2a2225"
+   }
+  },
   "i": 146
  },
  {
@@ -1329,6 +4122,25 @@
   "company": "VTI U. de Chile",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#2a2223",
+    "color2": "#3b3c40",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a4f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 147
  },
  {
@@ -1338,6 +4150,25 @@
   "company": "Skip",
   "cargo": "Head of Growth & Data",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#4a5059",
+    "color2": "#5d636c",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2d3850"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 148
  },
  {
@@ -1347,6 +4178,25 @@
   "company": "NTT DATA",
   "cargo": "Lead Analyst · Data Scientist",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "polo",
+    "color": "#262e4c",
+    "color2": "#6f86ad",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#384560"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 149
  },
  {
@@ -1356,6 +4206,25 @@
   "company": "Fintoc",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#5f5b62",
+    "color2": "#6e6a71",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#c4b79f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efede8"
+   }
+  },
   "i": 150
  },
  {
@@ -1365,6 +4234,25 @@
   "company": "SummaPartners · VolleyAI",
   "cargo": "Dev de Advanced Analytics",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#4b4e54",
+    "color2": "#f3f2ee",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#33363c"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1f1f22"
+   }
+  },
   "i": 151
  },
  {
@@ -1374,6 +4262,25 @@
   "company": "TheHouse Advisory",
   "cargo": "Consultor Analista",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#8fb3dc",
+    "color2": "#a8c6e8",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#c9b48f"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#6b4a32"
+   }
+  },
   "i": 152
  },
  {
@@ -1383,6 +4290,25 @@
   "company": "ESTEI",
   "cargo": "Analista de Desarrollo con IA",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1c1c1f",
+    "color2": "#2a2a2e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33415c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 153
  },
  {
@@ -1392,6 +4318,25 @@
   "company": "USM · Enaer",
   "cargo": "Estudiante Ing. Civil Eléctrica",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#7b7f8e",
+    "color2": "#8f93a2",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4a63"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#3a3a3c"
+   }
+  },
   "i": 154
  },
  {
@@ -1401,6 +4346,25 @@
   "company": "Vita",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1e1e21",
+    "color2": "#5f5d5e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "buzo",
+    "color": "#2a2c31"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e8e4"
+   }
+  },
   "i": 155
  },
  {
@@ -1410,6 +4374,25 @@
   "company": "Relvo · Zubale",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#cfcdc6",
+    "color2": "#dedcd6",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4458"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e5dd"
+   }
+  },
   "i": 156
  },
  {
@@ -1419,6 +4402,25 @@
   "company": "Matemáticas UC",
   "cargo": "Magíster en Matemática Pura",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#4b4d52",
+    "color2": "#c9a1aa",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#44464b"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#2a2220"
+   }
+  },
   "i": 157
  },
  {
@@ -1428,6 +4430,25 @@
   "company": "Bison Agents",
   "cargo": "Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#8a919c",
+    "color2": "#9ca3ad",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#4a3526"
+   }
+  },
   "i": 158
  },
  {
@@ -1437,6 +4458,25 @@
   "company": "Bison Agents · Tucar",
   "cargo": "Co-Founder & CEO",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#e2603a",
+    "color2": "#ec7650",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3c4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 159
  },
  {
@@ -1446,6 +4486,25 @@
   "company": "RedTur · NOK",
   "cargo": "Founder · AI Product Manager",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1d1d1f",
+    "color2": "#2c2c2f",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 160
  },
  {
@@ -1455,6 +4514,25 @@
   "company": "LATAM · Kepler Coach",
   "cargo": "Sr Data Science Specialist",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#283a5a",
+    "color2": "#a9c1df",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4256"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 161
  },
  {
@@ -1464,6 +4542,25 @@
   "company": "Identyz",
   "cargo": "Desarrollador Web",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#19191b",
+    "color2": "#2c2c2f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#4a5670"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe8"
+   }
+  },
   "i": 162
  },
  {
@@ -1473,6 +4570,25 @@
   "company": "Buk · U. de los Andes",
   "cargo": "Group Engineering Manager",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#23262d",
+    "color2": "#3a3e48",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 163
  },
  {
@@ -1482,6 +4598,25 @@
   "company": "SmartUp",
   "cargo": "Co-Founder & CEO",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#eeedf0",
+    "color2": "#f7f6f8",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2c3142"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#3b2a20"
+   }
+  },
   "i": 164
  },
  {
@@ -1491,6 +4626,25 @@
   "company": "MiGuru · Kodual",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#1f2a44",
+    "color2": "#2b3756",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4152"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 165
  },
  {
@@ -1500,6 +4654,25 @@
   "company": "Ingeniería UC",
   "cargo": "Estudiante de Ingeniería Civil",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#7d9a85",
+    "color2": "#8fac97",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3e4b66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e1"
+   }
+  },
   "i": 166
  },
  {
@@ -1509,6 +4682,25 @@
   "company": "CENIA",
   "cargo": "Investigador ML · Juez",
   "role": "JUEZ",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#151515",
+    "color2": "#2a2a2a",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efefef"
+   }
+  },
   "i": 167
  },
  {
@@ -1518,6 +4710,25 @@
   "company": "Platanus",
   "cargo": "Growth y Comunidad",
   "role": "STAFF",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#262b35",
+    "color2": "#8c9099",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 168
  },
  {
@@ -1527,6 +4738,25 @@
   "company": "Buk · Pisapapeles",
   "cargo": "Líder de Ciencia de Datos",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#685a5a",
+    "color2": "#786a6a",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a4f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2c2c30"
+   }
+  },
   "i": 169
  },
  {
@@ -1536,6 +4766,25 @@
   "company": "Zesty · Profe UC",
   "cargo": "Senior SWE · Profesor UC",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#262a33",
+    "color2": "#8db7e6",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#262a33"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1b1b1b"
+   }
+  },
   "i": 170
  },
  {
@@ -1545,6 +4794,25 @@
   "company": "U. de Chile",
   "cargo": "Ingeniero Civil en Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#1f3b7a",
+    "color2": "#e6b828",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1f3b7a"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#2a1d14"
+   }
+  },
   "i": 171
  },
  {
@@ -1554,6 +4822,25 @@
   "company": "Radio Transients Lab",
   "cargo": "Asistente de Investigación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#6b6e4f",
+    "color2": "#80845f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#d9d3c7"
+   }
+  },
   "i": 172
  },
  {
@@ -1563,6 +4850,25 @@
   "company": "Fintoc · Next Cross",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c1c1f",
+    "color2": "#2c2c30",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2a2d33"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 173
  },
  {
@@ -1572,6 +4878,25 @@
   "company": "Abaqus",
   "cargo": "Product Designer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#b98a24",
+    "color2": "#2a2c33",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b2d33"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#5a3a22"
+   }
+  },
   "i": 174
  },
  {
@@ -1581,6 +4906,25 @@
   "company": "Unholster",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "polo",
+    "color": "#93cf6a",
+    "color2": "#b1e08e",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2e"
+   }
+  },
   "i": 175
  },
  {
@@ -1590,6 +4934,25 @@
   "company": "Zent Agency",
   "cargo": "AI Forward Deployed Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#171717",
+    "color2": "#2b2b2b",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eeea"
+   }
+  },
   "i": 176
  },
  {
@@ -1599,6 +4962,25 @@
   "company": "U. San Sebastián",
   "cargo": "Estudiante",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#7d8288",
+    "color2": "#90959b",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2b2b2b"
+   }
+  },
   "i": 177
  },
  {
@@ -1608,6 +4990,25 @@
   "company": "50X",
   "cargo": "Co-Founder & CTO",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#1f2a3a",
+    "color2": "#9fb0c4",
+    "manga": "corta",
+    "estampado": "floreado"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#cbbf9f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ece9e2"
+   }
+  },
   "i": 178
  },
  {
@@ -1617,6 +5018,25 @@
   "company": "Copec Taller",
   "cargo": "Product Lead",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1a1a1a",
+    "color2": "#d9c9b0",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34445e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 179
  },
  {
@@ -1626,6 +5046,25 @@
   "company": "TECHO · Ursa Crux",
   "cargo": "Capataz TECHO y cohetero UC",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#4a5866",
+    "color2": "#5b6977",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4a63"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6b5038"
+   }
+  },
   "i": 180
  },
  {
@@ -1635,6 +5074,25 @@
   "company": "Rappi",
   "cargo": "AI Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f2f2f2",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#23262e"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1a"
+   }
+  },
   "i": 181
  },
  {
@@ -1644,6 +5102,25 @@
   "company": "Vinko · Escuela Militar",
   "cargo": "Ingeniero de software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#17171a",
+    "color2": "#2a2a2f",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3d5c"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 182
  },
  {
@@ -1653,6 +5130,25 @@
   "company": "Fintoc",
   "cargo": "Ingeniero de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#5c9c9e",
+    "color2": "#6dacad",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4c6a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ece9e2"
+   }
+  },
   "i": 183
  },
  {
@@ -1662,6 +5158,25 @@
   "company": "Fintual",
   "cargo": "Head of Product",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#e8dfcc",
+    "color2": "#f2ebdc",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0ea"
+   }
+  },
   "i": 184
  },
  {
@@ -1671,6 +5186,25 @@
   "company": "Ing. Matemática UC",
   "cargo": "Ingeniero de software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#d2cfc4",
+    "color2": "#1c2748",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#c9c5b9"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#5a3a24"
+   }
+  },
   "i": 185
  },
  {
@@ -1680,6 +5214,25 @@
   "company": "Sonicali · JAPS",
   "cargo": "CEO JAPS · Co-Founder Sonicali",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1f84d4",
+    "color2": "#3c9ae0",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "shorts",
+    "color": "#2b2f3a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0efea"
+   }
+  },
   "i": 186
  },
  {
@@ -1689,6 +5242,25 @@
   "company": "Dasein Futures",
   "cargo": "CEO y cofundador",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#4a4945",
+    "color2": "#141416",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1c1c1f"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#2a2622"
+   }
+  },
   "i": 187
  },
  {
@@ -1698,6 +5270,25 @@
   "company": "NTT DATA · San Marcos",
   "cargo": "Senior Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1e4a3b",
+    "color2": "#2b5c4b",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#24262b"
+   }
+  },
   "i": 188
  },
  {
@@ -1707,6 +5298,25 @@
   "company": "Shinkansen",
   "cargo": "Chief Legal and Policy Officer",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1d2740",
+    "color2": "#c7bce2",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2a2f3d"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#2b1d16"
+   }
+  },
   "i": 189
  },
  {
@@ -1716,6 +5326,25 @@
   "company": "Platanus",
   "cargo": "Cofundadora y Partner",
   "role": "STAFF",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#5f6680",
+    "color2": "#dd9cc6",
+    "manga": "larga",
+    "estampado": "floreado"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b56"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0ede6"
+   }
+  },
   "i": 190
  },
  {
@@ -1725,6 +5354,25 @@
   "company": "Copec",
   "cargo": "Ecosystem Specialist",
   "role": "SPONSOR",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#ece7da",
+    "color2": "#b8178f",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b2d3a"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#2a2228"
+   }
+  },
   "i": 191
  },
  {
@@ -1734,6 +5382,25 @@
   "company": "Fintoc · Polytechnique",
   "cargo": "Senior Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#7a2e3e",
+    "color2": "#8a3a4a",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3c4f78"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 192
  },
  {
@@ -1743,6 +5410,25 @@
   "company": "OstheoGlove · UC",
   "cargo": "Cofundador de OstheoGlove",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#2b3445",
+    "color2": "#3a4458",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4864"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 193
  },
  {
@@ -1752,6 +5438,25 @@
   "company": "Platanus · Syncventory",
   "cargo": "Ingeniero de software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3f3ef",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#33415e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 194
  },
  {
@@ -1761,6 +5466,25 @@
   "company": "SIMONA Costa · UC",
   "cargo": "Consultor Analista",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#c9aaa6",
+    "color2": "#d8bcb8",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "shorts",
+    "color": "#3f5468"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e4dc"
+   }
+  },
   "i": 195
  },
  {
@@ -1770,6 +5494,25 @@
   "company": "Global66 · UC",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1c1d22",
+    "color2": "#d98a7e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a66"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e6df"
+   }
+  },
   "i": 196
  },
  {
@@ -1779,6 +5522,25 @@
   "company": "Platanus",
   "cargo": "General Partner & CTO",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#6d3a4a",
+    "color2": "#1a1a1e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e1"
+   }
+  },
   "i": 197
  },
  {
@@ -1788,6 +5550,25 @@
   "company": "Ing. Industrial UC",
   "cargo": "Ing. Industrial-Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#202124",
+    "color2": "#8e9197",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#4a5878"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6b4a2e"
+   }
+  },
   "i": 198
  },
  {
@@ -1797,6 +5578,25 @@
   "company": "Turboshop",
   "cargo": "CTO y cofundador",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#25304a",
+    "color2": "#1c2340",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#25304a"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1d1d20"
+   }
+  },
   "i": 199
  },
  {
@@ -1806,6 +5606,25 @@
   "company": "dameldato",
   "cargo": "Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#18181b",
+    "color2": "#2a2a2f",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#1c1c1e"
+   }
+  },
   "i": 200
  },
  {
@@ -1815,6 +5634,25 @@
   "company": "Black Sheep · Rondas.ai",
   "cargo": "Head of Product & Design",
   "role": "MENTORA",
+  "look": {
+   "silueta": "curva",
+   "build": "delgado",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#1c1c1f",
+    "color2": "#3a3836",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2b2c33"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#2a211c"
+   }
+  },
   "i": 201
  },
  {
@@ -1824,6 +5662,25 @@
   "company": "DAAB · Robótica UC",
   "cargo": "Ingeniera de Proyectos I+D",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#b8323a",
+    "color2": "#d98a5a",
+    "manga": "sin",
+    "estampado": "rayas"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4f74"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efece4"
+   }
+  },
   "i": 202
  },
  {
@@ -1833,6 +5690,25 @@
   "company": "U. de los Andes",
   "cargo": "Estudiante Ing. Computación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#1f2638",
+    "color2": "#4d4d52",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1f2638"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1a1a1c"
+   }
+  },
   "i": 203
  },
  {
@@ -1842,6 +5718,25 @@
   "company": "Claro · USM",
   "cargo": "GenAI Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "delgado",
+   "top": {
+    "tipo": "remera",
+    "color": "#e4e4e6",
+    "color2": "#f2f2f4",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3e4d6b"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2b2d33"
+   }
+  },
   "i": 204
  },
  {
@@ -1851,6 +5746,25 @@
   "company": "Unholster · U. Melbourne",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "poleron",
+    "color": "#9b9b9d",
+    "color2": "#f4f4f4",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 205
  },
  {
@@ -1860,6 +5774,25 @@
   "company": "Buk",
   "cargo": "Jefe de Ingeniería",
   "role": "JUEZ",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#161c2e",
+    "color2": "#b8d0ea",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#353a4a"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#4a3426"
+   }
+  },
   "i": 206
  },
  {
@@ -1869,6 +5802,25 @@
   "company": "Tenpo · USM",
   "cargo": "Científico de Datos",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#3b414d",
+    "color2": "#4a515e",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2e"
+   }
+  },
   "i": 207
  },
  {
@@ -1878,6 +5830,25 @@
   "company": "Meta Build City",
   "cargo": "Founder & CEO",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#d0a256",
+    "color2": "#3b3c41",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3d4a63"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#7a5233"
+   }
+  },
   "i": 208
  },
  {
@@ -1887,6 +5858,25 @@
   "company": "Alt Protein Project UC",
   "cargo": "Co-founder APP UC",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#f1f1ee",
+    "color2": "#fbfbf9",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a68"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e1"
+   }
+  },
   "i": 209
  },
  {
@@ -1896,6 +5886,25 @@
   "company": "Valdishopper · FEUC",
   "cargo": "AI Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#55595f",
+    "color2": "#9b1c2e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#4d5157"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1f1f22"
+   }
+  },
   "i": 210
  },
  {
@@ -1905,6 +5914,25 @@
   "company": "AgendaPro",
   "cargo": "Co-Founder & CTO",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#7b3b40",
+    "color2": "#8e4c51",
+    "manga": "corta",
+    "estampado": "logo"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4866"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 211
  },
  {
@@ -1914,6 +5942,25 @@
   "company": "USM · OTH Regensburg",
   "cargo": "Puentes Fellow @ Antigravity",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c1c1f",
+    "color2": "#2c2c31",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4660"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 212
  },
  {
@@ -1923,6 +5970,25 @@
   "company": "Wingsoft · PlantCare",
   "cargo": "Full-Stack Developer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#16161a",
+    "color2": "#26262b",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b57"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efefef"
+   }
+  },
   "i": 213
  },
  {
@@ -1932,6 +5998,25 @@
   "company": "JAPS · Sonicali",
   "cargo": "CFO · Co-Founder JAPS",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f3c6cf",
+    "color2": "#f8dbe1",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2f3a52"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#5a3b28"
+   }
+  },
   "i": 214
  },
  {
@@ -1941,6 +6026,25 @@
   "company": "Fintoc · Thunder.GG",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#e9e3d3",
+    "color2": "#f1ecdf",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2b2d33"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#2a2a2e"
+   }
+  },
   "i": 215
  },
  {
@@ -1950,6 +6054,25 @@
   "company": "Platanus",
   "cargo": "Program Manager",
   "role": "STAFF",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#23202e",
+    "color2": "#7a58b8",
+    "manga": "larga",
+    "estampado": "floreado"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4560"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#5a3e2b"
+   }
+  },
   "i": 216
  },
  {
@@ -1959,6 +6082,25 @@
   "company": "Stealth Startup",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1b1b1e",
+    "color2": "#2c2c31",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b55"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f0eb"
+   }
+  },
   "i": 217
  },
  {
@@ -1968,6 +6110,25 @@
   "company": "USM",
   "cargo": "Estudiante Ing. Informática",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#1f1f22",
+    "color2": "#2d2d32",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e7e2"
+   }
+  },
   "i": 218
  },
  {
@@ -1977,6 +6138,25 @@
   "company": "UTN · ORT Argentina",
   "cargo": "Estudiante Ing. en Sistemas",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#2b2d33",
+    "color2": "#1f2f5a",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2b2d33"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1b1b1e"
+   }
+  },
   "i": 219
  },
  {
@@ -1986,6 +6166,25 @@
   "company": "MSc Ing. Mecánica UC",
   "cargo": "ML Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#ecebe5",
+    "color2": "#f6f5f0",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34425e"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 220
  },
  {
@@ -1995,6 +6194,25 @@
   "company": "Krunchbox",
   "cargo": "AI/ML Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#2d2e30",
+    "color2": "#6e7174",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3a4f"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e1"
+   }
+  },
   "i": 221
  },
  {
@@ -2004,6 +6222,25 @@
   "company": "Sodimac",
   "cargo": "Ingeniero Desarrollo Logístico",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#a6bfd8",
+    "color2": "#c3d5e8",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#c9b994"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 222
  },
  {
@@ -2013,6 +6250,25 @@
   "company": "Fintual",
   "cargo": "Software Engineer",
   "role": "INVITADO",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#25496c",
+    "color2": "#2f5b84",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2c3346"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e9e9e9"
+   }
+  },
   "i": 223
  },
  {
@@ -2022,6 +6278,25 @@
   "company": "Unholster · USM",
   "cargo": "Data Scientist",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "polo",
+    "color": "#f6f6f3",
+    "color2": "#1f2a4d",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#3d4a63"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#efeee8"
+   }
+  },
   "i": 224
  },
  {
@@ -2031,6 +6306,25 @@
   "company": "ORT Argentina",
   "cargo": "Developer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1c1c1e",
+    "color2": "#2a2a2e",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 225
  },
  {
@@ -2040,6 +6334,25 @@
   "company": "CHAIS · Agronomía UC",
   "cargo": "Co-Founder",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#e4e7ea",
+    "color2": "#6b7079",
+    "manga": "corta",
+    "estampado": "franja"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#8a7f66"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#6b4f3a"
+   }
+  },
   "i": 226
  },
  {
@@ -2049,6 +6362,25 @@
   "company": "Gama · UCAB",
   "cargo": "Development Intern",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#24242a",
+    "color2": "#3a3a42",
+    "manga": "sin",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a6a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f1efe9"
+   }
+  },
   "i": 227
  },
  {
@@ -2058,6 +6390,25 @@
   "company": "Front",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#7a1f2b",
+    "color2": "#1b1b1e",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3b52"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ebe8e1"
+   }
+  },
   "i": 228
  },
  {
@@ -2067,6 +6418,25 @@
   "company": "U. de Chile",
   "cargo": "Ayudante de programación",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#f2f2f0",
+    "color2": "#ffffff",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#1d1e22"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#141416"
+   }
+  },
   "i": 229
  },
  {
@@ -2076,6 +6446,25 @@
   "company": "Finapsys",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#6e7276",
+    "color2": "#26282c",
+    "manga": "larga",
+    "estampado": "cuadros"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3b4a63"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#e8e6e0"
+   }
+  },
   "i": 230
  },
  {
@@ -2085,6 +6474,25 @@
   "company": "U. Santa María",
   "cargo": "Estudiante",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "chaqueta",
+    "color": "#27395a",
+    "color2": "#2d3546",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#3a4a68"
+   },
+   "shoes": {
+    "tipo": "botas",
+    "color": "#5a4030"
+   }
+  },
   "i": 231
  },
  {
@@ -2094,6 +6502,25 @@
   "company": "Ingeniería UC",
   "cargo": "Ayudante Diseño de Software",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#dfe8f2",
+    "color2": "#c9d6e6",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#c4b496"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f2f2f0"
+   }
+  },
   "i": 232
  },
  {
@@ -2103,6 +6530,25 @@
   "company": "puente OS",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "remera",
+    "color": "#1d1d20",
+    "color2": "#2c2c30",
+    "manga": "corta",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2e3a50"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#f0eee8"
+   }
+  },
   "i": 233
  },
  {
@@ -2112,6 +6558,25 @@
   "company": "Lici",
   "cargo": "Mentor · Software Engineer",
   "role": "MENTOR",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "sweater",
+    "color": "#56595c",
+    "color2": "#696c70",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#34405a"
+   },
+   "shoes": {
+    "tipo": "zapatillas",
+    "color": "#ecebe6"
+   }
+  },
   "i": 234
  },
  {
@@ -2121,6 +6586,25 @@
   "company": "Duemint",
   "cargo": "Software Engineer",
   "role": "HACKER",
+  "look": {
+   "silueta": "curva",
+   "build": "normal",
+   "top": {
+    "tipo": "camisa",
+    "color": "#a3245e",
+    "color2": "#f2d4e2",
+    "manga": "corta",
+    "estampado": "floreado"
+   },
+   "pants": {
+    "tipo": "jeans",
+    "color": "#2f3c56"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#4a3a33"
+   }
+  },
   "i": 235
  },
  {
@@ -2130,6 +6614,25 @@
   "company": "UDD · AsiaMix",
   "cargo": "Estudiante Ing. Industrial",
   "role": "HACKER",
+  "look": {
+   "silueta": "recta",
+   "build": "normal",
+   "top": {
+    "tipo": "traje",
+    "color": "#2a3348",
+    "color2": "#8e9a8c",
+    "manga": "larga",
+    "estampado": "liso"
+   },
+   "pants": {
+    "tipo": "pantalon",
+    "color": "#2a3348"
+   },
+   "shoes": {
+    "tipo": "zapatos",
+    "color": "#1f1a17"
+   }
+  },
   "i": 236
  }
 ]

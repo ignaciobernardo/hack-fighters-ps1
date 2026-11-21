@@ -1,12 +1,13 @@
 // Todos los jugadores de la hack: ficha (ropa/cuerpo), datos (empresa) y ataque de empresa.
 import PEOPLE_RAW from '../../data/people.json';
 import { firmaFor } from './firmas.js';
+import { applyLook } from '../ps1/looks.js';
 
 const made = import.meta.glob('../../characters/*.json', { eager: true });
 const drafts = import.meta.glob('../../characters/drafts/*.json', { eager: true });
 export const SPECS = {};
 for (const m of [...Object.values(drafts), ...Object.values(made)]) {
-  const s = structuredClone(m.default);
+  const s = applyLook(structuredClone(m.default));
   const slug = (s.photo || s.id + '.png').replace(/\.png$/, '');
   SPECS[slug] = { ...s, id: slug };
 }

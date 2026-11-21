@@ -8,7 +8,7 @@ MADE = {'ian-fry': 'ian', 'matias-berrios': 'matias', 'paolo-flores': 'paolo', '
 people = []
 for p in src:
     if p['id'] not in faces or not os.path.exists(f"public/ps1/{p['id']}.png"): continue
-    people.append({'id': p['id'], 'name': p['name'], 'short': p['short'], 'company': p.get('company') or '', 'cargo': p.get('cargo') or '', 'role': p.get('role') or 'HACKER'})
+    people.append({'id': p['id'], 'name': p['name'], 'short': p['short'], 'company': p.get('company') or '', 'cargo': p.get('cargo') or '', 'role': p.get('role') or 'HACKER', 'look': {k: p['look'].get(k) for k in ('silueta', 'build', 'top', 'pants', 'shoes')}})
 people.sort(key=lambda p: p['name'].lower().replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u'))
 T = 32; cols = 16
 atlas = Image.new('RGB', (cols * T, ((len(people) + cols - 1) // cols) * T), (40, 40, 48))

@@ -96,10 +96,59 @@ export function headModel(P, ph) {
 // colores medidos en la foto
 export function photoColors(ph, hm) {
   const { fx, cheek, rows } = hm;
-  const skinA = ph.median(fx - 0.62 * cheek, rows.nose - 0.02, fx - 0.42 * cheek, rows.nose + 0.02);
-  const skinB = ph.median(fx + 0.42 * cheek, rows.nose - 0.02, fx + 0.62 * cheek, rows.nose + 0.02);
-  const sk = skinA && skinB ? skinA.map((v, i) => (v + skinB[i]) / 2) : skinA || skinB || [214, 160, 128];
   const [l, r] = ph.span(rows.upper, fx);
   const hair = ph.median(lerp(l, r, 0.3), rows.nearTop + 0.005, lerp(l, r, 0.7), rows.hairline - 0.01) || [40, 32, 30];
+  // piel: la frente (sin rubor ni barba); si la tapa el pelo, las mejillas. Tono algo más claro que la mediana.
+  const dist = (p, q) => Math.hypot(p[0] - q[0], p[1] - q[1], p[2] - q[2]);
+  const grab = (x0, y0, x1, y1, out) => { for (let y = y0; y <= y1; y += 1 / ph.S) for (let x = x0; x <= x1; x += 1 / ph.S) if (ph.A(x, y) > 200) { const c = ph.C(x, y); if (dist(c, hair) > 46) out.push(c); } };
+  let px = [];
+  grab(fx - 0.34 * cheek, lerp(rows.brow, rows.hairline, 0.3), fx + 0.34 * cheek, lerp(rows.brow, rows.hairline, 0.62), px);
+  if (px.length < 40) {
+    px = [];
+    grab(fx - 0.62 * cheek, rows.nose - 0.02, fx - 0.4 * cheek, rows.nose + 0.02, px);
+    grab(fx + 0.4 * cheek, rows.nose - 0.02, fx + 0.62 * cheek, rows.nose + 0.02, px);
+  }
+  let sk = [214, 160, 128];
+  if (px.length) {
+    const L = (c) => 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2];
+    px.sort((p, q) => L(p) - L(q));
+    const i0 = Math.floor(px.length * 0.45), band = px.slice(i0, Math.max(i0 + 1, Math.floor(px.length * 0.8)));
+    sk = [0, 1, 2].map((i) => band.reduce((t, c) => t + c[i], 0) / band.length);
+    // el rubor de la foto tiñe de rosado: se lleva el verde al rango de la piel
+    sk[1] = Math.max(sk[1], sk[2] + 0.37 * (sk[0] - sk[2]));
+  }
   return { skin: sk, hair, hairSpan: [l, r] };
+}
+
+// largo del pelo bajo el mentón (en largos de cara ojos→mentón). El pelo largo se ve como
+// silueta opaca y no-piel pegada por fuera de la mandíbula a la altura de la boca; desde ahí
+// se baja mientras el color siga pareciéndose al de ese mismo mechón.
+export function hairLength(ph, hm, hair, skin) {
+  const faceLen = hm.rows.chin - hm.rows.eye;
+  const dist = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+  const KX = [1.18, 1.36, 1.56];
+  const lens = [];
+  for (const sg of [-1, 1]) {
+    // mechón de referencia junto a la mandíbula
+    let ref = null;
+    for (const y of [lerp(hm.rows.nose, hm.rows.mouth, 0.5), hm.rows.mouth, lerp(hm.rows.mouth, hm.rows.chin, 0.5)]) {
+      for (const kx of KX) { const x = hm.fx + sg * hm.cheek * kx; if (ph.A(x, y) > 200) { const c = ph.C(x, y); if (dist(c, skin) > 48) { ref = ref ? ref.map((v, i) => (v + c[i]) / 2) : c; } } }
+    }
+    if (!ref) continue;
+    // tiene que haber pelo a todo lo alto de la mandíbula, no solo un cuello de chaqueta
+    let rows = 0, hits = 0;
+    for (let y = hm.rows.nose; y <= hm.rows.chin; y += 3 / ph.S) { rows++; if (KX.some((kx) => { const x = hm.fx + sg * hm.cheek * kx; return ph.A(x, y) > 200 && dist(ph.C(x, y), ref) < 75; })) hits++; }
+    if (hits < rows * 0.8) continue;
+    let len = 0.2, miss = 0;
+    for (let y = hm.rows.chin; y < Math.min(0.99, hm.rows.chin + 1.3 * faceLen); y += 2 / ph.S) {
+      const hit = [1.1, ...KX, 1.8].some((kx) => { const x = hm.fx + sg * hm.cheek * kx; return ph.A(x, y) > 200 && dist(ph.C(x, y), ref) < 70; });
+      if (hit) { len = (y - hm.rows.chin) / faceLen; miss = 0; } else if (++miss > 6) break;
+    }
+    lens.push(len);
+  }
+  // de frente el pelo largo cae a los dos lados; un solo lado suele ser una foto de perfil
+  const f = ph.face, eyeD = Math.hypot(f.eyeR[0] - f.eyeL[0], f.eyeR[1] - f.eyeL[1]);
+  const turned = Math.abs(f.nose[0] - (f.eyeL[0] + f.eyeR[0]) / 2) / eyeD > 0.2 || Math.abs(f.yaw || 0) > 0.6;
+  if (!lens.length || turned) return 0;
+  return Math.max(0, Math.min(1.15, Math.max(...lens)));
 }

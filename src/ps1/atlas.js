@@ -170,7 +170,7 @@ export function paintAtlas(plan, spec, look) {
 
   // ---------------- cabeza (atrás y lados) ----------------
   const hm = look.hm, ph = look.ph;
-  const longHair = (spec.hair?.style === 'long');
+  const longHair = look.long ?? (spec.hair?.style === 'long');
   const bald = (spec.hair?.style === 'bald' || spec.hair?.style === 'buzz');
   const [hl, hr] = look.hairSpan;
   const stripY0 = hm.rows.nearTop + 0.25 * (hm.rows.hairline - hm.rows.nearTop), stripY1 = hm.rows.hairline;

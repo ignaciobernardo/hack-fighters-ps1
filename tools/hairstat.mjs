@@ -1,0 +1,17 @@
+import { createRequire } from 'module';
+import { execSync } from 'child_process';
+const require = createRequire(import.meta.url);
+const { chromium } = require(execSync('npm root -g').toString().trim() + '/playwright');
+const browser = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true, args: ['--use-angle=metal', '--enable-gpu', '--ignore-gpu-blocklist'] });
+const page = await browser.newPage();
+page.on('pageerror', (e) => console.log('[pageerror]', e.message));
+await page.goto('http://127.0.0.1:8118/?fight=1', { waitUntil: 'load' });
+await page.waitForFunction(() => window.__pelea?.ready, null, { timeout: 60000 });
+const r = await page.evaluate(async () => { const o = []; for (const id of __pelea.IDS) { const c = await __pelea.ensureChar(id); o.push([id, +c.hairLen.toFixed(2), c.colors.skin.map(Math.round)]); } return o; });
+const fs = await import('fs'); const P = JSON.parse(fs.readFileSync('data/people.json'));
+const sil = Object.fromEntries(P.map((p) => [p.id, p.look.silueta]));
+const long = r.filter((x) => x[1] > 0.3);
+console.log('largo en recta:', long.filter((x) => sil[x[0]] === 'recta').map((x) => x[0] + ' ' + x[1]).join(', '));
+console.log('curva sin largo:', r.filter((x) => x[1] <= 0.3 && sil[x[0]] === 'curva').map((x) => x[0] + ' ' + x[1]).join(', '));
+fs.writeFileSync('shots/skin.json', JSON.stringify(r));
+await browser.close();

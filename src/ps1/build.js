@@ -5,7 +5,7 @@ import { proportions, buildSkeleton } from '../gen/skeleton.js';
 import { torsoProfile } from '../gen/body.js';
 import { Low, V, lerp, clamp, smooth, skin1, skin2, angles, loft, loftPoly } from './low.js';
 import { S, R, CAP, SOLE, HAND, EXTRA, ARM_R, makePlan, torsoV, armV, legV } from './plan.js';
-import { readPhoto, headModel, photoColors } from './photo.js';
+import { readPhoto, headModel, photoColors, hairLength } from './photo.js';
 import { paintAtlas } from './atlas.js';
 import { makePS1Material } from './material.js';
 
@@ -19,6 +19,29 @@ const torsoSkin = (s) => {
 };
 
 // ---------------- cabeza ----------------
+// melena: cortina de pelo desde las cejas hacia abajo, por atrás y los costados
+function buildLongHair(L, P, hm, len) {
+  const B = R.headB, k = hm.k, faceLen = (hm.rows.chin - hm.rows.eye) * k;
+  const brow = hm.rings[4], nose = hm.rings[2];
+  const zc = (brow.zf + brow.zb) / 2 - 0.1 * hm.D, rz0 = (brow.zf - brow.zb) / 2 * 1.02, rx0 = Math.max(brow.hw, nose.hw * 1.08) * 1.04;
+  const yEnd = P.chinY - len * faceLen;
+  const levels = [[brow.y, 1.02, 1.0], [nose.y, 1.12, 1.05], [P.chinY, 1.2, 1.04], [lerp(P.chinY, yEnd, 0.55), 1.24, 1.0], [yEnd, 1.08, 0.86]];
+  const A = 2.2, N = 8;
+  const rows = levels.map(([y, kx, kz], i) => Array.from({ length: N + 1 }, (_, j) => {
+    const t = -A + (2 * A * j) / N, fr = Math.abs(t) / A;
+    const wob = 1 + (j % 2 ? 0.035 : -0.02) * i;
+    return { p: V(brow.cx - Math.sin(t) * rx0 * kx * wob, y + (i === levels.length - 1 ? (j % 2 ? 0.012 : -0.01) * P.H - fr * fr * 0.012 * P.H : 0), zc - Math.cos(t) * rz0 * kz * wob), skin: skin1('head'), t, i };
+  }));
+  const map = (p) => {
+    const row = rows.flat().reduce((b, q) => (q.p.distanceToSquared(p) < b.p.distanceToSquared(p) ? q : b));
+    return [B.x + (0.5 + (row.t / (Math.PI * 2)) * 0.8) * B.w, B.y + lerp(0.08, 0.92, row.i / (levels.length - 1)) * B.h];
+  };
+  for (let i = 0; i < rows.length - 1; i++) {
+    const inside = V(brow.cx, (levels[i][0] + levels[i + 1][0]) / 2, zc);
+    for (let j = 0; j < N; j++) L.quad(rows[i][j], rows[i][j + 1], rows[i + 1][j + 1], rows[i + 1][j], { inside, map, group: 'hairlong' });
+  }
+}
+
 function buildHead(L, P, hm, spec) {
   const th = angles(12);
   const F = R.headF, B = R.headB, cr = hm.crop;
@@ -272,18 +295,20 @@ export function buildPS1(spec, assets) {
   const ph = readPhoto(assets.img, assets.face);
   const hm = headModel(P, ph);
   const colors = photoColors(ph, hm);
+  const hairLen = spec.hairLong ?? (spec.hair?.style === 'bald' ? 0 : hairLength(ph, hm, colors.hair, colors.skin));
   const tr = torsoRings(P, spec, plan);
   const shoe = shoeShape(P, plan);
 
   const L = new Low(S);
   buildHead(L, P, hm, spec);
+  if (hairLen > 0.3) buildLongHair(L, P, hm, hairLen);
   buildNeck(L, P);
   buildTorso(L, P, spec, plan, tr);
   buildArms(L, P, plan);
   buildLegs(L, P, plan);
   buildShoes(L, P, plan, shoe);
 
-  const atlas = paintAtlas(plan, spec, { skin: colors.skin, hair: colors.hair, hairSpan: colors.hairSpan, ph, hm, torsoRing: tr.ringAt, shoe });
+  const atlas = paintAtlas(plan, spec, { skin: colors.skin, hair: colors.hair, hairSpan: colors.hairSpan, long: hairLen > 0.3 ? true : undefined, ph, hm, torsoRing: tr.ringAt, shoe });
   const tex = new THREE.CanvasTexture(atlas.canvas);
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.magFilter = THREE.NearestFilter; tex.minFilter = THREE.NearestFilter; tex.generateMipmaps = false;
@@ -299,7 +324,7 @@ export function buildPS1(spec, assets) {
   group.add(mesh);
   return {
     spec, P, group, bones: sk.bones, skeleton: sk.skeleton, meshes: [mesh], lines: [], ps1: true,
-    atlas, tex, material, uvTris: L.uvTris, plan, head: hm, colors,
+    atlas, tex, material, uvTris: L.uvTris, plan, head: hm, colors, hairLen,
     stats: { ...L.blenderStats(), parts: 1 },
     setLight() {}, setFace() {},
     setWire() {},
